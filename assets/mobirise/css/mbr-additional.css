@@ -2408,15 +2408,16 @@ body {
 .cid-rhXZ7TXvps .mbr-content-text {
   color: #767676;
 }
-.cid-rhXZ7TXvps .panel-item {
-  background: #ffffff;
-}
 .cid-rhXZ7TXvps .card {
   word-wrap: break-word;
 }
 .cid-rhXZ7TXvps .mbr-iconfont {
   font-size: 80px;
   color: #149dcc;
+}
+.cid-rhXZ7TXvps H3 {
+  text-align: right;
+  color: #ffffff;
 }
 .cid-rhXW2X9eEd {
   padding-top: 60px;
