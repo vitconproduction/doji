@@ -1986,7 +1986,7 @@ body {
   margin-bottom: 2rem;
 }
 .cid-rhMjXD1zu3 .mbr-section-subtitle {
-  color: #767676;
+  color: #ffffff;
 }
 .cid-rhMjXD1zu3 a:not([href]):not([tabindex]) {
   color: #fff;
@@ -2003,6 +2003,9 @@ body {
 .cid-rhMjXD1zu3 .input-group-btn {
   display: block;
   text-align: center;
+}
+.cid-rhMjXD1zu3 H2 {
+  color: #ffffff;
 }
 .cid-qTkAaeaxX5 {
   padding-top: 60px;
