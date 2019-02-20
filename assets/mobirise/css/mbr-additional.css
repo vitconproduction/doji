@@ -1896,7 +1896,7 @@ body {
 .cid-rix9gIS2fU {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #ffffff;
+  background-color: #efefef;
 }
 .cid-rix9gIS2fU h3 {
   text-align: center;
@@ -1976,78 +1976,6 @@ body {
   .cid-rix9gIS2fU .progress_elements {
     padding-left: 3rem;
   }
-}
-.cid-rhMiJgZ0S8 {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #efefef;
-}
-.cid-rhMiJgZ0S8 .progress {
-  width: 100%;
-}
-.cid-rhMiJgZ0S8 progress {
-  height: 8px;
-}
-.cid-rhMiJgZ0S8 h3 {
-  text-align: center;
-  font-weight: 300;
-}
-.cid-rhMiJgZ0S8 .mbr-section-subtitle {
-  color: #767676;
-}
-.cid-rhMiJgZ0S8 .progress_value {
-  position: relative;
-}
-.cid-rhMiJgZ0S8 .progress_elements {
-  margin: 0 auto;
-}
-.cid-rhMiJgZ0S8 .title-wrap {
-  display: flex;
-  justify-content: space-between;
-  -webkit-justify-content: space-between;
-}
-.cid-rhMiJgZ0S8 .progress1 .progressbar-number:before,
-.cid-rhMiJgZ0S8 .progress2 .progressbar-number:before,
-.cid-rhMiJgZ0S8 .progress3 .progressbar-number:before,
-.cid-rhMiJgZ0S8 .progress4 .progressbar-number:before {
-  position: absolute;
-  right: 15px;
-  top: 0;
-}
-.cid-rhMiJgZ0S8 progress[value]::-webkit-progress-bar {
-  background: rgba(206, 206, 206, 0.4);
-}
-.cid-rhMiJgZ0S8 progress::-webkit-progress-value {
-  background: #149dcc;
-}
-.cid-rhMiJgZ0S8 progress[value]::-moz-progress-bar {
-  background: #149dcc;
-}
-.cid-rhMiJgZ0S8 progress::-ms-fill {
-  background: #149dcc;
-}
-.cid-rhMiJgZ0S8 .progress1 .progressbar-number:before {
-  content: '80';
-}
-.cid-rhMiJgZ0S8 .progress2 .progressbar-number:before {
-  content: '95';
-}
-.cid-rhMiJgZ0S8 .progress3 .progressbar-number:before {
-  content: '90';
-}
-.cid-rhMiJgZ0S8 .progress4 .progressbar-number:before {
-  content: '92';
-}
-.cid-rhMiJgZ0S8 .progress-primary {
-  background: rgba(206, 206, 206, 0.4);
-  border: none;
-  outline: none;
-}
-.cid-rhMiJgZ0S8 .progress-primary::-webkit-progress-bar {
-  background: rgba(206, 206, 206, 0.4);
-}
-.cid-rhMiJgZ0S8 .progress_value span {
-  padding-left: 30px;
 }
 .cid-rhMjXD1zu3 {
   padding-top: 90px;
