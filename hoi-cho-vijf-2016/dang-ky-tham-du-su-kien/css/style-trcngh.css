@@ -1,0 +1,115 @@
+#banTrNgh{background: url("http://trangsuc.doji.vn/Uploads/images/img-bst-eternal-flames-23-1.jpg") center/cover no-repeat;min-width: 100%;min-height: 728px;border-bottom: 2px solid #FA4B74;display: inline-block;}
+.tit_banTrNgh{font: 80px/1em "UTM Silk Script"; float:right;text-align:center;color:#FA4B74;padding: 145px 200px 0 0;}
+.hoatiet_banTrNgh{background: url("http://trangsuc.doji.vn/Uploads/images/img-bst-eternal-flames-19.png") center/contain no-repeat;min-width:269px;min-height:126px;float:right;}
+@font-face {
+    font-family: "UTM Silk Script";
+    src: url("http://trangsuc.doji.vn/Uploads/Temp/2016/8/8/UTM%20Silk%20Script.ttf") format("truetype");
+}
+#warpTrNgh{background: url("http://trangsuc.doji.vn/Uploads/images/img-bst-eternal-flames-26.png");min-height:3950px;width:90%;min-width:100%;float:left;}
+.hoatiet1_banTrNgh{background: url("http://trangsuc.doji.vn/Uploads/images/img-bst-eternal-flames-15.png") center no-repeat;min-height:72px;margin: 150px 0 0 0;}
+.hoatiet2_banTrNgh{background: url("http://trangsuc.doji.vn/Uploads/images/img-bst-eternal-flames-14.png") center no-repeat;min-height:72px;}
+.content_banTrNgh_1{font: 25px/1.2em "UTM Isadora";text-align:center;color:#FA4B74;padding:10px 0;}
+@font-face {
+    font-family: "UTM Isadora";
+    src: url("http://trangsuc.doji.vn/Uploads/Temp/2016/8/8/UTM%20IsadoraR.ttf") format("truetype");
+}
+.cont_cauhoi{width:80%;margin:0 0 0 10%;display:block;}
+.cauhoi_1{background: url("http://trangsuc.doji.vn/Uploads/images/img-bst-eternal-flames-21.png") center no-repeat;min-height:61px;text-align:center;font: 48px "UTM Isadora";color:#fff;display: inline-block;width: 100%;margin: 50px 0 0 0;}
+.cauhoi_2{background: url("http://trangsuc.doji.vn/Uploads/images/img-bst-eternal-flames-21.png") center no-repeat;min-height:61px;text-align:center;font: 48px "UTM Isadora";color:#fff;display: inline-block;width: 100%;margin: 50px 0 0 0;}
+.cauhoi_3{background: url("http://trangsuc.doji.vn/Uploads/images/img-bst-eternal-flames-21.png") center no-repeat;min-height:61px;text-align:center;font: 48px "UTM Isadora";color:#fff;display: inline-block;width: 100%;margin: 50px 0 0 0;}
+.cauhoi_4{background: url("http://trangsuc.doji.vn/Uploads/images/img-bst-eternal-flames-21.png") center no-repeat;min-height:61px;text-align:center;font: 48px "UTM Isadora";color:#fff;display: inline-block;width: 100%;margin: 50px 0 0 0;}
+#submit_trcngh{background: url("http://trangsuc.doji.vn/Uploads/images/img-bst-eternal-flames-11.png") center no-repeat;min-width: 343px;min-height:78px;text-align:center;font: 36px "UTM Isadora";color:#fff;margin:40px 0 0 0;cursor:pointer;padding: 0 0 25px 0;border:0;}
+.noidungcauhoi{text-align:center;font: 40px/1em "UTM Isadora";color:#FA4B74;margin:30px 0 25px;}
+#tracnghiem{width:100%;}
+#tracnghiem input[type="radio"]{display:none;}
+.image_radio_1{width:20%;float:left;text-align:center;font: 18px "UTM Isadora";}
+.image_radio_2{width:25%;float:left;text-align:center;font: 20px "UTM Isadora";}
+.image_radio_3{width:25%;float:left;text-align:center;font: 18px "UTM Isadora";}
+.image_radio_4{width:25%;float:left;text-align:center;font: 20px "UTM Isadora";}
+#success{width:100%;float:left;display:block;text-align:center;margin:25px 0 0;}
+.img_dap_an_1_a{background: url("http://trangsuc.doji.vn/Uploads/images/trac-nghiem-cuoi-3-19-09-2016-04.png") center no-repeat;min-height:203px;}
+.img_dap_an_1_b{background: url("http://trangsuc.doji.vn/Uploads/images/trac-nghiem-cuoi-3-19-09-2016-05.png") center no-repeat;min-height:203px;}
+.img_dap_an_1_c{background: url("http://trangsuc.doji.vn/Uploads/images/trac-nghiem-cuoi-3-19-09-2016-06.png") center no-repeat;min-height:203px;}
+.img_dap_an_1_d{background: url("http://trangsuc.doji.vn/Uploads/images/trac-nghiem-cuoi-3-19-09-2016-07.png") center no-repeat;min-height:203px;}
+.img_dap_an_1_e{background: url("http://trangsuc.doji.vn/Uploads/images/trac-nghiem-cuoi-3-19-09-2016-08.png") center no-repeat;min-height:203px;}
+.dap_an_1{margin:5px 0 15px 0;}
+.dap_an_2{width:85%;height:136px;background:#fff;border:2px solid #FA4B74;-webkit-border-radius: 12px;-moz-border-radius: 12px;border-radius: 12px;margin: 0 0 20px 1%;padding: 15px 10px 0;display:inline-block;}
+.dap_an_3{margin:0 0 15px 0;}
+.img_dap_an_3_a{background: url("http://trangsuc.doji.vn/Uploads/images/trac-nghiem-cuoi-3-19-09-2016-09.png") center no-repeat;min-width:260px;min-height:202px;margin: 0 0 7px 0;}
+.img_dap_an_3_b{background: url("http://trangsuc.doji.vn/Uploads/images/trac-nghiem-cuoi-3-19-09-2016-10.png") center no-repeat;min-width:260px;min-height:202px;margin: 0 0 7px 0;}
+.img_dap_an_3_c{background: url("http://trangsuc.doji.vn/Uploads/images/trac-nghiem-cuoi-3-19-09-2016-11.png") center no-repeat;min-width:260px;min-height:202px;margin: 0 0 7px 0;}
+.img_dap_an_3_d{background: url("http://trangsuc.doji.vn/Uploads/images/trac-nghiem-cuoi-3-19-09-2016-12.png") center no-repeat;min-width:260px;min-height:202px;margin: 0 0 7px 0;}
+.dap_an_4{width:85%;height:100px;background:#fff;border:2px solid #FA4B74;-webkit-border-radius: 12px;-moz-border-radius: 12px;border-radius: 12px;margin: 0 0 20px 1%;padding: 15px 10px 0;display:inline-block;}
+#dapan{width:80%;float:left;margin: 0 10%;text-align:center;min-height:100%;display:none;}
+.show_loader:before{content:"Đáp án sẽ có sau vài giây!";display:block;font: 28px "Myriad Pro";position: relative;margin:0 0 50px}
+#quatang{width:80%;float:left;margin:50px 0 0 10%;height:265px;border:4px solid #FA4B74;-webkit-border-radius: 12px;-moz-border-radius: 12px;border-radius: 12px;cursor:pointer;}
+#quatang .vientrong{height: 94%;width: 93%;min-width:98%;min-height: 93%;border:4px dashed #FA4B74;-webkit-border-radius: 12px;-moz-border-radius: 12px;border-radius: 12px;margin: 7px 10px 10px;}
+.sohuungay{width:40%;float:left;background: url("http://trangsuc.doji.vn/Uploads/images/img-bst-eternal-flames-39.png") center no-repeat, url("http://trangsuc.doji.vn/Uploads/images/img-bst-eternal-flames-31.png") 95% 50% no-repeat;min-height:61px;text-align:center;font: 42px "UTM Isadora";color:#fff;height:96%;}
+.voucher{width:28%;float:left;background: url("http://trangsuc.doji.vn/Uploads/images/img-bst-eternal-flames-10-1.png") 50% 10% no-repeat;height:96%;position: relative;text-align:center;}
+.txt_voucher{font: 24px "UTM Isadora";position: absolute;bottom: 0px;width:100%;}
+.vexemphim{width:28%;float:left;background: url("http://trangsuc.doji.vn/Uploads/images/img-bst-eternal-flames-09.png") 50% 10% no-repeat;height:96%;position: relative;text-align:center;}
+.txt_vexemphim{font: 24px "UTM Isadora";position: absolute;bottom: 0px;width:100%;}
+.dau_cong{width:4%;min-height:93%;float:left;position: relative;text-align:center;}
+.txt_dau_cong{font: 100px "Myriad Pro";position: absolute;width: 100%;top: 25%;left: 10%;color:#E12028;}
+.img_dapan{float:left;width:45%;min-height: 100%;}
+.cont_dapan{float:left;width:55%;min-height: 100%;}
+.cont_dapan_1{text-align:justify;font: 20px/1.4em "UTM Isadora";margin: 15% 0 0;}
+.cont_dapan_2{color:#FA4B74;font: 16px "Myriad Pro";text-align: left;margin: 20px 0 0;}
+.cont_dapan_2 a{color:#FA4B74;text-decoration: none;}
+.addQuestion{font: 40px "Myriad Pro";margin: 25px 0 2%;display:none;}
+
+/* nhận voucher */
+#nhanvoucher{width:50%;margin:10px 25%;display:inline-block;font-family: "Myriad Pro";border: 2px solid #FA4B74;padding: 10px;-webkit-border-radius: 7px;-moz-border-radius: 7px;border-radius: 7px;}
+#dangKyVoucher{display:inline-block;}
+.tit_dangkyvoucher{font: italic 28px "Myriad Pro";text-align:center;}
+.text_chuc_mung{font: italic 28px "Myriad Pro";text-align:center;}
+#nhanvoucher input.invalid,#nhanvoucher select.invalid{border:2px solid red}
+#nhanvoucher input.valid,#nhanvoucher select.valid{border:2px solid green}
+.phone_da_dung,.em_da_dung,.cc_sai,.error{display:none;}
+.phone_da_dung_show,.em_da_dung_show,.cc_sai_show,.error_show{color:red;margin:5px 0 0;display:block;position:absolute;font: 14px "Myriad Pro";}
+#er_diadiem{margin: 5px 0 0 12%;font: 16px "Myriad Pro";}
+.clear{clear:both}
+#submit_nhanvc{background-color:#FA4B74;color:#fff;-webkit-border-radius: 7px;-moz-border-radius: 7px;border-radius: 7px;font-size:30px;border:1px #FA4B80 solid;margin-top:5px;cursor:pointer;font-style:italic;float:right;padding: 5px 5px 0;}
+#nhanvoucher .formInputContent{float: left;width: 100%;}
+#formRowDiachi,#formRowDiadiem ,#formRowCaptcha,#formRowEmail,#formRowGioitinh,#formRowName,#formRowPhone,#formRowTuoi{float:left;width:100%}
+#formRowName{margin:30px 0 0;}
+#formRowGioitinh{margin:30px 0 0;}
+#formRowDiachi,#formRowDiadiem ,#formRowCaptcha,#formRowEmail,#formRowPhone,#formRowTuoi{margin:30px 0 0;}
+#formRowDiadiem{margin:30px 0 20px;}
+#formRowDiachi input,#formRowCaptcha input,#formRowEmail input,#formRowGioitinh input,#formRowName input,#formRowPhone input,#formRowTuoi input{float:left}
+#formRowDiadiem input{float:left;}
+#diadiemkhac{width:100%;}
+.formRowDiachi1,.formRowDiadiem1,.formRowCaptcha1,.formRowEmail1,.formRowGioitinh1,.formRowName1,.formRowPhone1,.formRowTuoi1{float:left;width:25%}
+#nhanvoucher label{font: 18px "Myriad Pro";}
+.formRowDiadiem1{float:left;width:100%}
+.formRowDiachi2,.formRowCaptcha2,.formRowEmail2,.formRowGioitinh2,.formRowName2,.formRowPhone2,.formRowTuoi2{float:left;width:75%}
+.formRowDiadiem4{float:left;width:20%;margin: 10px 0 0;font: 18px "Myriad Pro";}
+.formRowDiachi3,.formRowDiadiem3,.formRowCaptcha3,.formRowEmail3,.formRowGioitinh3,.formRowName3,.formRowPhone3,.formRowTuoi3{float:left;width:35%}
+.formRowCaptcha2 input{margin-bottom:10px}
+.formRowName2 input{width:180px;min-width:100%}
+.formRowGioitinh2 input{width:10px;max-width:20px}
+.formRowTuoi2 input{width:20px;min-width:30px}
+.formRowDiachi2 input{width:180px;min-width:100%}
+.formRowEmail2 input{width:180px;min-width:100%}
+.formRowPhone2 input{width:180px;min-width:100%}
+.formRowDiadiem2 input{}
+.formRowDiadiem2 select{width:184px;min-width:100%}
+.formRowCaptcha2 input{width:180px;min-width:100%}
+#textthele{display:inline-block;width:80%;margin:0 10% 0;font-family:"Myriad Pro";}
+#textthele .text_content{width: 100%}
+#textthele .text_content h4{font-size: 16px;margin: 20px 0 10px 0;color: #f79f3e;}
+#textthele .text1{font-size: 16px;line-height:1.5}
+#textthele .text1 a{text-decoration:none;}
+#textthele .text2{width: 100%;margin: 10px 0}
+#textthele .text2 .textL p{font-size:16px;}
+#textthele .text3{width: 100%;margin: 10px 0;}
+#textthele .text3 .textL p{font-size:16px;}
+#textthele .text4{width: 100%;margin: 16px 0}
+#textthele .textL{min-width: 150px}
+#textthele .textL p{font-size: 16px;font-weight: bold;margin: 0px 0 10px 0}
+#textthele .textR{}
+#textthele .textR p{line-height: 1.4;font-size: 14px}
+
+#shareBtn:hover{background-color:#365899 !important;}
+#againtrcngh{float:left;font-size:18px;width:100%;padding:0 0 20px;margin: 0 45% 0;}
+#againtrcngh iframe{display: block;float:left;}

@@ -1,0 +1,286 @@
+body{
+    margin:0;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+/*Font face*/
+@font-face {
+    font-family: MyriadLight;
+    src: url('../../font/myriadpro-light-webfont.eot');
+    src: url('../../font/myriadpro-light-webfont.eot?#iefix') format('embedded-opentype'), 
+        url('../../font/myriadpro-light-webfont.ttf') format('truetype'), 
+        url('../../font/myriadpro-light-webfont.svg#MyriadLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: MyriadRegular;
+    src: url('../../font/myriadpro-regular-webfont.eot');
+    src: url('../../font/myriadpro-regular-webfont.eot?#iefix') format('embedded-opentype'), 
+        url('../../font/myriadpro-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: UvnNhatky;
+    src: url('../../font/UVNNhatKy_R.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: UvnAurora;
+    src: url('../../font/UTM_Aurora.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/*end font-face*/
+
+/*menu top*/
+#menu{
+    float: left;
+    width: 100%;
+    background: #DA2031;
+}
+#menu .menu_size{
+    float: left;
+    width: 70%;
+    margin: 0 15%;
+}
+#menu .menu_logo{
+    float: left;
+    width: 20%;
+}
+#menu .menu_logo div{
+    vertical-align: middle;
+}
+#menu .menu_category{
+    float: left;
+    width: 80%;
+}
+#menu .menu_category ul{
+    float: left;
+    list-style: none;
+}
+#menu .menu_category ul li{
+    float: left;
+    padding: 25px 25px;
+    color: white;
+    text-transform: uppercase;
+    font: 16px MyriadRegular;
+    white-space: nowrap;
+}
+#menu .menu_category ul li div{
+    display: inline-block;
+    vertical-align: middle;
+}
+#menu .menu_category ul li div a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#menu .menu_category ul li img{
+    width: 20px;
+    height: 20px;
+}
+/*hết menu top*/
+
+.page_line{
+    float: left;
+    width: 100%;
+    min-height: 100%;
+    height: 16px;
+    background: url("../images/page-line.png") 50% 100%/contain no-repeat;
+    margin: 30px 0;
+}
+
+/*start content*/
+#content{
+    width: 100%;
+    float: left;
+    /*min-height: 1000px;*/
+    background:
+        url("../images/tower-left-back.png") top left/25% no-repeat,
+        url("../images/tower-right-back.png") top right/25% no-repeat,
+        url("../images/color-gradian-back.png") top/cover no-repeat;
+}
+.title{
+    color: #da2031;
+    font: 36px MyriadRegular;
+    text-align: center;
+    margin: 30px 0 0;
+}
+#nhanvoucher{
+    float: left;
+    width: 50%;
+    margin: 0 25%;
+}
+#dangKyVoucher .formInputContent{
+    padding: 20px 30px;
+}
+/* nhận voucher */
+#nhanvoucher input.invalid,#nhanvoucher select.invalid{border:2px solid red}
+#nhanvoucher input.valid,#nhanvoucher select.valid{border:2px solid green}
+.phone_da_dung,.em_da_dung,.cc_sai,.error{display:none;}
+/*.phone_da_dung_show,.em_da_dung_show,.cc_sai_show,.error_show{color:red;margin:5px 0 0;display:block;position:absolute;font: 14px "Myriad Pro";}*/
+.phone_da_dung_show,.em_da_dung_show,.cc_sai_show,.error_show{color:red;margin:5px 0 0;display:inline-block;position:relative;font: 14px "Myriad Pro";}
+#er_diadiem{margin: 5px 0 0 12%;font: 16px "Myriad Pro";}
+.clear{clear:both}
+#submit_nhanvc{background-color:#FA4B74;color:#fff;-webkit-border-radius: 7px;-moz-border-radius: 7px;border-radius: 7px;font-size:30px;border:1px #FA4B80 solid;margin-top:5px;cursor:pointer;font-style:italic;float:right;padding: 5px 5px 0;}
+#nhanvoucher .formInputContent{float: left;width: 100%;}
+#formRowChoose,#formRowQuanHuyen,#formRowCity,#formRowDiachi,#formRowDiadiem ,#formRowCaptcha,#formRowEmail,#formRowGioitinh,#formRowName,#formRowPhone,#formRowTuoi{float:left;width:100%}
+#formRowName{margin:30px 0 0;}
+#formRowGioitinh{margin:30px 0 0;}
+#formRowChoose,#formRowQuanHuyen,#formRowCity,#formRowDiachi,#formRowDiadiem ,#formRowCaptcha,#formRowEmail,#formRowPhone,#formRowTuoi{margin:30px 0 0;}
+#formRowDiadiem{margin:30px 0 20px;}
+#formRowChoose input,#formRowQuanHuyen input,#formRowCity input,#formRowDiachi input,#formRowCaptcha input,#formRowEmail input,#formRowGioitinh input,#formRowName input,#formRowPhone input,#formRowTuoi input{float:left}
+#formRowDiadiem input{float:left;}
+#diadiemkhac{width:100%;}
+.formRowDiachi1,.formRowDiadiem1,.formRowCaptcha1,.formRowEmail1,.formRowGioitinh1,.formRowName1,.formRowPhone1,.formRowTuoi1{float:left;width:25%}
+#nhanvoucher label{font: 18px "Myriad Pro";}
+.formRowDiadiem1{float:left;width:100%}
+.formRowDiachi2,.formRowCaptcha2,.formRowEmail2,.formRowGioitinh2,.formRowName2,.formRowPhone2,.formRowTuoi2{float:left;width:100%}
+.formRowDiadiem4{float:left;width:20%;margin: 10px 0 0;font: 18px "Myriad Pro";}
+.formRowCity3,.formRowQuanHuyen3,.formRowDiachi3,.formRowDiadiem3,.formRowCaptcha3,.formRowEmail3,.formRowGioitinh3,.formRowName3,.formRowPhone3,.formRowTuoi3{float:right;width:100%}
+.formRowCaptcha2 input{margin-bottom:10px}
+.formRowName2 input{width:180px;min-width:100%}
+.formRowGioitinh2 input{width:10px;max-width:20px}
+.formRowTuoi2 input{width:50px;min-width:30px}
+.formRowDiachi2 input{width:180px;min-width:100%}
+.formRowEmail2 input{width:180px;min-width:100%}
+.formRowPhone2 input{width:180px;min-width:100%}
+.formRowDiadiem2 input{}
+.formRowDiadiem2 select{width:184px;min-width:100%}
+.formRowCaptcha2 input{width:180px;min-width:100%}
+input[type=text]{
+    border: 1px solid #da2031;
+    background: #eadfdd;
+    height: 30px;
+    font: 16px MyriadRegular;
+    color: #da2031;
+    padding: 0 10px;
+}
+input[type=radio]{
+    display: none;
+}
+#gioitinh1,#choose1{
+    line-height: 24px;
+}
+#gioitinh1 img,#choose1 img{
+    height: 12px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#gioitinh1 div{
+    display: inline-block;
+}
+#gioitinh1 div div,#choose1 div div{
+    display: inline-block;
+    vertical-align: middle;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #da2031;
+    font: 16px MyriadRegular;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: #da2031;
+    font: 16px MyriadRegular;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: #da2031;
+    font: 16px MyriadRegular;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: #da2031;
+    font: 16px MyriadRegular;
+}
+/*end nhận voucher*/
+/*end content*/
+
+/*start footer*/
+#footer{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+#footer .social{
+    margin: 50px 0 70px;
+}
+#footer .socialimage{
+    display: inline-block;
+    width: 7%;
+}
+#footer .socialline{
+    display: inline-block;
+    border-bottom: 1px solid #db2031;
+    width: 15%;
+}
+#footer .socialimage img{
+    height: 40px;
+}
+#footer .textfooter{
+    text-align: center;
+    background: #da2031;
+    color: white;
+    margin: 15px 0;
+}
+#footer .textfooter_1{
+    width: 100%;
+    font: 20px MyriadRegular;
+    padding: 15px 0;
+}
+#footer .textfooter_2{
+    width: 100%;
+    display: inline-block;
+}
+#footer .textfooter_2 .textfooter_2_1{
+    display: inline-block;
+    text-align: left;
+    font: 14px MyriadRegular;
+    margin: 0 30px;
+    line-height: 45px;
+}
+#footer .textfooter_2 .textfooter_2_1 img{
+    height: 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+#footer .textfooter_2 .textfooter_2_1 div{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+#footer .textfooter_2 .textfooter_2_2{
+    display: inline-block;
+    font: 18px MyriadRegular;
+    margin: 22px 40px;
+    vertical-align: top;
+}
+#footer .textfooter_2 .textfooter_2_line{
+    height: 60px;
+    margin: 10px 0 0;
+    border-right: 1px solid #fff;
+    display: inline-block;
+    vertical-align: top;
+}
+/*end footer*/
+h1 div{
+    font: 54px UvnAurora;
+    background-image: -webkit-radial-gradient(#f8e95d,#e9881b);
+    background-image: -o-radial-gradient(#f8e95d,#e9881b);
+    background-image: -moz-radial-gradient(#f8e95d,#e9881b);
+    background-image: radial-gradient(#f8e95d,#e9881b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 50% 95%;
+    position:absolute;
+    width: 100%;
+}
+h1:after {
+    text-shadow: -3px -2px 5px red,3px 2px 5px #000;
+}
+#textshadow:after{
+    content: 'ĐÓN CHỜ NGÀY BẤT NGỜ TỪ TRANG SỨC DOJI';
+    font: 54px UvnAurora;
+}

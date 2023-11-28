@@ -1,0 +1,345 @@
+@media only screen
+  and (max-device-width: 768px) {
+	#banTrNgh{min-height: 410px !important;}
+	.tit_banTrNgh{font-size: 50px !important;padding: 30px 100px 0 0 !important;}
+	.content_banTrNgh_1{font-size:24px !important;}
+	.hoatiet_banTrNgh{min-height: 90px !important;min-width: 185px !important;}
+	.hoatiet1_banTrNgh{margin: 100px 0 0 0 !important;}
+	.noidungcauhoi{font-size:32px !important;}
+	.cont_cauhoi{width: 100% !important;margin:0 !important;}
+	.image_radio_1{width: 33% !important;margin: 0 0 10px !important;font-size:22px !important;}
+	.image_radio_1:nth-child(6){margin: 0 0 0 16% !important;}
+	.image_radio_2{width: 50% !important;margin: 0 0 10px !important;font-size:22px !important;}
+	.dap_an_2{height:120px !important;}
+	.image_radio_3{width: 50% !important;margin: 0 0 10px !important;font-size:22px !important;}
+	.image_radio_4{width: 50% !important;margin: 0 0 10px !important;font-size:24px !important;}
+	.cont_dapan_1{font-size:20px !important;margin: 10% 0 0 !important;}
+	.cont_dapan_2{font-size:18px !important;}
+	#quatang{width:96% !important;margin: 0 2% 0 !important;height: 245px !important;}
+	#quatang .vientrong{min-width: 97% !important;}
+	.sohuungay{width:34% !important;background: url("http://trangsuc.doji.vn/Uploads/images/img-bst-eternal-flames-39.png") 0 50%/90% no-repeat, url("http://trangsuc.doji.vn/Uploads/images/img-bst-eternal-flames-31.png") 100% 50% no-repeat !important;margin: 0 2% 0 !important;}
+	.voucher, .vexemphim{width: 25% !important;background-size:contain !important;}
+	.dau_cong{width: 10% !important;}
+	#nhanvoucher{width: 80% !important;margin: 10px 10% !important;}
+	.formRowDiachi1, .formRowDiadiem1, .formRowCaptcha1, .formRowEmail1, .formRowGioitinh1, .formRowName1, .formRowPhone1, .formRowTuoi1{margin: 0 1% 0 !important;}
+	#formRowDiachi input, #formRowCaptcha input, #formRowEmail input, #formRowGioitinh input, #formRowName input, #formRowPhone input, #formRowTuoi input{height: 30px !important;font-size:20px !important;}
+	.phone_da_dung_show, .em_da_dung_show, .cc_sai_show, .error_show{font-size:18px !important;margin: 3px 20% 0 !important;}
+	#nhanvoucher label{font-size:20px !important;}
+	.formRowDiadiem4{width:25% !important;}
+	.formRowDiadiem4:nth-child(6) {width: 92% !important;}
+	#er_gioitinh{margin:0 !important;}
+	#er_diadiem{margin: 5px 0 0 20% !important;}
+}
+
+@media only screen
+  and (min-device-width: 769px) 
+  and (max-device-width: 1024px) {
+	#banTrNgh{min-height: 560px !important;}
+	.tit_banTrNgh{padding: 45px 105px 0 0 !important;}
+	.hoatiet1_banTrNgh{margin: 100px 0 0 0 !important;}
+	.content_banTrNgh_1{font-size:30px !important;}
+	.cont_cauhoi{width: 100% !important;margin:0 !important;}
+	.image_radio_1{width: 33% !important;margin: 0 0 10px !important;font-size:24px !important;}
+	.image_radio_1:nth-child(6){margin: 0 0 0 16.5% !important;}
+	.img_dap_an_1_a, .img_dap_an_1_b, .img_dap_an_1_c, .img_dap_an_1_d, .img_dap_an_1_e{background-size: contain !important;min-height: 240px !important;}
+	.dap_an_2{height:170px !important;}
+	.image_radio_2{margin: 0 0 10px !important;font-size:22px !important;}
+	.image_radio_3{width: 50% !important;margin: 0 0 10px !important;font-size:24px !important}
+	.img_dap_an_3_a, .img_dap_an_3_b, .img_dap_an_3_c, .img_dap_an_3_d, .img_dap_an_3_e{background-size: contain !important;min-height: 270px !important;}
+	.image_radio_4{font-size:24px !important;}
+	.dap_an_4{height: 120px !important;}
+	.cont_dapan_1{font-size:24px !important;margin: 10% 0 0 !important;}
+	.cont_dapan_2{font-size:22px !important;}
+	.dau_cong{width:10% !important;}
+	.sohuungay{width:34% !important;background: url("http://trangsuc.doji.vn/Uploads/images/img-bst-eternal-flames-39.png") 0 50%/90% no-repeat, url("http://trangsuc.doji.vn/Uploads/images/img-bst-eternal-flames-31.png") 100% 50% no-repeat !important;margin: 0 2% 0 !important;}
+	.voucher, .vexemphim{width: 25% !important;background-size:contain !important;}
+	#nhanvoucher{width:70% !important;margin: 10px 15% !important;}
+	#er_diadiem{margin: 5px 0 0 17% !important;font-size:22px !important;}
+	#nhanvoucher label{font-size:24px !important;}
+	.phone_da_dung_show, .em_da_dung_show, .cc_sai_show, .error_show{font-size:20px !important;}
+	.formRowDiachi2, .formRowCaptcha2, .formRowEmail2, .formRowGioitinh2, .formRowName2, .formRowPhone2, .formRowTuoi2{width: 65% !important;}
+	#formRowDiachi input, #formRowCaptcha input, #formRowEmail input, #formRowGioitinh input, #formRowName input, #formRowPhone input, #formRowTuoi input{height: 25px !important;font-size:20px !important;}
+	#textthele .text_content h4{font-size: 22px !important;}
+	#textthele .text1{font-size: 20px !important;}
+	#textthele .text2 .textL p{font-size: 20px !important;}
+	#textthele .textL p{font-size: 20px !important;}
+	#textthele .textR p{font-size: 20px !important;}
+}
+
+@media only screen
+  and (max-device-width: 480px)  {
+	#banTrNgh {min-height: 255px !important;}
+	.tit_banTrNgh {font-size:32px !important;padding: 30px 60px 0 0 !important;}
+	.content_banTrNgh_1 {font-size: 14px !important;padding: 10px 0 0 !important;}
+	.cont_cauhoi {width:100% !important;margin:0 !important;}
+	.noidungcauhoi {font-size:22px !important;margin:10px 0 10px !important;}
+	.cauhoi_1 {margin: 0 !important;min-height: 40px !important;height:40px !important;background-size:contain !important;font-size:32px !important;}
+	.cauhoi_2 {margin: 0 !important;min-height: 40px !important;height:40px !important;background-size:contain !important;font-size:32px !important;}
+	.cauhoi_3 {margin: 0 !important;min-height: 40px !important;height:40px !important;background-size:contain !important;font-size:32px !important;}
+	.cauhoi_4 {margin: 0 !important;min-height: 40px !important;height:40px !important;background-size:contain !important;font-size:32px !important;}
+	.hoatiet_banTrNgh{min-width: 88% !important;min-height: 40px !important;}
+	.hoatiet1_banTrNgh{margin: 50px 0 0 0 !important;background-size:contain !important;min-height:47px !important;}
+    .hoatiet2_banTrNgh {margin:0 0 25px 0 !important;background-size:contain !important;min-height:40px !important;}
+	.image_radio_1{width:50% !important;font-size:15px !important;margin:0 0 20px 0 !important;}
+	.image_radio_2{width:50% !important;font-size:15px !important;margin:0 0 20px 0 !important;}
+	.image_radio_3{width:50% !important;font-size:14px !important;margin:0 0 20px 0 !important;}
+	.image_radio_4{width:50% !important;font-size:18px !important;margin:0 0 20px 0 !important;}
+	.image_radio_1:nth-child(3){width:100% !important;}
+	.image_radio_1 img{min-height:20px !important;height:20px !important;}
+	.image_radio_2 img{min-height:20px !important;height:20px !important;}
+	.image_radio_3 img{min-height:20px !important;height:20px !important;}
+	.image_radio_4 img{min-height:20px !important;height:20px !important;}
+	.img_dap_an_1_a{background-size:contain !important;min-height: 140px !important;}
+	.img_dap_an_1_b{background-size:contain !important;min-height: 140px !important;}
+	.img_dap_an_1_c{background-size:contain !important;min-height: 140px !important;}
+	.img_dap_an_1_d{background-size:contain !important;min-height: 140px !important;}
+	.img_dap_an_1_e{background-size:contain !important;min-height: 140px !important;}
+	.img_dap_an_3_a{background-size:contain !important;min-height: 140px !important;min-width: 90% !important;width:90% !important;margin: 0 5% 0 !important;}
+	.img_dap_an_3_b{background-size:contain !important;min-height: 140px !important;min-width: 90% !important;width:90% !important;margin: 0 5% 0 !important;}
+	.img_dap_an_3_c{background-size:contain !important;min-height: 140px !important;min-width: 90% !important;width:90% !important;margin: 0 5% 0 !important;}
+	.img_dap_an_3_d{background-size:contain !important;min-height: 140px !important;min-width: 90% !important;width:90% !important;margin: 0 5% 0 !important;}
+	.dap_an_1{margin: 5px 0 5px 0 !important;}
+	.dap_an_3{width: 90% !important;margin: 0 5% 10px !important;}
+	.dap_an_2{height: 110px !important;}
+	.dap_an_4{height: 100px !important;}
+	#success{margin:0 !important;}
+	#submit_trcngh{margin:0 !important;min-width: 100% !important;height: 50px !important;min-height: 60px !important;background-size:contain !important;font-size:28px !important;padding: 0 0 20px 0 !important;}
+	#quatang{min-width: 98% !important;margin: 25px 1% 0 !important;height: 240px !important;}
+	#quatang .vientrong{border:0 !important;height: 94% !important;width: 94% !important;min-width: 94% !important;min-height: 94% !important;}
+	.sohuungay{background: url("http://trangsuc.doji.vn/Uploads/images/img-bst-eternal-flames-39.png") center/contain no-repeat !important;width: 100% !important;min-height: 40px !important;height: 40px !important;margin: 5px 0 0 !important;}
+	.txt_dau_cong{font-size:58px !important;top:50% !important;}
+	.dau_cong{width: 10% !important;min-height: 60% !important;}
+	.voucher, .vexemphim{width: 45% !important;height: 80% !important;background-size:contain !important;}
+	.txt_voucher, .txt_vexemphim{bottom: 5px !important;font-size:16px !important}
+	.addQuestion{font-size:22px !important;margin: 10% 0 10% !important;}
+	.img_dapan{width:100% !important;min-height:100% !important;height: 185px !important;}
+	.cont_dapan{width:100% !important;min-height:100% !important;}
+	.cont_dapan_1{width:100% !important;margin:0 !important;}
+	.cont_dapan_2{width:100% !important;margin:20px 0 0 !important;text-align: center !important;}
+	.show_loader{background-position:50% 50% !important;}
+	.show_loader:before{font: 18px "Myriad Pro" !important;position: relative !important;top: 0px !important;margin:0 0 50px !important}
+	#nhanvoucher{width:98% !important;margin: 10px 1% !important;}
+	.tit_dangkyvoucher{font-size:24px !important;}
+	#nhanvoucher label{font-size:16px !important;}
+	.formRowDiadiem4{width: 50% !important;}
+	.text_chuc_mung{font-size:24px !important;}
+	#textthele .text_content h4{font-size: 20px !important;}
+	#textthele .text1{font-size: 16px !important;}
+	#textthele .text2 .textL p{font-size: 16px !important;}
+	#textthele .textL p{font-size: 16px !important;}
+	#textthele .textR p{font-size: 16px !important;}
+}
+
+@media only screen
+  and (max-device-width: 414px)  {
+	#banTrNgh {min-height: 220px !important;}
+	.tit_banTrNgh {font-size:28px !important;padding: 30px 50px 0 0 !important;}
+	.content_banTrNgh_1 {font-size: 15px !important;padding: 10px 0 0 !important;}
+	.cont_cauhoi {width:100% !important;margin:0 !important;}
+	.noidungcauhoi {font-size:20px !important;margin:10px 0 10px !important;}
+	.cauhoi_1 {margin: 0 !important;min-height: 40px !important;height:40px !important;background-size:contain !important;font-size:32px !important;}
+	.cauhoi_2 {margin: 0 !important;min-height: 40px !important;height:40px !important;background-size:contain !important;font-size:32px !important;}
+	.cauhoi_3 {margin: 0 !important;min-height: 40px !important;height:40px !important;background-size:contain !important;font-size:32px !important;}
+	.cauhoi_4 {margin: 0 !important;min-height: 40px !important;height:40px !important;background-size:contain !important;font-size:32px !important;}
+	.hoatiet_banTrNgh{min-width: 88% !important;min-height: 40px !important;}
+	.hoatiet1_banTrNgh{margin: 50px 0 0 0 !important;background-size:contain !important;min-height:47px !important;}
+    .hoatiet2_banTrNgh {margin:0 0 25px 0 !important;background-size:contain !important;min-height:40px !important;}
+	.image_radio_1{width:50% !important;font-size:16px !important;margin:0 0 20px 0 !important;}
+	.image_radio_2{width:50% !important;font-size:17px !important;margin:0 0 20px 0 !important;}
+	.image_radio_3{width:50% !important;font-size:14px !important;margin:0 0 20px 0 !important;}
+	.image_radio_4{width:50% !important;font-size:18px !important;margin:0 0 20px 0 !important;}
+	.image_radio_1:nth-child(3){width:100% !important;}
+	.image_radio_1:nth-child(6){margin:0 !important;}
+	.image_radio_1 img{min-height:20px !important;height:20px !important;}
+	.image_radio_2 img{min-height:20px !important;height:20px !important;}
+	.image_radio_3 img{min-height:20px !important;height:20px !important;}
+	.image_radio_4 img{min-height:20px !important;height:20px !important;}
+	.img_dap_an_1_a{background-size:contain !important;min-height: 140px !important;}
+	.img_dap_an_1_b{background-size:contain !important;min-height: 140px !important;}
+	.img_dap_an_1_c{background-size:contain !important;min-height: 140px !important;}
+	.img_dap_an_1_d{background-size:contain !important;min-height: 140px !important;}
+	.img_dap_an_1_e{background-size:contain !important;min-height: 140px !important;}
+	.img_dap_an_3_a{background-size:contain !important;min-height: 140px !important;min-width: 90% !important;width:90% !important;margin: 0 5% 0 !important;}
+	.img_dap_an_3_b{background-size:contain !important;min-height: 140px !important;min-width: 90% !important;width:90% !important;margin: 0 5% 0 !important;}
+	.img_dap_an_3_c{background-size:contain !important;min-height: 140px !important;min-width: 90% !important;width:90% !important;margin: 0 5% 0 !important;}
+	.img_dap_an_3_d{background-size:contain !important;min-height: 140px !important;min-width: 90% !important;width:90% !important;margin: 0 5% 0 !important;}
+	.dap_an_1{margin: 5px 0 5px 0 !important;}
+	.dap_an_2{height: 135px !important;}
+	.dap_an_3{width: 80% !important;margin: 10px 10% !important;}
+	.dap_an_4{height: 100px !important;}
+	#success{margin:0 !important;}
+	#submit_trcngh{margin:0 !important;min-width: 100% !important;height: 50px !important;min-height: 60px !important;background-size:contain !important;font-size:28px !important;padding: 0 0 20px 0 !important;}
+	#quatang{min-width: 98% !important;margin: 25px 1% 0 !important;height: 220px !important;}
+	#quatang .vientrong{border:0 !important;height: 94% !important;width: 94% !important;min-width: 94% !important;min-height: 94% !important;}
+	.sohuungay{background: url("http://trangsuc.doji.vn/Uploads/images/img-bst-eternal-flames-39.png") center/contain no-repeat !important;width: 100% !important;min-height: 40px !important;height: 40px !important;margin: 5px 0 0 !important;}
+	.txt_dau_cong{font-size:60px !important;top:25% !important;}
+	.dau_cong{width: 10% !important;min-height: 100% !important;}
+	.voucher, .vexemphim{width: 45% !important;height: 75% !important;background-size:contain !important;margin: 10px 0 0 !important;}
+	.txt_voucher, .txt_vexemphim{bottom: 5px !important;font-size:16px !important}
+	.addQuestion{font-size:22px !important;margin: 10% 0 10% !important;}
+	.img_dapan{width:100% !important;min-height:100% !important;height: 185px !important;}
+	.cont_dapan{width:100% !important;min-height:100% !important;}
+	.cont_dapan_1{width:100% !important;margin:0 !important;}
+	.cont_dapan_2{width:100% !important;margin:20px 0 0 !important;text-align: center !important;}
+	.show_loader{background-position:50% 50% !important;}
+	.show_loader:before{font: 18px "Myriad Pro" !important;position: relative !important;top: 0px !important;margin:0 0 50px !important}
+	#nhanvoucher{width:98% !important;margin: 10px 1% !important;}
+	.tit_dangkyvoucher{font-size:20px !important;}
+	#nhanvoucher label{font-size:18px !important;}
+	.formRowDiadiem4{width: 50% !important;}
+	#formRowDiachi input, #formRowCaptcha input, #formRowEmail input, #formRowGioitinh input, #formRowName input, #formRowPhone input, #formRowTuoi input{min-width:94% !important;margin: 0 1% 0 !important;}
+	.formRowDiadiem4:nth-child(6) {width: 100% !important;}
+	.phone_da_dung_show, .em_da_dung_show, .cc_sai_show, .error_show{margin: 5px 0 0 22% !important;}
+	.formRowDiachi1, .formRowDiadiem1, .formRowCaptcha1, .formRowEmail1, .formRowGioitinh1, .formRowName1, .formRowPhone1, .formRowTuoi1{width:50% !important;}
+	.formRowDiachi2, .formRowCaptcha2, .formRowEmail2, .formRowGioitinh2, .formRowName2, .formRowPhone2, .formRowTuoi2{width: 100% !important;}
+	#er_gioitinh{margin: 5px 0 0 22% !important;}
+	#er_phone{margin: 5px 0 0 !important;}
+	#er_phone_da_dung{margin: 5px 0 0 22%!important;}
+	#er_diadiem{margin: 5px 0 0 20% !important;}
+	#textthele .text_content h4{font-size: 20px !important;}
+	#textthele .text1{font-size: 16px !important;}
+	#textthele .text2 .textL p{font-size: 16px !important;}
+	#textthele .textL p{font-size: 16px !important;}
+	#textthele .textR p{font-size: 16px !important;}
+}
+
+@media only screen
+  and (max-device-width: 375px) {
+	#banTrNgh {min-height: 202px !important;}
+	.tit_banTrNgh {font-size:22px !important;padding: 20px 40px 0 0 !important;}
+	.content_banTrNgh_1 {font-size: 12px !important;padding: 10px 0 0 !important;}
+	.cont_cauhoi {width:100% !important;margin:0 !important;}
+	.noidungcauhoi {font-size:17px !important;margin:10px 0 10px !important;}
+	.cauhoi_1 {margin: 0 !important;min-height: 40px !important;height:40px !important;background-size:contain !important;font-size:32px !important;}
+	.cauhoi_2 {margin: 0 !important;min-height: 40px !important;height:40px !important;background-size:contain !important;font-size:32px !important;}
+	.cauhoi_3 {margin: 0 !important;min-height: 40px !important;height:40px !important;background-size:contain !important;font-size:32px !important;}
+	.cauhoi_4 {margin: 0 !important;min-height: 40px !important;height:40px !important;background-size:contain !important;font-size:32px !important;}
+	.hoatiet_banTrNgh{min-width: 88% !important;min-height: 40px !important;}
+	.hoatiet1_banTrNgh{margin: 50px 0 0 0 !important;background-size:contain !important;min-height:47px !important;}
+    .hoatiet2_banTrNgh {margin:0 0 25px 0 !important;background-size:contain !important;min-height:40px !important;}
+	.image_radio_1{width:50% !important;font-size:15px !important;margin:0 0 20px 0 !important;}
+	.image_radio_2{width:50% !important;font-size:15px !important;margin:0 0 20px 0 !important;}
+	.image_radio_3{width:50% !important;font-size:14px !important;margin:0 0 20px 0 !important;}
+	.image_radio_4{width:50% !important;font-size:16px !important;margin:0 0 20px 0 !important;}
+	.image_radio_1:nth-child(3){width:100% !important;}
+	.image_radio_1 img{min-height:20px !important;height:20px !important;}
+	.image_radio_2 img{min-height:20px !important;height:20px !important;}
+	.image_radio_3 img{min-height:20px !important;height:20px !important;}
+	.image_radio_4 img{min-height:20px !important;height:20px !important;}
+	.img_dap_an_1_a{background-size:contain !important;min-height: 140px !important;}
+	.img_dap_an_1_b{background-size:contain !important;min-height: 140px !important;}
+	.img_dap_an_1_c{background-size:contain !important;min-height: 140px !important;}
+	.img_dap_an_1_d{background-size:contain !important;min-height: 140px !important;}
+	.img_dap_an_1_e{background-size:contain !important;min-height: 140px !important;}
+	.img_dap_an_3_a{background-size:contain !important;min-height: 140px !important;min-width: 90% !important;width:90% !important;margin: 0 5% 0 !important;}
+	.img_dap_an_3_b{background-size:contain !important;min-height: 140px !important;min-width: 90% !important;width:90% !important;margin: 0 5% 0 !important;}
+	.img_dap_an_3_c{background-size:contain !important;min-height: 140px !important;min-width: 90% !important;width:90% !important;margin: 0 5% 0 !important;}
+	.img_dap_an_3_d{background-size:contain !important;min-height: 140px !important;min-width: 90% !important;width:90% !important;margin: 0 5% 0 !important;}
+	.dap_an_1{margin: 5px 0 5px 0 !important;}
+	.dap_an_2{height: 125px !important;}
+	.dap_an_4{height: 100px !important;}
+	#success{margin:0 !important;}
+	#submit_trcngh{margin:0 !important;min-width: 100% !important;height: 50px !important;min-height: 60px !important;background-size:contain !important;font-size:28px !important;padding: 0 0 20px 0 !important;}
+	#quatang{min-width: 98% !important;margin: 25px 1% 0 !important;height: 245px !important;}
+	#quatang .vientrong{border:0 !important;height: 94% !important;width: 94% !important;min-width: 94% !important;min-height: 94% !important;}
+	.sohuungay{background: url("http://trangsuc.doji.vn/Uploads/images/img-bst-eternal-flames-39.png") center/contain no-repeat !important;width: 100% !important;min-height: 40px !important;height: 40px !important;margin: 5px 0 0 !important;}
+	.txt_dau_cong{font-size:38px !important;top:50% !important;}
+	.dau_cong{width: 10% !important;min-height: 100% !important;}
+	.voucher, .vexemphim{width: 45% !important;height: 80% !important;background-size:contain !important;}
+	.txt_voucher, .txt_vexemphim{bottom: 10px !important;font-size:16px !important}
+	.addQuestion{font-size:22px !important;margin: 10% 0 10% !important;}
+	.img_dapan{width:100% !important;min-height:100% !important;height: 185px !important;}
+	.cont_dapan{width:100% !important;min-height:100% !important;}
+	.cont_dapan_1{width:100% !important;margin:0 !important;}
+	.cont_dapan_2{width:100% !important;margin:20px 0 0 !important;text-align: center !important;}
+	.show_loader{background-position:50% 50% !important;}
+	.show_loader:before{font: 18px "Myriad Pro" !important;position: relative !important;top: 0px !important;margin:0 0 50px !important}
+	#nhanvoucher{width:98% !important;margin: 10px 1% !important;}
+	.tit_dangkyvoucher{font-size:18px !important;}
+	#nhanvoucher label{font-size:16px !important;}
+	.formRowDiadiem4{width: 50% !important;}
+	.formRowDiadiem4:nth-child(6) {width: 100% !important;}
+	#er_phone_da_dung{margin: 5px 0 0 2% !important;}
+	#er_phone{margin: 5px 0 0 2% !important;}
+	#submit_nhanvc{font-size: 25px !important;}
+	#formRowName{margin:21px 0 0 !important;}
+	#formRowGioitinh{margin:25px 0 0 !important;}
+	
+}
+
+@media only screen
+  and (max-device-width: 320px) {
+	#banTrNgh {min-height: 165px !important;}
+	.tit_banTrNgh {font-size:22px !important;padding: 20px 40px 0 0 !important;}
+	.content_banTrNgh_1 {font-size: 12px !important;padding: 10px 0 0 !important;}
+	.cont_cauhoi {width:100% !important;margin:0 !important;}
+	.noidungcauhoi {font-size:17px !important;margin:10px 0 10px !important;}
+	.cauhoi_1 {margin: 0 !important;min-height: 40px !important;height:40px !important;background-size:contain !important;font-size:32px !important;}
+	.cauhoi_2 {margin: 0 !important;min-height: 40px !important;height:40px !important;background-size:contain !important;font-size:32px !important;}
+	.cauhoi_3 {margin: 0 !important;min-height: 40px !important;height:40px !important;background-size:contain !important;font-size:32px !important;}
+	.cauhoi_4 {margin: 0 !important;min-height: 40px !important;height:40px !important;background-size:contain !important;font-size:32px !important;}
+	.hoatiet_banTrNgh{min-width: 88% !important;min-height: 40px !important;}
+	.hoatiet1_banTrNgh{margin: 50px 0 0 0 !important;background-size:contain !important;min-height:47px !important;}
+    .hoatiet2_banTrNgh {margin:0 0 25px 0 !important;background-size:contain !important;min-height:40px !important;}
+	.image_radio_1{width:50% !important;font-size:15px !important;margin:0 0 20px 0 !important;}
+	.image_radio_2{width:50% !important;font-size:15px !important;margin:0 0 20px 0 !important;}
+	.image_radio_3{width:50% !important;font-size:14px !important;margin:0 0 20px 0 !important;}
+	.image_radio_4{width:50% !important;font-size:18px !important;margin:0 0 20px 0 !important;}
+	.image_radio_1:nth-child(3){width:100% !important;}
+	.image_radio_1 img{min-height:20px !important;height:20px !important;}
+	.image_radio_2 img{min-height:20px !important;height:20px !important;}
+	.image_radio_3 img{min-height:20px !important;height:20px !important;}
+	.image_radio_4 img{min-height:20px !important;height:20px !important;}
+	.img_dap_an_1_a{background-size:contain !important;min-height: 140px !important;}
+	.img_dap_an_1_b{background-size:contain !important;min-height: 140px !important;}
+	.img_dap_an_1_c{background-size:contain !important;min-height: 140px !important;}
+	.img_dap_an_1_d{background-size:contain !important;min-height: 140px !important;}
+	.img_dap_an_1_e{background-size:contain !important;min-height: 140px !important;}
+	.img_dap_an_3_a{background-size:contain !important;min-height: 140px !important;min-width: 90% !important;width:90% !important;margin: 0 5% 0 !important;}
+	.img_dap_an_3_b{background-size:contain !important;min-height: 140px !important;min-width: 90% !important;width:90% !important;margin: 0 5% 0 !important;}
+	.img_dap_an_3_c{background-size:contain !important;min-height: 140px !important;min-width: 90% !important;width:90% !important;margin: 0 5% 0 !important;}
+	.img_dap_an_3_d{background-size:contain !important;min-height: 140px !important;min-width: 90% !important;width:90% !important;margin: 0 5% 0 !important;}
+	.dap_an_1{margin: 5px 0 5px 0 !important;}
+	.dap_an_2{height: 155px !important;}
+	.dap_an_4{height: 140px !important;}
+	#success{margin:0 !important;}
+	#submit_trcngh{margin:0 !important;min-width: 100% !important;height: 50px !important;min-height: 60px !important;background-size:contain !important;font-size:28px !important;padding: 0 0 20px 0 !important;}
+	#quatang{min-width: 98% !important;margin: 25px 1% 0 !important;height: 220px !important;}
+	#quatang .vientrong{border:0 !important;height: 94% !important;width: 94% !important;min-width: 94% !important;min-height: 94% !important;}
+	.sohuungay{background: url("http://trangsuc.doji.vn/Uploads/images/img-bst-eternal-flames-39.png") center/contain no-repeat !important;width: 100% !important;min-height: 40px !important;height: 40px !important;margin: 5px 0 0 !important;}
+	.txt_dau_cong{font-size:38px !important;top:50% !important;}
+	.dau_cong{width: 10% !important;min-height: 100% !important;}
+	.voucher, .vexemphim{width: 45% !important;height: 75% !important;background-size:contain !important;}
+	.txt_voucher, .txt_vexemphim{bottom: 5px !important;font-size:16px !important}
+	.addQuestion{font-size:22px !important;margin: 10% 0 10% !important;}
+	.img_dapan{width:100% !important;min-height:100% !important;height: 185px !important;}
+	.cont_dapan{width:100% !important;min-height:100% !important;}
+	.cont_dapan_1{width:100% !important;margin:0 !important;}
+	.cont_dapan_2{width:100% !important;margin:20px 0 0 !important;text-align: center !important;}
+	.show_loader{background-position:50% 50% !important;}
+	.show_loader:before{font: 18px "Myriad Pro" !important;position: relative !important;top: 0px !important;margin:0 0 50px !important}
+	#nhanvoucher{width:98% !important;margin: 10px 1% !important;}
+	.tit_dangkyvoucher{font-size:24px !important;}
+	#nhanvoucher label{font-size:16px !important;}
+	.formRowDiadiem4{width: 50% !important;}
+}
+
+/* ----------- HD Screen ----------- */
+
+/* Portrait(dọc) and Landscape(ngang) */
+@media only screen 
+  and (min-device-width: 1367px) 
+  and (max-device-width: 1920px) {
+
+}
+@media only screen 
+  and (min-device-width: 601px) 
+  and (max-device-width: 800px) {
+
+}
+
+@media only screen
+  and (max-device-width: 1023px) {
+	.nav-land-fix{display:none !important;}
+	.nav-land-respon{display:block !important;}
+}

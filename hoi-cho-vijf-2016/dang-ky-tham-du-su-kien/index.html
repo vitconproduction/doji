@@ -1,0 +1,211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Đăng ký tham dự sự kiện</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+
+        <link rel="stylesheet" href="css/style.min.css"></link>
+        <link rel="stylesheet" href="css/responsive.min.css"></link>
+
+        <script type="text/javascript" src="js/jquery.min.3.1.0.js"></script>
+        <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-9205046-5', 'auto');
+            ga('send', 'pageview');
+
+        </script>
+    </head>
+    <body>
+        <div id="menu">
+            <div class="menu_size">
+                <div class="menu_logo">
+                    <div><a target="_blank" href="http://trangsuc.doji.vn"><img src="images/logo.png" /></a></div>
+                </div>
+                <div class="menu_category">
+                    <ul class="ul_menu_category">
+                        <li><div><a href="http://trangsuc.doji.vn/microsite/hoi-cho-vijf-2016/">Trang chủ</a></div></li>
+                        <li><div><a href="http://trangsuc.doji.vn/microsite/hoi-cho-vijf-2016/#content_1">Ngày bất ngờ</a></div></li>
+                        <li><div><a href="http://trangsuc.doji.vn/microsite/hoi-cho-vijf-2016/#page2Content2">Ưu đãi</a></div></li>
+                        <li><div><a href="http://trangsuc.doji.vn/microsite/hoi-cho-vijf-2016/dang-ky-tham-du-su-kien/">Nhận Voucher</a></div></li>
+                        <li><div><a href="http://trangsuc.doji.vn/microsite/hoi-cho-vijf-2016/#content_4">Gian hàng</a></div></li>
+                        <li>
+                            <div><img src="images/icon-phone.png" /></div>
+                            <div style="text-decoration: underline">1800 1168</div>
+                        </li>
+                    </ul>
+                    <!--<ul class="ul_menu_category" id="myNavLand" style="display:none;">-->
+                    <ul class="nav_land_respon" id="myNavLand" style="display:none;">
+                        <li><div><a href="http://trangsuc.doji.vn/microsite/hoi-cho-vijf-2016/">Trang chủ</a></div></li>
+                        <li><div><a href="http://trangsuc.doji.vn/microsite/hoi-cho-vijf-2016/#content_1">Ngày bất ngờ</a></div></li>
+                        <li><div><a href="http://trangsuc.doji.vn/microsite/hoi-cho-vijf-2016/#page2Content2">Ưu đãi</a></div></li>
+                        <li><div><a href="http://trangsuc.doji.vn/microsite/hoi-cho-vijf-2016/dang-ky-tham-du-su-kien/">Nhận Voucher</a></div></li>
+                        <li><div><a href="http://trangsuc.doji.vn/microsite/hoi-cho-vijf-2016/#content_4">Gian hàng</a></div></li>
+                        <li>
+                            <div><img src="images/icon-phone.png" /></div>
+                            <div style="text-decoration: underline">1800 1168</div>
+                        </li>
+                        <li class="icon"><a href="javascript:void(0);" onclick="funcNavLand();">&equiv;</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script>
+//            menu_mb
+            function funcNavLand() {
+                var x = $("#myNavLand");
+                if (x.hasClass("responsive") === true) {
+                    $("#myNavLand").removeClass("responsive");
+                } else {
+                    $("#myNavLand").addClass("responsive");
+                }
+            }
+        </script>
+        <div id="content">
+            <div class="title">
+                ĐĂNG KÝ NHẬN QUÀ TẶNG HẤP DẪN<br />
+                VÀ VOUCHER <strong>500.000đ</strong> MUA NHẪN CƯỚI
+            </div>
+            <div class="page_line"></div>
+            <div id="nhanvoucher">
+                <form id="dangKyVoucher">
+                    <div class="formInputContent">
+                        <div style="float: left;width: 100%;">
+                            <div id="formRowName">
+                                <div class="formRowName2"><input placeholder="Họ tên*" id="name" name="name" type="text" /></div>
+                                <div class="formRowName3"><span class="error" id="er_name">Vui lòng nhập thông tin!</span></div>
+                            </div>
+                            <div id="formRowGioitinh">
+                                <div class="formRowGioitinh2">
+                                    <div id="gioitinh1">
+                                        <div><input id="gioitinh" type="radio" name="gioitinh" value="Nam" /><img src="images/radio-img-1.png" /><div>&nbsp;Nam</div></div>
+                                        <div><input id="gioitinh" type="radio" name="gioitinh" value="Nữ" /><img src="images/radio-img-1.png" /><div>&nbsp;Nữ</div></div>
+                                    </div>
+                                </div>
+                                <div class="formRowGioitinh3"><span class="error" id="er_gioitinh">Vui lòng chọn giới tính!</span></div>
+                            </div>
+                            <div id="formRowbirthday">
+                                <div class="formRowTuoi2"><input placeholder="Tuổi*" id="birthday" name="birthday" type="text" /></div>
+                                <div class="formRowTuoi3"><span class="error" id="er_birthday">Vui lòng nhập chữ số!</span></div>
+                            </div>
+                        </div>
+                        <div style="float: left;width: 100%;">
+                            <div id="formRowPhone">
+                                <div class="formRowPhone2"><input placeholder="Số điện thoại*" id="phone" name="phone" type="text" /></div>
+                                <div class="formRowPhone3"><span class="error" id="er_phone">Vui lòng điền chữ số!</span></div>
+                                <div class="formRowPhone3"><span class="phone_da_dung" id="er_phone_da_dung">Số điện thoại đã được sử dụng!</span></div>
+                            </div>
+                            <div id="formRowEmail">
+                                <div class="formRowEmail2"><input placeholder="Email*" id="email" name="email" type="text" /></div>
+                                <div class="formRowEmail3"><span class="error" id="er_email">Sai định dạng Email!</span></div>
+                                <div class="formRowEmail3"><span class="em_da_dung" id="er_email_da_dung">Email đã được sử dụng!</span></div>
+                            </div>
+                        </div>
+                        <div style="float: left;width: 100%;">
+                            <div id="formRowDiachi">
+                                <div class="formRowDiachi2"><input placeholder="Địa chỉ*" id="addr" name="addr" type="text" /></div>
+                                <div class="formRowDiachi3"><span class="error" id="er_addr">Vui lòng nhập thông tin!</span></div>
+                            </div>
+                            <div id="formRowQuanHuyen">
+                                <div class="formRowQuanHuyen2"><input placeholder="Quận/Huyện*" id="quanhuyen" name="quanhuyen" type="text" /></div>
+                                <div class="formRowQuanHuyen3"><span class="error" id="er_quanhuyen">Vui lòng nhập thông tin!</span></div>
+                            </div>
+                            <div id="formRowCity">
+                                <div class="formRowCity2"><input placeholder="Thành phố*" id="city" name="city" type="text" /></div>
+                                <div class="formRowCity3"><span class="error" id="er_city">Vui lòng nhập thông tin!</span></div>
+                            </div>
+                        </div>
+                        <div id="formRowChoose">
+                            <div class="formRowChoose1"><label>Bạn muốn nhận:*</label></div>
+                            <div class="formRowChoose2">
+                                <div id="choose1">
+                                    <div><input id="choose" type="radio" name="choose" value="Quà tặng miễn phí" /><img src="images/radio-img-1.png" /><div>&nbsp;Quà tặng miễn phí cho khách tham quan</div></div>
+                                    <div><input id="choose" type="radio" name="choose" value="Voucher 500.000đ" /><img src="images/radio-img-1.png" /><div>&nbsp;Voucher <strong>500.000đ</strong> khi mua nhẫn cưới</div></div>
+                                    <div><input id="choose" type="radio" name="choose" value="Cả hai" /><img src="images/radio-img-1.png" /><div>&nbsp;Cả hai</div></div>
+                                </div>
+                            </div>
+                            <div class="formRowChoose3"><span class="error" id="er_choose">Vui lòng chọn!</span></div>
+                        </div>
+                        <div id="formRowDiadiem">
+                            <div class="formRowDiadiem1"><label>Bạn biết đến chương trình qua:*</label></div>
+                            <div class="formRowDiadiem4">
+                                <input id="diadiem1" type="checkbox" value="Facebook" />
+                                <div>Facebook</div>
+                            </div>
+                            <div class="formRowDiadiem4">
+                                <input id="diadiem2" type="checkbox" value="Banner báo mạng" />
+                                <div>Banner báo mạng</div>
+                            </div>
+                            <div class="formRowDiadiem4">
+                                <input id="diadiem3" type="checkbox" value="Bài viết trên báo" />
+                                <div>Bài viết trên báo</div>
+                            </div>
+                            <div class="formRowDiadiem4">
+                                <div>Khác</div>
+                                <input id="diadiemkhac" name="diadiemkhac" type="text" value=""></div>
+                            <div class="formRowDiadiem2"><input id="diadiem" name="diadiem" type="hidden" value=""></div>
+                            <div class="formRowDiadiem3"><span class="error" id="er_diadiem">Vui lòng chọn kênh truyền thông!</span></div>
+                        </div>
+                        <div class="img_qua_tang"><img src="images/qua-tang-5.png" /></div>
+                    </div>
+                    <center><button id="submit_nhanvc" type="submit">Đăng ký</button></center>
+                </form>
+
+                <div class="thele">
+                    <div class="thele1_tit">Địa điểm nhận quà tặng và voucher 500.000 đồng</div>
+                    <div class="thele1_text">
+                        - Từ ngày 09/11-13/11 tại gian hàng Trang sức DOJI<br />
+                        - Địa chỉ: Nhà thi đấu Phú Thọ - 221 Lý Thường Kiệt, Quận 11, Hồ Chí Minh
+                    </div>
+                    <br />
+                    <div class="thele2_tit">Quy định áp dụng voucher 500.000đ</div>
+                    <div class="thele2_text">
+                        - Voucher không được quy đổi ra tiền mặt<br />
+                        - Voucher có giá trị sử dụng khi còn nguyên vẹn, không bị rách, tảy xóa...<br />
+                        - Voucher được áp dụng cùng lúc với chương trình uu đãi nhẫn cưới Wedding Land<br />
+                        - Voucher có giá trị sử dụng từ ngày 09/11 đến ngày 13/11/2016 khi mua Nhẫn cưới Wedding Land<br />
+                        tại Nhà thi đấu Phú Thọ - 221 Lý Thường Kiệt, Quận 11, Hồ Chí Minh<br />
+                        - Chỉ áp dụng cho 1 lần sử dụng voucher và áp dụng 01 voucher/01 đôi nhẫn cưới.
+                    </div>
+                </div>
+            </div>
+            <script type="text/javascript" src="js/main.min.js"></script>
+        </div>
+        <div class="textcongrat"></div>
+        <div id="footer">
+            <div class="social">
+                <div class="socialline"></div>
+                <div class="socialimage"><a href="https://www.facebook.com/doji.trangsuc/"><img src="images/facebook.png" /></a></div>
+                <div class="socialimage"><a href="https://www.youtube.com/user/TRANGSUCDOJI"><img src="images/youtube.png" /></a></div>
+                <div class="socialimage"><a href="https://www.instagram.com/trangsuc.doji.vn/"><img src="images/instar.png" /></a></div>
+                <div class="socialline"></div>
+            </div>
+            <div class="textfooter">
+                <div class="textfooter_1">TẬP ĐOÀN VÀNG BẠC ĐÁ QUÝ DOJI</div>
+                <div class="textfooter_2">
+                    <div class="textfooter_2_1">
+                        <img src="images/vietnamvalue.jpg" /><div>5 NĂM LIÊN TIẾP LÀ TOP 3 DN TƯ NHÂN LỚN NHẤT VIỆT NAM</div><br />
+                        <img src="images/vnr.jpg" /><div>4 NĂM LIÊN TIẾP ĐƯỢC CÔNG NHẬN THƯƠNG HIỆU QUỐC GIA VIỆT NAM</div>
+                    </div>
+                    <div class="textfooter_2_line"></div>
+                    <div class="textfooter_2_2">
+                        NHÀ TÀI TRỢ KIM CƯƠNG DUY NHẤT<br />
+                        HỘI CHỢ QUỐC TẾ TRANG SỨC VIỆT NAM 2016
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

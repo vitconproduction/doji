@@ -1,0 +1,14 @@
+@media only screen and (max-device-width: 414px) {
+	#video_lp{
+		height:549px;
+	}
+	.flip-clock-wrapper{
+		left:0;
+	}
+}
+
+@media only screen and (max-device-width: 1267px) {
+	.flip-clock-wrapper{
+		left:23%;
+	}
+}

@@ -1,0 +1,584 @@
+@import fonts
+
+body
+  font-family: UTMTimes, sans-serif
+
+header,section
+  display: inline-block
+  clear: none
+  width: 100%
+  float: left
+  position: relative
+
+header
+  background: #d72031
+  width: 100%
+  display: inline-block
+  .logo
+    width: 20%
+    display: inline-block
+    text-align: center
+    float: left
+    padding-top: 15px
+    padding-bottom: 15px
+    img
+      width: 60%
+  nav
+    width: 60%
+    display: inline-flex
+    float: left
+    align-items: center
+    min-height: 91px
+    ul
+      width: 90%
+      margin: 0
+      padding: 0
+      margin-left: auto
+      margin-right: auto
+      list-style-type: none
+      text-align: center
+      li
+        display: inline-block
+        padding: 5px 15px
+        a
+          text-decoration: none
+          text-transform: uppercase
+          color: #fff
+          font-family: MyriadRegular, sans-serif
+          font-size: 16px
+          position: relative
+          &#menu-hotline
+            img
+              max-height: 25px
+              width: auto
+            &::after
+              content: ""
+              position: absolute
+              width: 90%
+              height: 1px
+              background: #fff
+              left: 10%
+              bottom: 0
+#top
+  background: url('../images/back-top-left.png') top left/20% 100% no-repeat, url('../images/back-top-right.png') top right/20% 100% no-repeat, url('../images/back-top.png') center/cover no-repeat
+  display: flex
+  justify-content: center
+  .top-wrap
+    width: 60%
+    text-align: center
+    margin-top: -2px
+    z-index: 0
+    position: relative
+    .title
+      img
+        width: 80%
+        padding-top: 35px
+    .desc
+      padding-top: 10px
+      padding-bottom: 45px
+      span
+        display: block
+        color: #fff
+        font-size: 18px
+    .top__uu-dai-wrap
+      display: flex
+      width: 80%
+      margin-left: auto
+      margin-right: auto
+      .left
+        width: 50%
+        .top__uu-dai-01-top
+          color: #fff
+          font-size: 18px
+          padding-bottom: 10px
+          text-transform: uppercase
+        .top__uu-dai-01-bottom
+          font-size: 24px
+          color: #ffde8e
+          padding-top: 5px
+          padding-bottom: 30px
+          text-transform: uppercase
+        .top__uu-dai-01-mid
+          img
+            width: 45%
+        .top__uu-dai-02-top
+          color: #fff
+          font-size: 18px
+          padding-bottom: 10px
+          text-transform: uppercase
+          span
+            font-size: 22px
+      .right
+        width: 50%
+        .top__uu-dai-3-top
+          color: #fff
+          font-size: 18px
+          padding-bottom: 10px
+          text-transform: uppercase
+          span
+            display: block
+#kim-cuong-vien
+  background: url('../images/back-kim-cuong-vien.png') center/cover no-repeat
+  .kim-cuong-vien__title
+    width: 100%
+    text-align: center
+    padding-top: 20px
+    padding-bottom: 90px
+    img
+      width: 50%
+  .kim-cuong-vien__mid
+    width: 90%
+    margin-left: auto
+    margin-right: auto
+    display: flex
+    justify-content: flex-end
+    .kiem-dinh
+      width: 30%
+      display: flex
+      align-items: flex-end
+      img
+        width: 100%
+    .uu-dai
+      width: 30%
+      text-align: center
+      color: #fff
+      font-family: UTMTimes, sans-serif
+      font-size: 36px
+      text-transform: uppercase
+      padding-bottom: 15px
+      .img
+        width: 100%
+        img
+          width: 50%
+      span
+        display: block
+  .kim-cuong-vien__bottom
+    width: 90%
+    margin-left: auto
+    margin-right: auto
+    text-align: right
+    color: #fff
+    font-family: UTMTimes, sans-serif
+    font-size: 20px
+    padding-bottom: 55px
+    text-transform: uppercase
+
+#trang-suc-kim-cuong
+  background: url('../images/back-trang-suc-kim-cuong.png') center/cover no-repeat
+  display: flex
+  justify-content: center
+  .trang-suc-kim-cuong__content
+    width: 40%
+    text-align: center
+    color: #fff
+    margin-right: 20px
+    .title
+      padding-top: 30px
+      img
+        width: 80%
+    .text-01
+      font-size: 18px
+      padding-top: 20px
+      padding-bottom: 20px
+      text-transform: uppercase
+      text-align: center
+    .text-02
+      font-size: 18px
+      text-align: center
+    .uu-dai
+      padding-bottom: 25px
+      font-size: 4.4rem
+      span
+        color: #eec6ae
+    .read-more
+      padding-bottom: 40px
+      a
+        background: #fff
+        color: #202254
+  &>img
+    position: absolute
+    z-index: 0
+    &.img-nhan
+      top: 20px
+      width: 25%
+      right: 11%
+    &.img-hoatai
+      bottom: 40px
+      width: 17%
+      right: 24%
+    &.img-day
+      bottom: 30px
+      right: 0
+      width: 20%
+
+#nhan-cuoi
+  display: flex
+  color: #ff8800
+  font-family: Trajan, sans-serif
+  font-size: 1.8rem
+  .left
+    width: 48%
+    background: url('../images/ruya-bang.png') 50% 90%/contain no-repeat, url('../images/back-nhan-cuoi-1.png') center/cover no-repeat
+    text-align: center
+    img
+      width: 80%
+    .text
+      position: relative
+      z-index: 1
+    &>div:nth-child(1)
+      padding-top: 30px
+    &>div:nth-child(3)
+      padding-top: 10px
+      padding-bottom: 10px
+      img
+        width: 50%
+    .nhan-dinh-hon
+      img
+        position: relative
+        z-index: 0
+  .right
+    width: 52%
+    background: url('../images/back-nhan-cuoi-2.png') center/cover no-repeat
+    text-align: center
+    position: relative
+    img
+      width: 100%
+      position: relative
+      z-index: 1
+    .text
+      position: relative
+      z-index: 1
+    &>div:nth-child(1)
+      padding-top: 40px
+    .dang-ky-voucher
+      background: #4fc1b6
+      color: #fff
+      text-transform: uppercase
+      padding-top: 30px
+      padding-bottom: 30px
+      position: absolute
+      left: 0
+      bottom: 0
+      width: 100%
+      z-index: 0
+      font-size: 18px
+      a
+        margin-left: 20px
+        color: #fff
+        background: #ff8800
+        padding: 3px 5px
+        border-radius: 5px
+        -webkit-border-radius: 5px
+        -ms-border-radius: 5px
+        font-family: MyriadRegular, sans-serif
+        display: inline-flex
+        align-items: center
+  .read-more
+    position: relative
+    z-index: 1
+    a
+      background: #ff8800
+      color: #fff
+
+#uu-dai
+  display: flex
+  flex-wrap: wrap
+  .da-mau, .gioi-tre, .y-han-quoc
+    width: calc(100% / 3)
+    text-align: center
+  .da-mau
+    background: url('../images/back-uu-dai-1.png') center/cover no-repeat
+    color: #fff
+    .text
+      text-transform: uppercase
+      font-family: Trajan, sans-serif
+      font-size: 16px
+      padding-top: 50px
+    a
+      color: #fff
+      text-decoration: none
+    &>img
+      width: 80%
+    &>img:nth-child(5n+4)
+      float: left
+    &>img:nth-child(5n+5)
+      float: right
+  .gioi-tre
+    background: url('../images/back-uu-dai-2.png') center/cover no-repeat
+    padding-bottom: 15px
+    .text
+      img
+        width: 75%
+    .uu-dai
+      color: #f4a81a
+      position: relative
+      span
+        line-height: 0
+    .img
+      position: relative
+      img
+        &:nth-child(3n+1)
+          width: 85%
+          position: relative
+          z-index: 1
+          right: -90px
+        &:nth-child(3n+2)
+          width: 50%
+          position: absolute
+          top: 0
+          left: 10px
+          z-index: 2
+        &:nth-child(3n+3)
+          width: 55%
+          position: absolute
+          left: 10px
+          bottom: 0
+          z-index: 2
+    .read-more
+      position: relative
+      z-index: 4
+      a
+        background: #ff8800
+        color: #fff
+  .y-han-quoc
+    background: url('../images/back-uu-dai-3.jpg') center/cover no-repeat
+    position: relative
+    z-index: 2
+    .text
+      text-transform: uppercase
+      font-family: Trajan, sans-serif
+      font-size: 16px
+      padding-top: 75px
+      color: #202254
+    .img
+      position: relative
+      padding-top: 65px
+      img
+        float: left
+        display: inline-block
+        &:nth-child(4n+1)
+          width: 40%
+        &:nth-child(4n+2)
+          width: 60%
+        &:nth-child(4n+3)
+          width: 45%
+          position: relative
+          top: -30px
+        &:nth-child(4n+4)
+          width: 55%
+    .read-more
+      position: relative
+      z-index: 1
+      a
+        background: #202254
+        color: #fff
+
+#trang-suc-vang
+  display: flex
+  background: url('../images/back-trang-suc-vang-9999.png') center/cover no-repeat
+  color: #ff8800
+  padding-bottom: 25px
+  position: relative
+  .left
+    width: 50%
+    display: flex
+    padding-left: 20px
+    padding-right: 40px
+    position: relative
+    & > .img
+      width: 50%
+      text-align: right
+      img
+        width: 70%
+    & > .content
+      width: 50%
+      .img
+        text-align: center
+        padding-top: 20px
+        img
+          width: 70%
+      .text
+        text-transform: uppercase
+        font-family: Trajan, sans-serif
+        font-size: 16px
+      .uu-dai
+        span
+          line-height: 1
+          &:nth-child(3n+3)
+            text-transform: uppercase
+            font-family: Trajan, sans-serif
+            font-size: 16px
+            float: right
+    .read-more
+      display: inline-block
+      width: 100%
+      text-align: center
+      margin-top: 15px
+      a
+        background: #ff8800
+        color: #fff
+        text-decoration: none
+    &::after
+      content: ""
+      position: absolute
+      width: 1px
+      top: 15%
+      height: 80%
+      background: #fff
+      right: 0
+      opacity: 0.6
+  .right
+    width: 50%
+    display: flex
+    padding-left: 20px
+    padding-right: 20px
+    & > .img
+      width: 50%
+      display: flex
+      align-items: flex-end
+      img
+        width: 100%
+        position: relative
+        left: -55px
+    & > .content
+      width: 50%
+      text-align: center
+      padding-top: 80px
+      .text
+        text-transform: uppercase
+        font-family: Trajan, sans-serif
+        font-size: 1.6rem
+        &:nth-child(2)
+          font-size: 2rem
+        &.white
+          color: #fff
+          font-size: 1.2rem
+    .read-more
+      display: inline-block
+      width: 100%
+      text-align: center
+      margin-top: 15px
+      a
+        background: #ff8800
+        color: #fff
+        text-decoration: none
+
+#qua-tang
+  background: url('../images/back-qua-tang.png') center/cover no-repeat
+  margin-bottom: 3px
+  .qua-tang__title
+    width: 100%
+    text-align: center
+    color: #d72031
+    font-size: 16px
+    padding-top: 30px
+  .img
+    width: 80%
+    margin-left: auto
+    margin-right: auto
+    padding-left: 45px
+    img
+      display: inline-block
+      float: left
+      position: relative
+      &:nth-child(2n+1)
+        width: calc(100% * 847 / 1533)
+      &:nth-child(2n+2)
+        width: calc(100% * 686 / 1533)
+        left: -90px
+#footer
+  float: left
+  width: 100%
+  text-align: center
+
+#footer .social
+  margin: 50px 0 70px
+  display: inline-flex
+  justify-content: center
+  width: 100%
+  align-items: flex-end
+
+#footer .socialimage
+  display: inline-block
+  width: 7%
+
+#footer .socialline
+  display: inline-block
+  border-bottom: 1px solid #db2031
+  width: 15%
+
+#footer .socialimage img
+  height: 40px
+
+#footer .textfooter
+  text-align: center
+  background: #da2031
+  color: white
+  margin: 15px 0 0
+
+#footer .textfooter_1
+  width: 100%
+  font: 20px MyriadRegular, sans-serif
+  padding: 15px 0
+
+#footer .textfooter_2
+  width: 100%
+  display: inline-block
+
+#footer .textfooter_2 .textfooter_2_1
+  display: inline-block
+  text-align: left
+  font: 14px MyriadRegular, sans-serif
+  margin: 0 30px
+  line-height: 45px
+
+#footer .textfooter_2 .textfooter_2_1 img
+  height: 30px
+  display: inline-block
+  vertical-align: top
+
+#footer .textfooter_2 .textfooter_2_1 div
+  display: inline-block
+  vertical-align: middle
+  margin-left: 5px
+
+#footer .textfooter_2 .textfooter_2_2
+  display: inline-block
+  font: 18px MyriadRegular, sans-serif
+  margin: 22px 40px
+  vertical-align: top
+
+#footer .textfooter_2 .textfooter_2_line
+  height: 60px
+  margin: 10px 0 0
+  border-right: 1px solid #fff
+  display: inline-block
+  vertical-align: top
+
+.uu-dai
+  font-size: 3.0rem
+  span
+    font-size: 5.8rem
+    span
+      font-size: 4.4rem
+
+.read-more
+  a
+    display: inline-flex
+    align-items: center
+    padding: 2px 7px
+    border-radius: 5px
+    -webkit-border-radius: 5px
+    -ms-border-radius: 5px
+    text-decoration: none
+    text-transform: uppercase
+    font-family: MyriadRegular, sans-serif
+    font-size: 14px
+.menu-icon
+  display: none
+a:hover
+  text-decoration: none
+  color: inherit
+
+@import customs
+@import media

@@ -1,0 +1,39 @@
+.arrow-left
+  width: 0
+  height: 0
+  border-top: 7px solid transparent
+  border-bottom: 7px solid transparent
+  border-left: 7px solid white
+  display: inline-block
+  margin-left: 5px
+  top: 2px
+  position: relative
+.mobile
+  display: none
+.desktop
+  display: block
+.desktop-f
+  display: flex
+
+.bar1, .bar2, .bar3
+  width: 35px
+  height: 5px
+  background-color: #333
+  margin: 6px 0
+  transition: 0.4s
+.change .bar1
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px)
+  transform: rotate(-45deg) translate(-9px, 6px)
+.change .bar2
+  opacity: 0
+.change .bar3
+  -webkit-transform: rotate(45deg) translate(-8px, -8px)
+  transform: rotate(45deg) translate(-8px, -8px)
+
+@media only screen and #{(max-width:767px)}
+  .mobile
+    display: block
+  .desktop
+    display: none
+  .desktop-f
+    display: none
