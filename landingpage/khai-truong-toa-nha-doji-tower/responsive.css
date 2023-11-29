@@ -1,0 +1,181 @@
+@media only screen and (max-device-width: 1920px) and (min-device-width: 1601px) {
+	#lp-content .lp-header .container .text-wrap{
+		padding-top: 100px;
+		padding-bottom: 150px;
+	}
+}
+@media only screen and (max-device-width: 1600px) and (min-device-width: 1441px) {
+
+}
+@media only screen and (max-device-width: 1440px) and (min-device-width: 1367px) {
+
+}
+@media only screen and (max-device-width: 1366px) and (min-device-width: 1281px) {
+
+}
+@media only screen and (max-device-width: 1280px) and (min-device-width: 1025px) {
+
+}
+@media only screen and (max-device-width: 1024px) and (min-device-width: 769px) {
+	#lp-content .lp-header{
+    background: url("/uploads-landing-page/lp/dojitower1/images/kiet-tac-kien-truc-giua-long-ha-noi.jpg?v=1.02") 25% 50%/cover no-repeat;
+	}
+}
+@media only screen and (max-device-width: 768px) and (min-device-width: 767px) {
+	#lp-content .lp-header {
+    background: url("/uploads-landing-page/lp/dojitower1/images/kiet-tac-kien-truc-giua-long-ha-noi.jpg?v=1.02") 25% 50%/cover no-repeat;
+	}
+}
+@media only screen and (max-device-width:767px) {
+	#lp-content{
+		font-size: 1.4rem;
+	}
+	#lp-content .desktop{
+	  display: none;
+	}
+	#lp-content .mobile{
+	  display: block;
+	}
+	#lp-content .row-eq-height{
+		display: block;
+	}
+	/* #lp-content .nav-fixed{
+		max-width: 50px !important;
+	} */
+	#lp-content .lp-header{
+		background: #fff;
+	}
+	#lp-content .lp-header > img{
+		width: 100%;
+	}
+	#lp-content .lp-header .container .text-wrap{
+		float: left;
+    width: 90%;
+    margin-left: 5%;
+		margin-right: 5%;
+    color: #676767;
+    padding-top: 0;
+    padding-bottom: 40px;
+	}
+	#lp-content .lp-header .container .text-wrap .text-1{
+		font-size: 2.2rem;
+	}
+	#lp-content .lp-header .container .text-wrap .text-3{
+		font-size: 2rem;
+		line-height: 1.4;
+	}
+	#lp-content .scroll-down{
+		bottom: 50%;
+	}
+	#lp-content .gallerys .item-top{
+		display: block;
+		padding-bottom: 15px;
+	}
+	#lp-content .gallerys .item-wrap{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	#lp-content .video{
+		background: #fff;
+	}
+	#lp-content .video > .mobile{
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	#lp-content .video > .mobile #video-ctl {
+    max-width: 90px;
+    position: absolute;
+    left: calc(50% - 45px);
+    cursor: pointer;
+    /* display: none; */
+	}
+	#lp-content .video > .mobile #video-ctl img{
+		width: 100%;
+	}
+	#lp-content .video > .mobile #video-ctl a {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+	}
+	#lp-content .video .text-wrap #video-ctl{
+		display: none;
+	}
+	#lp-content .video .text-wrap{
+		float: left;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+	}
+	#lp-content .video .text-wrap .text{
+		text-align: center;
+		font-size: 1.6rem;
+	}
+	#lp-content .video .text-wrap .text::after{
+		right: 40%;
+	}
+	#lp-content .news{
+		padding-top: 20px;
+	}
+	#lp-content .news .title{
+		text-align: center;
+		font-size: 1.6rem;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	#lp-content .news .title::after{
+		left: 40%;
+		width: 20%;
+	}
+	#lp-content .news .news-item-wrap{
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	#lp-content .news .news-item-wrap .item-wrap{
+		width: 100%;
+	}
+	#lp-content .news .news-item-wrap .news-ads{
+		width: 100%;
+		margin-top: 25px;
+	}
+	#lp-content .news .news-item-wrap .item-wrap .item{
+		padding-right: 0;
+	}
+	#lp-content .lp-footer{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	#lp-content .lp-footer span {
+    width: 100%;
+    line-height: 1.4;
+    text-align: center;
+	}
+	#lp-content .lp-footer span:nth-child(2n+1){
+		padding-right: 0;
+	}
+	#lp-content .lp-footer span:nth-child(2n+2){
+		padding-left: 0;
+		border-left: 0;
+	}
+}
+@media only screen and (max-device-width: 568px) and (min-device-width: 321px) {
+
+}
+@media only screen and (max-device-width: 414px) {
+
+}
+@media only screen and (max-device-width: 375px) {
+
+}
+@media only screen and (max-device-width: 360px) {
+
+}
+@media only screen and (max-device-width: 320px) {
+
+}

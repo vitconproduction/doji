@@ -1,0 +1,179 @@
+.bg-body2{background: url("http://trangsuc.doji.vn/uploads-landing-page/nhan-cuoi-vi-ta-mai-yeu/images/background-04.jpg") center/contain repeat-y;display: inline-block;}
+.bg-body2 .xem-them-dong-nhan-cuoi {
+    display: inline-block;
+    width: 80%;
+    margin: 0 10%;
+    text-align: center;
+	font-size:16px;
+	text-transform: uppercase;
+}
+.bg-body2 .xem-them-dong-nhan-cuoi .txt-xtmdnc{border-bottom: 1px solid black;padding: 15px}
+.bg-body2 .xem-them-dong-nhan-cuoi .list-xtmdnc li{display: inline-block;padding: 15px;}
+.bg-body2 .xem-them-dong-nhan-cuoi .list-xtmdnc li a{color:#000;}
+.bg-body2 .xem-them-dong-nhan-cuoi .list-xtmdnc li:nth-child(-n+4):after{content: "|";padding: 0 15px;font-size: 12px;position: absolute;}
+.banner {
+    background: url("http://trangsuc.doji.vn/uploads-landing-page/nhan-cuoi-vi-ta-mai-yeu/images/banner-03.jpg") center/contain no-repeat;
+    height: 600px;
+	width: 100%;
+	display: inline-block;
+}
+.banner-text {
+    position: absolute;
+    right: 0;
+    top: 85px;
+    width: 42%;
+}
+.txt-banner-text {
+    width: 60%;
+    font-size: 20px;
+    font-style: italic;
+    text-align: justify;
+    line-height: 1.5em;
+    margin: 0 0 0 20%;
+	font-family: DOJIGod ,sans-serif;
+}
+.content-nhan-doi{width:80%;margin-left:10%;float:left;display:inline-block;}
+.content-nhan-doi .table{display:inline-block;}
+
+.tb-row1{float:left;border-bottom:1px dashed #e594b8;display:inline-block;}
+.tb-row1-col1{width: 50%;float: left;}
+.tb-row1-col1  img{width: 100%;z-index: 0;height:504px;}
+.tb-row1-col2{width: 50%;float: left;}
+.tb-row1-col2 .text-tit-ndh{font-family:"UTM_French_Vanilla", Verdana, Tahoma;font-size:48px;margin-left:10%;color:#d60561;padding-bottom: 1%;}
+.tb-row1-col2 .text-cont-ndh{font-family: MyriadRegular ,sans-serif;font-size:17px;margin-left:10%;padding-bottom:23px;font-style: italic;text-align:justify;}
+.tb-row1-col2 .text-img-ndh img{width: 75%;margin-left:17%;z-index: 1;}
+
+.tb-row1-col2 .text-tit-nc1{font-family:"UVNBachDang_R", Verdana, Tahoma;font-size:26px;margin-left:10%;color:#000;margin-top: -70px;}
+.tb-row1-col2 .text-tit-nc1e{font-family:"UVNBachDang_R", Verdana, Tahoma;font-size:28px;margin-left:10%;color:#d60561;padding-bottom: 10px;}
+.tb-row1-col2 .sub-text-tit-ncle {
+    display: inline-block;
+	font-size:60px;
+}
+.tb-row1-col2 .text-cont-nc1{font-family: DOJIGod ,sans-serif;font-size:16px;margin-left:10%;text-align:justify;line-height:1.2em;}
+.tb-row1-col2 .text-img-nc1 img{width: 75%;z-index: 1;margin-left:20%}
+
+.tb-row1-col2 .text-tit-nc2{font-family: UVNBachDang_R, Verdana, Tahoma;font-size:26px;margin-left:10%;color:#000;margin-top: -70px;}
+.tb-row1-col2 .text-tit-nc2e{font-family: UVNBachDang_R, Verdana, Tahoma;font-size:28px;margin-left:10%;color:#d60561;padding-bottom: 10px;}
+.tb-row1-col2 .sub-text-tit-nc2e {
+    display: inline-block;
+	font-size:60px;
+}
+.tb-row1-col2 .text-cont-nc2{font-family: DOJIGod ,sans-serif;font-size:16px;margin-left:10%;text-align:justify;line-height:1.2em;}
+.tb-row1-col2 .text-img-nc2 img{width: 75%;margin-left:15%;z-index: 1;}
+@font-face {
+    font-family: DOJIGod;
+    src: url("http://trangsuc.doji.vn/uploads-landing-page/nhan-cuoi-vi-ta-mai-yeu/fonts/DojiGodWordR.ttf") format("truetype")
+}
+@font-face {
+    font-family: UVNBachDang_R;
+    src: url("http://trangsuc.doji.vn/uploads-landing-page/nhan-cuoi-vi-ta-mai-yeu/fonts/UVNBachDang_R.TTF") format("truetype")
+}
+.tb-row2-qua-tang {
+    display: inline-block;
+    width: 100%;
+}
+.tb-row2-qua-tang-1  img{
+	max-width: 100%;
+}
+.tb-row2-qua-tang-1 {
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+.tb-row2-qua-tang-2 {
+    display: inline-block;
+    width: 50%;
+    float: left;
+	margin: 65px 0 0;
+}
+.tb-row2-qua-tang-2-1{width: 90%;margin: 0 0 0 5%;font-size: 32px;color: #D60564;line-height: 1.8em;font-family: UVNBachDang_R, Verdana, Tahoma;}
+.tb-row2-qua-tang-2-2{width: 80%;margin: 0 10%;font-size: 16px;line-height: 1.5em;text-align: justify;list-style-image: url(http://trangsuc.doji.vn/uploads-landing-page/nhan-cuoi-vi-ta-mai-yeu/images/icon-08.png);font-family: DOJIGod ,sans-serif;}
+.qua-tang-2-2-txt{display: inline-block;font-size: 20px;color: #D60564;font-family: UVNBachDang_R, Verdana, Tahoma;}
+
+.tb-row2{float:left;margin: -7px 0 0;display:inline-block;width: 100%;}
+.tb-row2 img{float:left;width:100%;height:10px}
+.tb-row{margin-top:20px;float:left;display:inline-block;}
+.tb-row .cell-sp:nth-last-child(-n+5) {
+    border-bottom: 0;
+}
+.tb-row .cell-sp:nth-child(5n) {
+    border-right: 0;
+}
+
+.tb-row .cell-sp { width: calc(20% - 1px);float: left;text-align: center;position: relative; border-right:1px dashed #e594b8;border-bottom:1px dashed #e594b8;}
+.tb-row .cell-sp:hover .tip-sp { -moz-transition: ease 0.1s; -o-transition: ease 0.1s; -webkit-transition: ease 0.1s; transition: ease 0.1s;opacity: 1;visibility: visible;}
+.tb-row .cell-sp:hover .tip-sp img { -moz-transform: scale(1.3); -ms-transform: scale(1.3); -o-transform: scale(1.3); -webkit-transform: scale(1.3); transform: scale(1.3); -moz-transition: ease 0.1s; -o-transition: ease 0.1s; -webkit-transition: ease 0.1s; transition: ease 0.1s}
+.tb-row .cell-sp:hover .img { border-right: 0;}
+.tb-row .cell-sp:nth-child(5n) .detail-tip-sp { float: left;  }
+.tb-row .cell-sp:nth-child(5n) .img-tip-sp { float: right;  }
+.tb-row .cell-sp:nth-child(5n) .tip-sp { left: -100%; }
+.tb-row .cell-sp:nth-child(5n) .img { border-right: 0;}
+.tb-row .cell-sp .img {width: 100%;height: 100%;vertical-align: middle;position: relative;}
+.tb-row .cell-sp .img strong.icon-gift { width: 37px;height: 38px;text-align: center;line-height: 38px;color: #fff;background: url(../images/ico-gift-sp.jpg) no-repeat center center;position: absolute;top: 0;right: 20px;}
+.tb-row .cell-sp .img img { display: inline-block;vertical-align: middle;}
+.tb-row .cell-sp .detail { padding: 12px 0;margin-top: -35px;}
+.tb-row .cell-sp .detail h4 { height: 20px; overflow: hidden}
+.tb-row .cell-sp .detail h4 a { font-size: 16px;color: #58595b;line-height: 1.4em;}
+.tb-row .cell-sp .detail h4 a:hover ,.tb-row .cell-sp .detail h3 a :focus { color: #d21d2a}
+.tb-row .cell-sp .detail span { color: #db2031;font-size: 18px;padding-top: 5px;display: block;text-transform: uppercase;font-family: MyriadLight, sans-serif;font-weight: 600 }
+.tb-row .cell-sp .detail b { color: #7e7e7e;font-size: 14px;text-transform: uppercase;text-decoration: line-through;line-height: 1.4em;}
+.tb-row .cell-sp .price-old-list span { color: #7e7e7e; font-size: 14px; line-height: 1.4em; text-decoration: line-through; text-transform: uppercase; }
+
+.tip-sp {width: calc(200% + 1px);position: absolute;height: 100%;z-index: 99;border: 1px solid #e594b8;top: 0;left: -1px;background: #fff;-moz-transition: ease 0.1s; -o-transition: ease 0.1s; -webkit-transition: ease 0.1s; transition: ease 0.1s;visibility: hidden;opacity: 0;}
+.tip-sp .img-tip-sp { width: 50%;height:100%;float: left;text-align: center;overflow: hidden; margin-top: 5%;}
+.tip-sp .img-tip-sp img { -moz-transition: ease 0.1s; -o-transition: ease 0.1s; -webkit-transition: ease 0.1s; transition: ease 0.1s;display: inline-block;}
+.tip-sp .detail-tip-sp { width: 50%;float: left;padding: 20px 15px;text-align: left;}
+.tip-sp .detail-tip-sp  strong { display: block;overflow: hidden;}
+.tip-sp .detail-tip-sp  strong a { font-size: 16px;font-weight: normal;color: #58595b;line-height: 1.4em;margin-bottom: 5px;}
+.tip-sp .detail-tip-sp  strong a:hover { color: #db2031}
+.tip-sp .detail-tip-sp > span { color: #db2031;font-size: 20px;margin-bottom: 10px;display: block;padding-top: 5px;padding-bottom: 10px;font-family: MyriadLight, sans-serif;}
+.tip-sp .detail-tip-sp ul { width: 100%;float: left;height: 135px;overflow: hidden;}
+.tip-sp .detail-tip-sp ul li { line-height: 1.6em;font-size: 14px; color: #58595b;padding:0 3px;}
+.tip-sp .detail-tip-sp ul li::before {content: "\25aa";padding-right: 5px;}
+.tip-sp .detail-tip-sp a.more-link { color: #db2031;font-size: 14px;line-height: 2.4em;}
+.tip-sp .detail-tip-sp a.more-link span { display: inline-block;font-size: 14px;padding-left: 5px;}
+.tip-sp .detail-tip-sp .table-text { height: 135px;overflow: hidden;}
+
+.box-sp-old { margin-top: 5px;}
+
+ul.nav-land {float:left;width: 100%;margin:0;padding:0}
+ul.nav-land  li.nav-land-li:nth-child(1):after{
+	content: '';
+	position: absolute;
+	top: 10px;
+	height: 4%;
+	border-right: 2px solid #fff;
+}
+ul.nav-land  li:nth-child(1):after{
+	content: '';
+	position: absolute;
+	top: 10px;
+	height: 2%;
+	border-right: 2px solid #fff;
+}
+ul.nav-land li a:hover{background-color:#f8a519 !important;color:#df2027;text-decoration:none;}
+ul.nav-land li {list-style-type:none;float:left;width: 50%;background-color:#f8a519;line-height: 5px;}
+ul.nav-land li a {text-align:center;width:100%;float:left;color:#fff;font-weight:bold;font-size: 24px;padding: 30px 0 !important;}
+ul.nav-land .active {background-image:url("http://trangsuc.doji.vn/Uploads/Temp/2016/7/1/mui-ten-bg-2.png");background-position:bottom;background-repeat: no-repeat;background-size: 35px;}
+ul.nav-land a.active {color:#df2027;font-weight:bold;}
+
+.viewall{float:right;font-size:18px;margin-right:5%;margin-bottom:3%;margin-top:3%;}
+.viewall a{color:#D60564;text-transform: uppercase;}
+
+.loader {position: relative;float:left;left: 0px;top: 0px;width: 100px;margin-left:45%;height: 100px;z-index: 9999;background: url('http://www.googledrive.com/host/0BzpzG2Nzb5g4QVozSHVrenBlSlE') 50% 50% no-repeat;}
+
+.detail h4{font-family: MyriadRegular ,sans-serif;}
+.arrloop {
+float:right;
+position:relative;
+z-index:500;
+right:0px;
+}
+#nav-lp {
+    width: 6%;
+    position: fixed;
+    top: 170px;
+    right: 5px;
+}
+#nav-lp li:nth-child(1) a div{background: url(http://trangsuc.doji.vn/uploads-landing-page/nhan-cuoi-vi-ta-mai-yeu/images/menu-11.png) right/cover no-repeat;width:70px;height: 89px;}
+#nav-lp li:nth-child(2) a div{background: url(http://trangsuc.doji.vn/uploads-landing-page/nhan-cuoi-vi-ta-mai-yeu/images/menu-12.png) right/cover no-repeat;width:70px;height: 76px;}

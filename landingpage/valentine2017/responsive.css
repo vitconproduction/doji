@@ -1,0 +1,190 @@
+@media only screen and (max-device-width: 1920px) and (min-device-width: 1367px) {
+	.banner_hvd2{
+		min-height: 820px !important;
+	}
+}
+@media only screen and (max-device-width: 1366px) and (min-device-width: 1281px) {
+
+}
+@media only screen and (max-device-width: 1280px) and (min-device-width: 1025px) {
+	.banner_hvd2{
+		min-height: 548px !important;
+	}
+}
+@media only screen and (max-device-width: 1024px) and (min-device-width: 769px) {
+	.banner_hvd2{
+		min-height: 437px !important;
+	}
+	.mby_text_2_tieude2{
+		font-size: 88px !important;
+	}
+	.mby_text_round{
+		background: url("http://trangsuc.doji.vn/uploads-landing-page/hvd2/images/nhan-back-01.png") 57% bottom/20% no-repeat, url("http://trangsuc.doji.vn/uploads-landing-page/hvd2/images/day-chuyen-back-01.png") right bottom/35% no-repeat, #FAF6FC !important;
+		padding-bottom: 40px !important;
+	}
+	.xem_tat_ca_sp a{
+		font-size: 14px !important;
+	}
+	.htpp_tieu_de{
+		font-size: 24px !important;
+	}
+}
+@media only screen and (max-device-width: 768px) {
+	.banner_hvd2{
+		min-height: 332px !important;
+	}
+	.mby_text_round{
+		background: url("http://trangsuc.doji.vn/uploads-landing-page/hvd2/images/nhan-back-01.png") 57% bottom/20% no-repeat, url("http://trangsuc.doji.vn/uploads-landing-page/hvd2/images/day-chuyen-back-01.png") right bottom/40% no-repeat, #FAF6FC !important;
+		padding-bottom: 40px !important;
+	}
+	.mby_text_2_noidung{
+		width: 55% !important;
+	}
+	.xem_tat_ca_sp{
+		width: 40% !important;
+		padding: 10px 0 5px !important;
+		margin: 0 30% 25px !important;
+	}
+	.xem_tat_ca_sp a{
+		font-size: 18px !important;
+	}
+	.htpp_tieu_de{
+		font-size: 24px !important;
+	}
+	.sp_detail{
+		width: calc(100% - 40px) !important;
+		font-size: 16px !important;
+	}
+	.sp_detail:hover{
+		margin: inherit !important;
+		width: inherit !important;
+	}
+	.giasp_00{
+		font-size: 18px !important;
+	}
+	.giasp_01{
+		font-size: 32px !important;
+	}
+	.giasp_02{
+		font-size: 20px !important;
+	}
+	.giasp_03{
+		font-size: 13px !important;
+	}
+	.giasp_04 img{
+		margin: 10px 30% -15px  !important;
+	}
+}
+@media only screen and (max-device-width:767px) {
+	.giasp_04 img {
+		margin: 10px 30% -25px !important;
+	}
+	.mby_text_2 {
+		width: 90% !important;
+		margin: 20px 5% 0 !important;
+	}
+	.list_sp_round{
+		width: 50% !important;
+		margin: 0 !important;
+	}
+}
+@media only screen and (max-device-width: 568px) and (min-device-width: 321px) {
+
+}
+@media only screen and (max-device-width: 414px) {
+	.banner_hvd2 {
+		min-height: 177px !important;
+	}
+	.mby_text_1{
+		font-size: 16px !important;
+		margin: 35px 10% 0 !important;
+		width: 80% !important;
+	}
+	.mby_text_2_tieude1{
+		font-size: 26px !important;
+	}
+	.mby_text_2_tieude2{
+		font-size: 48px !important;
+	}
+	.mby_text_2_noidung {
+		width: 98% !important;
+	}
+	.mby_text_round{
+		background: #FAF6FC !important;
+	}
+	.mby_text_2_giasp{
+		width: 98% !important;
+	}
+	.giasp_00{
+		font-size: 20px !important;
+	}
+	.giasp_02{
+		font-size: 22px !important;
+	}
+	.xem_tat_ca_sp {
+		width: 60% !important;
+		margin: 0 20% 25px !important;
+	}
+	.xem_tat_ca_sp a {
+		font-size: 14px !important;
+	}
+	.htpp_lp{
+		background: url("http://trangsuc.doji.vn/uploads-landing-page/hvd2/images/line-hearts.png") center 1%/70% no-repeat, #FAF6FC !important;
+		padding-top: 10% !important;
+	}
+}
+@media only screen and (max-device-width: 375px) {
+	.banner_hvd2 {
+		min-height: 161px !important;
+	}
+	.mby_text_2_tieude2 {
+		font-size: 50px !important;
+	}
+	.mby_text_2_noidung{
+		font-size: 16px !important;
+	}
+	.mby_text_round{
+		min-height: 888px !important;
+	}
+	.giasp_04 img {
+		margin: 10px 30% -20px !important;
+	}
+}
+@media only screen and (max-device-width: 320px) {
+	.banner_hvd2 {
+		min-height: 139px !important;
+	}
+	.mby_text_1 {
+		font-size: 14px !important;
+	}
+	.mby_text_2_noidung {
+		font-size: 14px !important;
+	}
+	.mby_text_2_tieude2 {
+		font-size: 42px !important;
+	}
+	.giasp_00{
+		font-size: 18px !important;
+	}
+	.giasp_01{
+		font-size: 32px !important;
+	}
+	.giasp_03{
+		font-size: 14px !important;
+	}
+	.giasp{
+		padding-bottom: 10px !important;
+	}
+	.mby_text_round {
+		min-height: 820px !important;
+	}
+	.sp_detail {
+		font-size: 12px !important;
+	}
+	.htpp_tieu_de {
+		font-size: 18px !important;
+	}
+	.giasp_04 img {
+		margin: 10px 30% -30px !important;
+	}
+}

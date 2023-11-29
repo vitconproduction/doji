@@ -1,0 +1,385 @@
+@font-face {
+	font-family: 'UTM Aquarelle';
+	src: url('http://trangsuc.doji.vn/uploads-landing-page/ynghiangoctrai/fonts/UTMAquarelle.eot');
+	src: local('â˜º'), url('http://trangsuc.doji.vn/uploads-landing-page/ynghiangoctrai/fonts/UTMAquarelle.woff') format('woff'), url('http://trangsuc.doji.vn/uploads-landing-page/ynghiangoctrai/fonts/UTMAquarelle.ttf') format('truetype'), url('../fonts/UTMAquarelle.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+#warpper-bg{
+    background: url(../images/Doji-v22.jpg);
+    background-repeat: no-repeat;
+    background-position-y: 10px;
+    background-size: cover;
+	font-family: Arial,sans-serif;
+	text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -moz-font-feature-settings: "liga" on;
+	
+ }
+#warpper {width:100%;}
+#warpper img{width:100%;}
+#warpper .container {
+    display: inline-block;
+    width: 80%;
+	margin-left:10%;
+	margin-right:10%;
+}
+#warpper-bg p {
+	line-height: 1.6;
+	color: #666;
+}
+#warpper .col_right p,#warpper  .col_left p{margin-bottom: 15px!important;text-align: justify!important;}
+#warpper  .section-content .section-inner.full-screen{
+    background-image: none!important;
+    margin-bottom: 0!important;
+    height: 75vh;
+ }
+#warpper .section-content .section-inner.section-cover .text-pos{width:900px;    top: 500px;}
+#warpper .section-content .section-inner.section-cover .text-pos p{
+    font-family: UTM Aquarelle;
+    color: #273c30;
+    text-shadow: inherit;
+    font-size: 33px;
+    text-align: center;
+    line-height: 1.2;
+ }
+ 
+#warpper .section-top1 .col_left{
+    width: 48%;
+    float: left;
+}
+#warpper .section-top1 .col_left h3{
+	text-align: justify;
+    color: #1f6b67;
+    font-size: 40px;
+    font-family: UTM Aquarelle;
+	line-height: 1.6;
+}
+#warpper .section-top1 .col_left p{
+    font-size: 16px;
+    color: #666;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+#warpper .section-top1 .col_right{
+    width: 48%;
+    float: right;
+    margin-top: 100px;
+}
+#warpper .section-top1 .col_right h3{
+    color: #908c29;
+    font-size: 40px;
+    font-family: UTM Aquarelle;
+    line-height: 1.6;
+}
+#warpper .section-top1 .col_right p{
+    font-size: 16px;
+    color: #666;
+    text-align: justify;
+    line-height: 1.6;
+}
+#warpper .section-top2{margin-top:50px;}
+#warpper .section-top2 .col_left{
+    width: 40%;
+    float: left;
+}
+#warpper .section-top2 .col_left img{width: 80%}
+#warpper .section-top2 .col_right{
+    width: 60%;
+    float: right;
+    margin-top: 100px;
+}
+#warpper .section-top2 .col_right h3{
+    color: #b1620c;
+    font-size: 40px;
+    font-family: UTM Aquarelle;
+    line-height: 1.6;
+}
+#warpper .section-top2 .col_right p{
+    font-size: 16px;
+    color: #666;
+    text-align: justify;
+    line-height: 1.6;
+}
+#warpper .section-top3{
+	margin-top:20px;
+}
+#warpper .section-top3 .col_left{
+    width: 40%;
+    float: left;
+	margin-top:150px;
+}
+#warpper .section-top3 .col_left  h3{
+    color: #2d5e25;
+    font-size: 40px;
+	text-align: justify;
+    font-family: UTM Aquarelle;
+    line-height: 1.6;
+}
+#warpper .section-top3 .col_left p{
+    font-size: 16px;
+    color: #666;
+    text-align: justify;
+    line-height: 1.6;
+}
+#warpper .section-top3 .col_right{
+    width: 60%;
+    float: right;
+}
+
+#warpper .section-top4{
+	margin-top:50px;
+}
+#warpper .section-top4 .col_left{
+    width: 65%;
+    float: left;
+}
+#warpper .section-top4 .col_right{
+    width: 35%;
+    float: right;
+	margin-top:110px;
+}
+#warpper .section-top4 .col_right p{
+    font-size: 16px;
+    color: #666;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+#warpper .section-top5{
+	margin-top:50px;
+}
+#warpper .section-top5 .col_left{
+    width: 35%;
+    float: left;
+	margin-top:110px;
+}
+#warpper .section-top5 .col_left p{
+    font-size: 16px;
+    color: #666;
+    text-align: justify;
+    line-height: 1.6;
+}
+#warpper .section-top5 .col_right{
+    width: 65%;
+    float: right;
+}
+
+#warpper .section-top6{
+	margin-top:20px;
+	width: 100%;
+}
+#warpper .section-top6 .col_left{
+    width: 65%;
+    float: left;
+}
+#warpper .section-top6 .col_right{
+    width: 35%;
+    float: left;
+    margin-top:110px;
+}
+#warpper .section-top6 .col_right p{
+    font-size: 16px;
+    color: #666;
+    text-align: justify;
+    line-height: 1.6;
+}
+#warpper .section-footer{
+    margin-top: 50px;
+    padding-bottom: 160px;
+}
+#warpper .section-footer .warp{
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px 20px 10px 20px;
+    border-radius: 20px;
+    position: relative;
+}
+#warpper .section-footer .warp p{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 5px;
+    color: #333;
+}
+#warpper .section-footer .warp .on_top{
+	position: absolute;
+	top: -170px;
+	right: -110px;
+    background-image: url(../images/td/on-top.png);
+    width: 192px;
+    height: 385px;
+}
+#warpper .section-footer .warp .on_top a{
+    position: absolute;
+    bottom: 85px;
+    font-size: 16px;
+    right: 50px;
+    cursor: pointer;
+    padding-top: 40px;
+}
+@media screen and (min-width: 1640px) and (max-width: 2400px){
+	#warpper .container {
+	    width: 1300px;
+	}	
+	#warpper .section-content .section-inner.section-cover .text-pos {
+		width: 900px;
+		top: 650px;
+	}
+	#warpper .col_left h3, #warpper .col_right h3	{font-size: 50px!important;}
+	#warpper .col_left p, #warpper .col_right p{font-size: 18px!important;}
+	 #warpper-bg{
+	    background: url(../images/Doji-v5.jpg);
+		background-repeat: no-repeat;
+		background-position-y: 10px;
+		background-size: cover;	    
+	 }	
+}
+@media screen and (max-device-width: 1366px){
+	#warpper-bg{
+		background-size:cover;
+		background: url(../images/Doji.jpg) top left/cover no-repeat;
+	}
+	#warpper .section-content .section-inner.section-cover .text-pos{top:460px;}
+}
+@media screen and (max-device-width: 1024px){
+	#warpper .section-footer .container {
+   		 width: auto!important;
+	}
+	#warpper-bg{
+		background-size:cover;
+		background: url(../images/Doji.jpg) top center/cover no-repeat !important;
+	}
+	#warpper .section-footer .warp{
+		padding: 20px 120px 10px 30px;	
+	}
+}
+@media screen and (max-device-width: 900px){
+	#warpper .section-content .section-inner.full-screen{height:65vh;}
+	#warpper-bg{
+		background: url(../images/Doji.jpg) top center/cover no-repeat !important;;
+		background-repeat: no-repeat;
+	}
+	#warpper .section-content .section-inner.section-cover .text-pos{width:700px;}
+}
+@media screen and (max-device-width: 768px){
+	#warpper .section-content .section-inner.full-screen {
+    height: 460px;
+}
+	#warpper .section-top2 .col_right, #warpper .section-top3 .col_left, #warpper .section-top4 .col_right, #warpper .section-top5 .col_left, #warpper .section-top6 .col_right{margin-top:0!important;}
+	#warpper .section-footer{float:initial!important;}
+}
+@media screen and (max-device-width: 740px){
+	#warpper-bg{
+		background: #EFF7F9 url(../images/Doji-v2.jpg) top center/cover no-repeat !important;;
+		}
+	#warpper .section-content .section-inner.full-screen {
+		height: 460px;
+	}
+	#warpper .section-content .section-inner.section-cover .text-pos {
+		top: 255px;
+		width: 310px!important;
+	}
+	#warpper .section-content .section-inner.section-cover .text-pos p{
+		font-family: arial;
+		font-size: 15px;	
+	}
+	#warpper .col_left {width: 100%!important;margin-top: 0!important;}
+	#warpper .col_left  h3{
+		text-align: justify!important;
+		font-size: 20px!important;
+		font-family: arial!important;
+	}
+	#warpper .col_left p{
+		text-align: justify!important;
+		font-size: 15px!important;
+	}
+	#warpper .col_right {width: 100%!important;margin-top: 0!important;}
+	#warpper .col_right h3{
+		text-align: justify!important;
+		font-size: 20px!important;
+		font-family: arial!important;
+	}
+	#warpper .col_right p{
+		text-align: justify!important;
+		font-size: 15px!important;
+	}
+	#warpper .section-top2 .col_left  img{
+		width: 70%;
+		display: block;
+		margin: 0 auto;	
+	}
+	#warpper .section-top2, #warpper .section-top3, #warpper .section-top4, #warpper .section-top5, #warpper .section-top6{margin-top:0!important}
+	#warpper .col_right h3 {
+		text-align: justify!important;
+		font-size: 20px!important;
+		font-family: arial!important;
+		color: #2d5e25;
+		line-height: 1.2;	
+	}
+	#warpper .section-top3 .col_right p {
+		font-size: 16px;
+		color: #666;
+		text-align: justify;
+		line-height: 1.6;
+	}
+	#warpper .section-top5 .col_right p {
+		font-size: 16px;
+		color: #666;
+		text-align: justify;
+		line-height: 1.6;
+	}
+	#warpper .section-footer .warp {
+		padding: 10px 10px 5px 10px;
+	}
+	#warpper .section-footer {
+		margin-top: 10px;
+		padding-bottom: 0;
+	}
+	#warpper .on_top {
+		background: url(../images/on-top.png) left top -150px;
+		width: 192px;
+		height: 250px;
+		margin: 0 auto;
+		position: relative;
+	}
+	#warpper .on_top .back-top{
+		position: absolute;
+		bottom: 98px;
+		font-size: 15px;
+		right: 55px;
+		cursor: pointer;
+		padding-top: 40px;	
+	}
+}
+@media screen and (max-device-width: 480px){
+	#warpper-bg{
+		background: url(../images/Doji-mobile-v2.jpg) top center/cover no-repeat !important;
+		}
+	#warpper .section-content .section-inner.full-screen {
+		height: 375px;
+	}
+}	
+@media screen and (max-device-width: 375px){
+	#warpper-bg{
+		background: url(../images/Doji-mobile-v2.jpg) top center/cover no-repeat !important;
+	}
+}
+@media screen and (max-device-width: 375px){
+	#warpper .section-content .section-inner.full-screen {
+		height: 375px;
+	}
+}
+@media screen and (max-device-width: 340px){
+	#warpper-bg{
+		background: url(../images/Doji-mobile-2v2.jpg) top center/cover no-repeat !important;
+	}
+	#warpper .section-content .section-inner.section-cover .text-pos {
+		top: 240px;
+	}
+	#warpper .section-content .section-inner.full-screen {
+		height: 375px;
+	}
+}
+
+/*# sourceMappingURL=custom.css.map */

@@ -1,0 +1,805 @@
+@font-face {
+    font-family: TPB;
+    src: url("https://trangsuc.doji.vn/Upload/landing-page/egold/fonts/TPB.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: TPB_B;
+    src: url("https://trangsuc.doji.vn/Upload/landing-page/egold/fonts/TPB_B.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: TPB_I;
+    src: url("https://trangsuc.doji.vn/Upload/landing-page/egold/fonts/TPB_I.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: TPB_BI;
+    src: url("https://trangsuc.doji.vn/Upload/landing-page/egold/fonts/TPB_BI.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  .outer {
+    width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .desktop {
+    display: block;
+  }
+  
+  .ipad {
+    display: none;
+  }
+  
+  .mobile {
+    display: none;
+  }
+  
+  #lp-content {
+    font-family: TPB, sans-serif;
+  }
+  
+  #lp-content .lp-space-30 {
+    padding: 15px 0;
+    width: 100%;
+  }
+  
+  #lp-content .lp-space-60 {
+    padding: 30px 0;
+    width: 100%;
+  }
+  
+  #lp-content .lp-space-90 {
+    padding: 45px 0;
+    width: 100%;
+  }
+  
+  #lp-content .lp-space-120 {
+    padding: 60px 0;
+    width: 100%;
+  }
+  
+  #lp-content .cta {
+    line-height: 1;
+  }
+  
+  #lp-content .cta a {
+    display: inline-block;
+    font-family: TPB_BI, sans-serif;
+    font-size: 2.4rem;
+    padding: 10px 25px 20px;
+    border: 2px solid #ffd85c;
+    text-decoration: none;
+    border-radius: 65px;
+    -ms-border-radius: 65px;
+    -webkit-border-radius: 65px;
+    animation: loopHover 2.5s infinite;
+  }
+  
+  #lp-content .cta a:hover {
+    color: #d32131 !important;
+    background: #ffd85c !important;
+    border: 2px solid #ffd85c !important;
+  }
+  
+  #lp-header {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+  }
+  
+  #lp-header .banner {
+    width: 100%;
+  }
+  
+  #lp-header .banner>img {
+    width: 100%;
+  }
+  
+  #lp-header .cta {
+    position: absolute;
+    bottom: 5%;
+    right: calc((100% - 1440px) / 2);
+  }
+  
+  #lp-header .cta a {
+    color: #ffd85c;
+  }
+  
+  #lp-header .sroll-down {
+    position: absolute;
+    left: calc(50% - 15px);
+    bottom: 22%;
+    max-width: 30px;
+    height: auto;
+    display: inline-block;
+    animation: scrollDown 1.4s infinite;
+  }
+  
+  #lp-header .sroll-down img {
+    width: 100%;
+  }
+  
+  #lp-section-1 {
+    position: relative;
+    z-index: 2;
+    margin-top: -40px;
+  }
+  
+  #lp-section-1 .lpwrap .top {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #lp-section-1 .lpwrap .top .item {
+    width: calc(100% / 3 - (40px * 2 / 3));
+    margin-right: 40px;
+  }
+  
+  #lp-section-1 .lpwrap .top .item:nth-child(3n+3) {
+    margin-right: 0;
+  }
+  
+  #lp-section-1 .lpwrap .top .item img {
+    width: 100%;
+  }
+  
+  #lp-section-1 .lpwrap .content {
+    width: 100%;
+  }
+  
+  #lp-section-1 .lpwrap .content .title {
+    width: 100%;
+    text-align: center;
+  }
+  
+  #lp-section-1 .lpwrap .content .title img {
+    width: 70%;
+  }
+  
+  #lp-section-1 .lpwrap .excerpt {
+    font-family: TPB, sans-serif;
+    font-size: 1.8rem;
+    text-align: justify;
+    text-align-last: center;
+    line-height: 1.8;
+  }
+  
+  #lp-section-2 {
+    background: url("https://trangsuc.doji.vn/Upload/landing-page/egold/images/back.jpg") center top/100% no-repeat, linear-gradient(#ffd85c, #ffd85c, #ffd85c, #ffd85c, #ffd85c, #fff);
+  }
+  
+  #lp-section-2 .top {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #lp-section-2 .top .title {
+    width: 100%;
+    text-align: center;
+  }
+  
+  #lp-section-2 .top .title img {
+    width: 45%;
+  }
+  
+  #lp-section-2 .top .listing-advantages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  #lp-section-2 .top .listing-advantages .item {
+    width: calc(100% / 5 - (20px * 4 / 5));
+    margin-right: 20px;
+  }
+  
+  #lp-section-2 .top .listing-advantages .item:nth-child(5n+5) {
+    margin-right: 0;
+  }
+  
+  #lp-section-2 .top .listing-advantages .item img {
+    width: 100%;
+  }
+  
+  #lp-section-2 .bottom {
+    width: 100%;
+    text-align: center;
+  }
+  
+  #lp-section-2 .bottom .image {
+    width: 100%;
+    text-align: center;
+  }
+  
+  #lp-section-2 .bottom .image img {
+    width: 80%;
+  }
+  
+  #lp-section-2 .bottom .cta a {
+    color: #161616;
+    border: 2px solid #161616;
+  }
+  
+  #lp-section-3 .lpwrap {
+    width: 100%;
+  }
+  
+  #lp-section-3 .lpwrap .title {
+    width: 100%;
+    text-align: center;
+  }
+  
+  #lp-section-3 .lpwrap .title img {
+    width: 40%;
+  }
+  
+  #lp-section-3 .lpwrap .step {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #lp-section-3 .lpwrap .step .item {
+    width: calc(100% / 2 - (200px * 1 / 2));
+    margin-right: 200px;
+    margin-bottom: 60px;
+  }
+  
+  #lp-section-3 .lpwrap .step .item:nth-child(2n+2) {
+    margin-right: 0;
+  }
+  
+  #lp-section-3 .lpwrap .step .item:nth-last-child(n+1) {
+    margin-bottom: 0;
+  }
+  
+  #lp-section-3 .lpwrap .step .item:nth-last-child(n+2) {
+    margin-bottom: 60px;
+  }
+  
+  #lp-section-3 .lpwrap .step .item img {
+    width: 100%;
+  }
+  
+  #lp-section-3 .cta {
+    text-align: center;
+  }
+  
+  #lp-section-3 .cta a {
+    color: #161616;
+    border: 2px solid #161616;
+  }
+  
+  #lp-section-4 {
+    background: #d32131;
+  }
+  
+  #lp-section-4 .lpwrap {
+    width: 100%;
+  }
+  
+  #lp-section-4 .lpwrap .title {
+    width: 100%;
+    text-align: center;
+  }
+  
+  #lp-section-4 .lpwrap .title a img {
+    width: 50%;
+  }
+  
+  #lp-section-4 .lpwrap .cta {
+    text-align: center;
+  }
+  
+  #lp-section-4 .lpwrap .cta a {
+    color: #ffd85c;
+  }
+  
+  #lp-section-4 .lpwrap .excerpt {
+    text-align: center;
+    color: #fff;
+    font-family: TPB_I, sans-serif;
+    font-size: 1.4rem;
+    width: 83%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #lp-section-4 .lpwrap .excerpt a {
+    color: #fff;
+    font-family: TPB_BI, sans-serif;
+  }
+  
+  #lp-section-5 {
+    /* background: url("https://trangsuc.doji.vn/Upload/landing-page/egold/images/back.jpg") center top/cover no-repeat; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+  }
+  
+  #lp-section-5>img {
+    width: 100%;
+  }
+  
+  #lp-section-5>.outer {
+    position: absolute;
+    bottom: 95px;
+  }
+  
+  #lp-section-5>.outer>.excerpt {
+    text-align: center;
+    color: #d32031;
+    font-style: italic;
+    font-size: 1.2rem;
+  }
+  
+  #lp-section-5>.outer>.excerpt a {
+    text-decoration: underline;
+    color: #d32031;
+    font-weight: 600;
+  }
+  
+  #lp-section-5 .lpwrap {
+    width: 100%;
+  }
+  
+  #lp-section-5 .lpwrap .title {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #lp-section-5 .lpwrap .title img {
+    width: 70%;
+  }
+  
+  #lp-section-5 .lpwrap .listing {
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 0;
+  }
+  
+  #lp-section-5 .lpwrap .listing .item {
+    width: calc(100% / 3);
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #lp-section-5 .lpwrap .listing .item .top {
+    background: linear-gradient(transparent, transparent, #fff);
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    z-index: 2;
+  }
+  
+  #lp-section-5 .lpwrap .listing .item .top:after {
+    content: "";
+    position: absolute;
+    top: calc(100% - 21px);
+    left: calc(50% - 21px);
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    z-index: 1;
+  }
+  
+  #lp-section-5 .lpwrap .listing .item .top img {
+    width: 100%;
+  }
+  
+  #lp-section-5 .lpwrap .listing .item .bottom {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+  }
+  
+  #lp-section-5 .lpwrap .listing .item .bottom img {
+    width: 100%;
+  }
+  
+  #lp-section-5 .lpwrap .listing .item:nth-child(3n+2) .top {
+    background: linear-gradient(#fff, transparent, transparent);
+    order: 2;
+    -ms-order: 2;
+    -webkit-order: 2;
+  }
+  
+  #lp-section-5 .lpwrap .listing .item:nth-child(3n+2) .top:after {
+    top: -19px;
+  }
+  
+  #lp-section-5 .lpwrap .listing .item:nth-child(3n+2) .bottom {
+    order: 1;
+    -ms-order: 1;
+    -webkit-order: 1;
+  }
+  
+  .app-egold {
+    width: 50%;
+    display: none;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    padding-top: 15px;
+  }
+  
+  .app-egold>.left {
+    width: calc(30% - 30px);
+    padding: 0 15px;
+  }
+  
+  .app-egold>.left img {
+    width: 100%;
+  }
+  
+  .app-egold>.right {
+    width: calc(70% - 30px);
+    padding: 0 15px;
+  }
+  
+  .app-egold>.right .title {
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  
+  .app-egold>.right .title span {
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 1.5;
+    font-weight: 600;
+  }
+  
+  .app-egold>.right .app-link {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .app-egold>.right .app-link .item {
+    width: 50% !important;
+  }
+  
+  .app-egold>.right .app-link .item img {
+    width: 100%;
+  }
+  
+  #lp-htch-popup {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: auto;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 99999999999;
+  }
+  
+  #lp-htch-popup .wrap-pop {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 30px;
+    background: #fff;
+    position: relative;
+    width: 60%;
+  }
+  
+  #lp-htch-popup .wrap-pop .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: 1px solid #000;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  #lp-htch-popup.show-pop {
+    display: flex;
+  }
+  
+  @media only screen and (max-width: 1366px) {
+    #lp-content .cta {
+      right: 10%;
+    }
+  
+    #lp-content .cta a {
+      font-size: 1.4rem;
+      padding: 10px 25px 17px;
+    }
+  
+    #lp-section-1 {
+      margin-top: -20px;
+    }
+  
+    #lp-section-1 .lpwrap .excerpt {
+      font-size: 1.4rem;
+    }
+  
+    #lp-section-5>.outer {
+      bottom: 45px;
+    }
+  }
+  
+  @media only screen and (max-device-width: 800px) {
+    .desktop {
+      display: none !important;
+    }
+  
+    .mobile {
+      display: block !important;
+    }
+  
+    #lp-content .lp-space-30 {
+      padding: 7.5px 0;
+    }
+  
+    #lp-content .lp-space-60 {
+      padding: 15px 0;
+    }
+  
+    #lp-content .lp-space-90 {
+      padding: 22.5px 0;
+    }
+  
+    #lp-content .lp-space-120 {
+      padding: 30px 0;
+    }
+  
+    #lp-content .cta a {
+      font-size: 1.4rem;
+      padding: 10px 25px 17px;
+    }
+  
+    #lp-header .cta {
+      width: 100%;
+      text-align: center;
+      right: 0;
+      bottom: 40px;
+    }
+  
+    #lp-header .sroll-down {
+      left: calc(100% - 35px);
+      max-width: 20px;
+    }
+  
+    #lp-section-1 {
+      margin-top: 20px;
+    }
+  
+    #lp-section-1 .lpwrap .top .item {
+      width: calc(100% / 2 - (15px * 1 / 2));
+      margin-right: 15px;
+    }
+  
+    #lp-section-1 .lpwrap .top .item:nth-child(2n+2) {
+      margin-right: 0;
+    }
+  
+    #lp-section-1 .lpwrap .top .item:last-child {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    #lp-section-1 .lpwrap .content .title img {
+      width: 100%;
+    }
+  
+    #lp-section-1 .lpwrap .excerpt {
+      font-size: 1.4rem;
+      text-align: center;
+    }
+  
+    #lp-section-2 {
+      background: url("https://trangsuc.doji.vn/Upload/landing-page/egold/images/back-mb.jpg") center top/cover no-repeat, linear-gradient(#ffd85c, #ffd85c, #ffd85c, #ffd85c, #ffd85c, #fff);
+    }
+  
+    #lp-section-2 .top {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    #lp-section-2 .top .title {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  
+    #lp-section-2 .top .title img {
+      width: 100%;
+    }
+  
+    #lp-section-2 .top .listing-advantages .item {
+      width: calc(100% / 2 - (20px * 1 / 2));
+    }
+  
+    #lp-section-2 .top .listing-advantages .item:nth-child(2n+2) {
+      margin-right: 0;
+    }
+  
+    #lp-section-2 .top .lp-space-90 {
+      padding: 0;
+    }
+  
+    #lp-section-2 .bottom .image img {
+      width: 100%;
+    }
+  
+    #lp-section-3 .lpwrap .title img {
+      width: 100%;
+    }
+  
+    #lp-section-3 .lpwrap .step .item {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    #lp-section-3 .lpwrap .step .item:nth-last-child(n+2) {
+      margin-bottom: 20px;
+    }
+  
+    #lp-section-4 .lpwrap .title a img {
+      width: 100%;
+    }
+  
+    #lp-section-4 .lpwrap .excerpt {
+      line-height: 1.8;
+      font-size: 1.4rem;
+      width: 100%;
+    }
+  
+    #lp-section-5 {
+      /* background: url("https://trangsuc.doji.vn/Upload/landing-page/egold/images/back-mb-2.png") center top/cover no-repeat; */
+    }
+  
+    #lp-section-5>.outer {
+      width: 90%;
+      max-width: 100%;
+      bottom: 0;
+    }
+  
+    #lp-section-5>.outer>.excerpt {
+      font-size: 9px;
+    }
+  
+    #lp-section-5>.outer>.excerpt p {
+      margin-bottom: 5px;
+    }
+  
+    #lp-section-5 .lpwrap .title img {
+      width: 100%;
+      object-fit: contain;
+    }
+  
+    #lp-section-5 .lpwrap .listing .item {
+      width: 100%;
+    }
+  
+    #lp-section-5 .lpwrap .listing .item:nth-child(3n+2) .top {
+      background: #fff;
+      order: 1;
+      -ms-order: 1;
+      -webkit-order: 1;
+    }
+  
+    #lp-section-5 .lpwrap .listing .item:nth-child(3n+2) .top:after {
+      top: calc(100% - 21px);
+    }
+  
+    #lp-section-5 .lpwrap .listing .item:nth-child(3n+2) .bottom {
+      order: 2;
+      -ms-order: 2;
+      -webkit-order: 2;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    #lp-content .cta a {
+      font-size: 1rem;
+      padding: 5px 25px 12px;
+    }
+  
+    #lp-header .cta {
+      bottom: 10px;
+    }
+  
+    #lp-section-1 .lpwrap .excerpt {
+      font-size: 1rem;
+    }
+  
+    #lp-section-4 .lpwrap .excerpt {
+      font-size: 1rem;
+    }
+  
+    .app-egold {
+      width: 100%;
+    }
+  
+    #lp-htch-popup .wrap-pop {
+      width: 75%;
+    }
+  }
+  
+  @keyframes loopHover {
+    0% {
+      color: #d32131;
+      background: #ffd85c;
+      border: 2px solid #ffd85c;
+    }
+  
+    25% {
+      color: #ffd85c;
+      background: inherit;
+      border: 2px solid inherit;
+    }
+  
+    50% {
+      color: #d32131;
+      background: #ffd85c;
+      border: 2px solid #ffd85c;
+    }
+  
+    75% {
+      color: #ffd85c;
+      background: inherit;
+      border: 2px solid inherit;
+    }
+  
+    100% {
+      color: #d32131;
+      background: #ffd85c;
+      border: 2px solid #ffd85c;
+    }
+  }
+  
+  @keyframes scrollDown {
+    0% {
+      bottom: 26%;
+    }
+  
+    100% {
+      bottom: 20%;
+    }
+  }

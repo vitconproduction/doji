@@ -1,0 +1,175 @@
+@media only screen and (max-width: 767px) {
+    .desktop {
+      display: none;
+    }
+    .mobile {
+      display: block;
+    }
+    .outer {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .text-clock {
+      width: 100%;
+      text-align: center !important;
+      margin-bottom: 10px;
+    }
+    .text-clock:nth-child(3n+3) {
+      margin-top: 50px;
+    }
+    #lp-clock .the-le {
+      margin-top: 50px;
+    }
+    #lp-kcv .lp-kcv-wrap .right .title {
+      text-align: center;
+    }
+    #lp-kcv .lp-kcv-wrap .right .title img {
+      width: 90%;
+    }
+    .lp-tskc-wrap {
+      display: block !important;
+    }
+    .lp-tskc-wrap a {
+      display: block !important;
+    }
+    #lp-tskc .lp-tskc-wrap .left {
+      display: block;
+    }
+    #lp-tsvt .lp-tsvt-wrap .left {
+      display: block;
+    }
+    .lp-dongho-wrap .left,
+    .lp-kbp-wrap .left,
+    .lp-kcv-wrap .left,
+    .lp-tsc-wrap .left,
+    .lp-tskc-wrap .left,
+    .lp-tsvt-wrap .left {
+      width: 100% !important;
+    }
+    .lp-dongho-wrap .right,
+    .lp-kbp-wrap .right,
+    .lp-kcv-wrap .right,
+    .lp-tsc-wrap .right,
+    .lp-tskc-wrap .right,
+    .lp-tsvt-wrap .right {
+      width: 100% !important;
+    }
+    .lp-dongho-wrap .item,
+    .lp-kbp-wrap .item,
+    .lp-kcv-wrap .item,
+    .lp-tsc-wrap .item,
+    .lp-tskc-wrap .item,
+    .lp-tsvt-wrap .item {
+      width: calc(100% / 2) !important;
+    }
+    .lp-dongho-wrap .item a img,
+    .lp-kbp-wrap .item a img,
+    .lp-kcv-wrap .item a img,
+    .lp-tsc-wrap .item a img,
+    .lp-tskc-wrap .item a img,
+    .lp-tsvt-wrap .item a img {
+      object-fit: cover !important;
+    }
+    #lp-kcv .lp-kcv-wrap .right .listing .item {
+      width: calc(100% / 2 - 10px) !important;
+      min-height: auto;
+    }
+    #lp-kcv .lp-kcv-wrap .right .listing .item span {
+      font-size: 1.6rem;
+    }
+    .view-all a {
+      font-size: 1.4rem;
+      margin-bottom: 10px;
+    }
+    .view-all a span {
+      top: calc(2.5rem - 30px);
+    }
+    #lp-clock .the-le a span {
+      top: calc(3rem - 37px);
+    }
+    #lp-tsc .lp-tsc-wrap .listing .image {
+      width: 100%;
+    }
+    #lp-tsc .lp-tsc-wrap .listing .image > a span {
+      top: calc(2.5rem - 30px);
+    }
+    #lp-footer .he-thong > div a span {
+      top: calc(2.5rem - 30px);
+    }
+    #lp-dongho .lp-dongho-wrap .listing .item {
+      width: calc(100% / 2 - 5px) !important;
+    }
+    #lp-dongho .lp-dongho-wrap .listing .item:nth-child(-2n+2) {
+      margin-right: 0 !important;
+    }
+    #lp-dongho .lp-dongho-wrap .listing .item:nth-child(2n+1) {
+      margin-right: 0 !important;
+    }
+    #lp-dongho .lp-dongho-wrap .listing .item:nth-child(1) {
+      margin-right: 10px !important;
+    }
+    #lp-dongho .lp-dongho-wrap .listing .image {
+      width: 100%;
+      display: block;
+    }
+    #lp-tsvt .lp-tsvt-wrap {
+      display: block;
+    }
+    #lp-tsvt .lp-tsvt-wrap .item {
+      padding-bottom: 30px !important;
+    }
+    #lp-kbp .lp-kbp-wrap .listing .item {
+      padding-bottom: 30px !important;
+    }
+    #lp-footer .he-thong .doji:after {
+      display: none;
+    }
+    #lp-footer .he-thong > div {
+      width: 100%;
+      flex-wrap: wrap;
+    }
+    #lp-footer .he-thong > div a {
+      width: 95%;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 1.4rem;
+      padding: 7px 20px;
+      justify-content: center;
+    }
+    #lp-footer .he-thong > div a span {
+      right: 15px;
+    }
+    #lp-footer .top {
+      font-size: 1.6rem;
+      line-height: 1.8;
+    }
+    #lp-tskc .lp-tskc-wrap .right .listing .item:hover:after {
+      display: none;
+    }
+    #the-le .the-le-wrap {
+      width: 95%;
+    }
+    #the-le .the-le-wrap .content {
+      padding: 10px;
+    }
+    #lp-tsvt .lp-tsvt-wrap .left span {
+      left: 5%;
+      right: 5%;
+      display: block;
+      width: 90%;
+    }
+    #lp-tsvt .lp-tsvt-wrap .left span > a {
+      display: block;
+    }
+    .listing .item a .price del {
+      display: block;
+      margin-left: 0;
+      margin-top: 5px;
+    }
+    .listing .item a .sale {
+      right: 5%;
+      height: 40px;
+      width: 45px;
+      font-size: 1.5rem;
+    }
+  }

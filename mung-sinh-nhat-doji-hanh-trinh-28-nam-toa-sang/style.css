@@ -1,0 +1,1071 @@
+@font-face {
+    font-family: Doji;
+    src: url("https://trangsuc.doji.vn/Upload/landing-page/sntd2022/fonts/DojiGodWordR.ttf") format("truetype");
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: MyriadRegular;
+    src: url("https://trangsuc.doji.vn/Upload/landing-page/sntd2022/fonts/myriadpro-regular-webfont.eot");
+    src: url("https://trangsuc.doji.vn/Upload/landing-page/sntd2022/fonts/myriadpro-regular-webfont.eot?#iefix") format("embedded-opentype"), url("https://trangsuc.doji.vn/Upload/landing-page/sntd2022/fonts/myriadpro-regular-webfont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  .lp-outer {
+    max-width: 1350px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .lp-description {
+    text-align: justify;
+    font-size: 1.4rem;
+    line-height: 1.8;
+    font-family: Doji, sans-serif;
+  }
+  
+  .mobile {
+    display: none;
+  }
+  
+  .main-example {
+    margin: 60px auto 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  
+  .main-example .text-clock {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 135px;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: #000;
+    font-family: DOJI, sans-serif;
+  }
+  
+  .main-example .countdown-container {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+  }
+  
+  .main-example .time {
+    margin: 0 40px;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    height: calc(125px * 240 / 161);
+    width: 200px;
+    -webkit-perspective: 479px;
+    -moz-perspective: 479px;
+    -ms-perspective: 479px;
+    -o-perspective: 479px;
+    perspective: 479px;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    position: relative;
+  }
+  
+  .main-example .time:before {
+    content: "";
+    position: absolute;
+    width: calc(100% + 0px);
+    height: calc(100% + 135px);
+    background: url("https://trangsuc.doji.vn/Upload/landing-page/sntd2022/images/gift-box.png") center/100% no-repeat;
+    top: -117px;
+    left: 0;
+    z-index: 10;
+  }
+  
+  .main-example .count {
+    color: #e4282a;
+    display: block;
+    font-family: Doji, sans-serif;
+    font-size: 5rem;
+    line-height: 11.6rem;
+    font-weight: 600;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-transform-style: flat;
+    -moz-transform-style: flat;
+    -ms-transform-style: flat;
+    -o-transform-style: flat;
+    transform-style: flat;
+  }
+  
+  .main-example .count.top {
+    background-image: linear-gradient(#e2d0e6, #e9e5f2);
+    height: 50%;
+    -webkit-transform-origin: 50% 100%;
+    -moz-transform-origin: 50% 100%;
+    -ms-transform-origin: 50% 100%;
+    -o-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+  }
+  
+  .main-example .count.bottom {
+    background-image: linear-gradient(#e9e5f2, #dfe7f4);
+    line-height: 0;
+    height: 50%;
+    top: 50%;
+    -webkit-transform-origin: 50% 0;
+    -moz-transform-origin: 50% 0;
+    -ms-transform-origin: 50% 0;
+    -o-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+  }
+  
+  .main-example .label {
+    font-family: Doji, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    display: block;
+    position: absolute;
+    top: calc(85px * 240 / 145);
+    width: 100%;
+    color: #e4282a;
+    z-index: 11;
+  }
+  
+  /* Animation start */
+  .main-example .count.curr.top {
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+    -ms-transform: rotateX(0deg);
+    -o-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+    z-index: 3;
+  }
+  
+  .main-example .count.next.bottom {
+    -webkit-transform: rotateX(90deg);
+    -moz-transform: rotateX(90deg);
+    -ms-transform: rotateX(90deg);
+    -o-transform: rotateX(90deg);
+    transform: rotateX(90deg);
+    z-index: 2;
+  }
+  
+  /* Animation end */
+  .main-example .flip .count.curr.top {
+    -webkit-transition: all 250ms ease-in-out;
+    -moz-transition: all 250ms ease-in-out;
+    -ms-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+    -webkit-transform: rotateX(-90deg);
+    -moz-transform: rotateX(-90deg);
+    -ms-transform: rotateX(-90deg);
+    -o-transform: rotateX(-90deg);
+    transform: rotateX(-90deg);
+  }
+  
+  .main-example .flip .count.next.bottom {
+    -webkit-transition: all 250ms ease-in-out 250ms;
+    -moz-transition: all 250ms ease-in-out 250ms;
+    -ms-transition: all 250ms ease-in-out 250ms;
+    -o-transition: all 250ms ease-in-out 250ms;
+    transition: all 250ms ease-in-out 250ms;
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+    -ms-transform: rotateX(0deg);
+    -o-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+  }
+  
+  @media screen and (max-width: 48em) {
+    .main-example {
+      width: 100%;
+      flex-wrap: wrap;
+    }
+    .main-example .countdown-container {
+      height: 100px;
+    }
+    .main-example .time {
+      height: 90px;
+      width: 68px;
+    }
+    .main-example .count {
+      font-size: 2.8em;
+      line-height: 90px;
+    }
+    .main-example .label {
+      font-size: 1.8em;
+      top: 92px;
+    }
+  }
+  
+  #lp-content {
+    font-family: Doji, sans-serif;
+    font-size: 14px;
+  }
+  
+  #lp-content .readmore {
+    text-align: center;
+  }
+  
+  #lp-content .readmore a {
+    display: inline-block;
+    max-width: 170px;
+  }
+  
+  #lp-content .readmore a img {
+    width: 100%;
+  }
+  
+  #lp-content .lp-banner-top {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  
+  #lp-content .lp-banner-top .back-img {
+    text-align: center;
+  }
+  
+  #lp-content .lp-banner-top .back-img img {
+    width: 100%;
+  }
+  
+  #lp-content .lp-banner-top > .text {
+    position: absolute;
+    width: 50%;
+  }
+  
+  #lp-content .lp-banner-top > .text .lp-wrap .lp-logo {
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #lp-content .lp-banner-top > .text .lp-wrap .lp-logo img {
+    max-width: 100%;
+  }
+  
+  #lp-content .lp-banner-top > .text .lp-wrap .lp-kv {
+    text-align: center;
+  }
+  
+  #lp-content .lp-banner-top > .text .lp-wrap .lp-kv img {
+    max-width: 100%;
+  }
+  
+  #lp-content #lp-clock {
+    display: inline-block;
+    width: 100%;
+    padding: 0 0 50px;
+    background: url("https://trangsuc.doji.vn/Upload/landing-page/sntd2022/images/clock-back.png") center/cover no-repeat;
+    margin-top: -2px;
+  }
+  
+  #lp-content .tskc {
+    background: url("https://trangsuc.doji.vn/Upload/landing-page/sntd2022/images/tskc-back.jpg") center/cover no-repeat;
+    color: #c56188;
+    padding-bottom: 167px;
+  }
+  
+  #lp-content .tskc .uu-dai-tskc {
+    margin-bottom: 80px;
+  }
+  
+  #lp-content .tskc .uu-dai-tskc img {
+    width: 100%;
+  }
+  
+  #lp-content .tskc .san-pham-noi-bat {
+    margin-top: 200px;
+  }
+  
+  #lp-content .tskc .wrap-title {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin-bottom: 80px;
+  }
+  
+  #lp-content .tskc .wrap-title .lp-title {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    color: #c56188;
+    text-align: left;
+  }
+  
+  #lp-content .tskc .wrap-title .lp-title:after {
+    content: "";
+    width: 300px;
+    position: absolute;
+    height: 2px;
+    left: 100%;
+    bottom: 8px;
+    margin-left: 10px;
+    background: #c56188;
+  }
+  
+  #lp-content .tskc .wrap-title .view-all {
+    position: absolute;
+    right: 0;
+    bottom: 2px;
+  }
+  
+  #lp-content .tskc .wrap-title .view-all a {
+    color: #c56188;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+  }
+  
+  #lp-content .tskc .wrap-title .view-all a span {
+    background: url("https://trangsuc.doji.vn/Upload/landing-page/sntd2022/images/arrow.svg") center/100% no-repeat;
+    height: 12px;
+    width: 30px;
+    margin-left: 10px;
+  }
+  
+  #lp-content .tskc #slider-tskc {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  #lp-content .tskc #slider-tskc .slick-arrow {
+    position: absolute;
+    z-index: 10;
+    font-size: 0;
+    border: 0;
+    outline: 0;
+    display: inline-block;
+  }
+  
+  #lp-content .tskc #slider-tskc .slick-arrow.slick-prev {
+    left: -25px;
+    background: url("https://trangsuc.doji.vn/Upload/landing-page/sntd2022/images/arrow-tskc.png") center/contain no-repeat;
+    transform: rotate(180deg);
+    height: 50px;
+    width: 25px;
+  }
+  
+  #lp-content .tskc #slider-tskc .slick-arrow.slick-next {
+    right: -25px;
+    background: url("https://trangsuc.doji.vn/Upload/landing-page/sntd2022/images/arrow-tskc.png") center/contain no-repeat;
+    height: 50px;
+    width: 25px;
+  }
+  
+  #lp-content .tskc #slider-tskc .item {
+    position: relative;
+    margin: 0 20px;
+    padding: 60px 30px;
+    background: #fff;
+    text-align: center;
+  }
+  
+  #lp-content .tskc #slider-tskc .item > a img {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #lp-content .tskc #slider-tskc .item .lp-promotion {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    padding: 10px;
+    background: #c56188;
+    color: #fff;
+  }
+  
+  #lp-content .tskc #slider-tskc .item .lp-product-detail {
+    margin-bottom: 5px;
+    overflow: hidden;
+    position: relative;
+    height: 32px;
+  }
+  
+  #lp-content .tskc #slider-tskc .item .lp-product-detail a {
+    position: absolute;
+    bottom: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    padding: 7px 20px;
+    background: #c56188;
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.875rem;
+  }
+  
+  #lp-content .tskc #slider-tskc .item .lp-product-detail a span {
+    background: url("https://trangsuc.doji.vn/Upload/landing-page/sntd2022/images/arrow-w.svg") center/100% no-repeat;
+    height: 12px;
+    width: 20px;
+    margin-left: 10px;
+  }
+  
+  #lp-content .tskc #slider-tskc .item .lp-product-name {
+    margin-bottom: 5px;
+  }
+  
+  #lp-content .tskc #slider-tskc .item .lp-product-name a {
+    color: #000;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+  }
+  
+  #lp-content .tskc #slider-tskc .item .lp-price .origin {
+    color: #ff0000;
+    margin-right: 10px;
+  }
+  
+  #lp-content .tskc #slider-tskc .item .lp-price .discount {
+    color: #000;
+    text-decoration: line-through;
+  }
+  
+  #lp-content .tskc #slider-tskc .item:hover .lp-product-detail a {
+    bottom: 0;
+  }
+  
+  #lp-content .da-mau .da-mau-fashion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+  }
+  
+  #lp-content .da-mau .da-mau-fashion img {
+    width: 100%;
+  }
+  
+  #lp-content .da-mau .da-mau-fashion .readmore {
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(-60%);
+  }
+  
+  #lp-content .da-mau .wrap-tsdm-fashion {
+    position: absolute;
+    bottom: 80px;
+    width: 100%;
+  }
+  
+  #lp-content .da-mau .wrap-tsdm-fashion #slider-tsdm-fashion {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  #lp-content .da-mau .wrap-tsdm-fashion #slider-tsdm-fashion .slick-arrow {
+    position: absolute;
+    z-index: 10;
+    font-size: 0;
+    border: 0;
+    outline: 0;
+    display: inline-block;
+  }
+  
+  #lp-content .da-mau .wrap-tsdm-fashion #slider-tsdm-fashion .slick-arrow.slick-prev {
+    left: -25px;
+    background: url("https://trangsuc.doji.vn/Upload/landing-page/sntd2022/images/arrow-slide-w.png") center/contain no-repeat;
+    transform: rotate(180deg);
+    height: 50px;
+    width: 25px;
+  }
+  
+  #lp-content .da-mau .wrap-tsdm-fashion #slider-tsdm-fashion .slick-arrow.slick-next {
+    right: -25px;
+    background: url("https://trangsuc.doji.vn/Upload/landing-page/sntd2022/images/arrow-slide-w.png") center/contain no-repeat;
+    height: 50px;
+    width: 25px;
+  }
+  
+  #lp-content .da-mau .wrap-tsdm-fashion #slider-tsdm-fashion .item {
+    position: relative;
+    margin: 0 20px;
+  }
+  
+  #lp-content .da-mau .wrap-tsdm-fashion #slider-tsdm-fashion .item img {
+    width: 100%;
+  }
+  
+  #lp-content .da-mau-ngoc-trai {
+    background: url("https://trangsuc.doji.vn/Upload/landing-page/sntd2022/images/nen-sapphire.jpg") center/cover no-repeat;
+    position: relative;
+    padding-bottom: 50px;
+  }
+  
+  #lp-content .da-mau-ngoc-trai .dm-nt-product {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 37%;
+  }
+  
+  #lp-content .da-mau-ngoc-trai .text-uu-dai {
+    width: 60%;
+    padding-left: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  #lp-content .da-mau-ngoc-trai .text-uu-dai img {
+    width: 100%;
+  }
+  
+  #lp-content .da-mau-ngoc-trai .product-listing {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #lp-content .da-mau-ngoc-trai .product-listing .item {
+    width: calc(100% / 3 - (20px * 2 / 3));
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    -ms-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    background: rgba(82, 164, 187, 0.16);
+  }
+  
+  #lp-content .da-mau-ngoc-trai .product-listing .item:nth-child(3n+3) {
+    margin-right: 0;
+  }
+  
+  #lp-content .da-mau-ngoc-trai .product-listing .item img {
+    width: 100%;
+  }
+  
+  #lp-content .nhan-cuoi {
+    background: url("https://trangsuc.doji.vn/Upload/landing-page/sntd2022/images/weddingland-back.jpg") center/cover no-repeat;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  #lp-content .nhan-cuoi .wrap-top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  #lp-content .nhan-cuoi .wrap-top .nc-image {
+    width: 50%;
+  }
+  
+  #lp-content .nhan-cuoi .wrap-top .nc-image img {
+    width: 100%;
+  }
+  
+  #lp-content .nhan-cuoi .wrap-top .nc-text {
+    width: 50%;
+  }
+  
+  #lp-content .nhan-cuoi .wrap-top .nc-text img {
+    width: 100%;
+  }
+  
+  #lp-content .nhan-cuoi .wrap-top .nc-text .readmore {
+    margin-top: 30px;
+  }
+  
+  #lp-content .nhan-cuoi .product-listing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 40px;
+  }
+  
+  #lp-content .nhan-cuoi .product-listing .item {
+    width: calc(100% / 6 - (20px * 5 / 6));
+    margin-right: 20px;
+    background: url("https://trangsuc.doji.vn/Upload/landing-page/sntd2022/images/nc-item-back.png") center/cover no-repeat;
+    padding: 30px;
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+  }
+  
+  #lp-content .nhan-cuoi .product-listing .item:nth-child(6n+6) {
+    margin-right: 0;
+  }
+  
+  #lp-content .nhan-cuoi .product-listing .item:nth-child(1) {
+    transform: scale(0.8);
+  }
+  
+  #lp-content .nhan-cuoi .product-listing .item:nth-child(2) {
+    transform: scale(0.8);
+  }
+  
+  #lp-content .nhan-cuoi .product-listing .item:nth-child(5) {
+    transform: scale(0.8);
+  }
+  
+  #lp-content .nhan-cuoi .product-listing .item:nth-child(6) {
+    transform: scale(0.8);
+  }
+  
+  #lp-content .nhan-cuoi .product-listing .item:hover {
+    transform: scale(1);
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+  }
+  
+  #lp-content .nhan-cuoi .product-listing .item img {
+    width: 100%;
+  }
+  
+  #lp-content .tsv24k {
+    position: relative;
+    background: url("https://trangsuc.doji.vn/Upload/landing-page/sntd2022/images/trang-suc-vang-24k-back.jpg") center/cover no-repeat;
+    padding: 250px 0;
+  }
+  
+  #lp-content .tsv24k .patten {
+    position: absolute;
+    width: 400px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-40%);
+  }
+  
+  #lp-content .tsv24k .wrap-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  #lp-content .tsv24k .wrap-top .text {
+    width: 48%;
+  }
+  
+  #lp-content .tsv24k .wrap-top .text img {
+    width: 100%;
+  }
+  
+  #lp-content .tsv24k .wrap-top .text .readmore {
+    margin-top: 50px;
+  }
+  
+  #lp-content .kcv {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #lp-content .kcv > img {
+    width: 100%;
+  }
+  
+  #lp-content .kcv .text {
+    position: absolute;
+    top: 80px;
+  }
+  
+  #lp-content .kcv .text img {
+    max-width: 100%;
+  }
+  
+  #lp-content .kcv .readmore {
+    position: absolute;
+    bottom: 50px;
+  }
+  
+  #lp-content .dong-ho {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  #lp-content .dong-ho > img {
+    width: 100%;
+  }
+  
+  #lp-content .dong-ho .wrap-top {
+    left: 10%;
+    width: 80%;
+    position: absolute;
+    text-align: center;
+    display: flex;
+  }
+  
+  #lp-content .dong-ho .wrap-top > img {
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  #lp-content .dong-ho .wrap-top .text {
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #lp-content .dong-ho .wrap-top .text img {
+    width: 100%;
+  }
+  
+  #lp-content .dong-ho .wrap-top .text .readmore {
+    margin-top: 30px;
+  }
+  
+  #lp-content .product-dong-ho {
+    position: relative;
+    margin-top: -6px;
+    background-image: linear-gradient(180deg, #2f5a84, transparent);
+    padding-bottom: 40px;
+  }
+  
+  #lp-content .product-dong-ho .wrap-dong-ho #slider-dong-ho {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  #lp-content .product-dong-ho .wrap-dong-ho #slider-dong-ho .slick-arrow {
+    position: absolute;
+    z-index: 10;
+    font-size: 0;
+    border: 0;
+    outline: 0;
+    display: inline-block;
+  }
+  
+  #lp-content .product-dong-ho .wrap-dong-ho #slider-dong-ho .slick-arrow.slick-prev {
+    left: -25px;
+    background: url("https://trangsuc.doji.vn/Upload/landing-page/sntd2022/images/arrow-slide-w.png") center/contain no-repeat;
+    transform: rotate(180deg);
+    height: 50px;
+    width: 25px;
+  }
+  
+  #lp-content .product-dong-ho .wrap-dong-ho #slider-dong-ho .slick-arrow.slick-next {
+    right: -25px;
+    background: url("https://trangsuc.doji.vn/Upload/landing-page/sntd2022/images/arrow-slide-w.png") center/contain no-repeat;
+    height: 50px;
+    width: 25px;
+  }
+  
+  #lp-content .product-dong-ho .wrap-dong-ho #slider-dong-ho .item {
+    position: relative;
+    margin: 0 20px;
+  }
+  
+  #lp-content .product-dong-ho .wrap-dong-ho #slider-dong-ho .item img {
+    width: 100%;
+  }
+  
+  #lp-content .kbp {
+    position: relative;
+    background: url("https://trangsuc.doji.vn/Upload/landing-page/sntd2022/images/kbp-back.jpg") center/cover no-repeat;
+    padding: 150px 0;
+  }
+  
+  #lp-content .kbp .wrap-top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  #lp-content .kbp .wrap-top .text {
+    width: 45%;
+  }
+  
+  #lp-content .kbp .wrap-top .text img {
+    width: 100%;
+  }
+  
+  #lp-content .kbp .wrap-top .text .readmore {
+    margin-top: 40px;
+  }
+  
+  #lp-content .lp-footer {
+    padding: 20px 0;
+    font-size: 1.6rem;
+    color: #000;
+    text-align: center;
+    line-height: 1.4;
+  }
+  
+  @media only screen and (max-width: 1280px) {
+    .main-example .text-clock {
+      margin-bottom: 20px;
+    }
+    .main-example .time {
+      height: 90px;
+      width: 69px;
+    }
+    .main-example .time:before {
+      width: calc(100% + 50px);
+      height: calc(100% + 50px);
+      top: -25px;
+      left: -25px;
+      display: none;
+    }
+    .main-example .label {
+      font-size: 1.4rem;
+    }
+    .main-example .count {
+      font-size: 3rem;
+      line-height: 5.5rem;
+    }
+    .main-example .label {
+      top: calc(55px * 240 / 130);
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    #lp-content .da-mau .wrap-tsdm-fashion {
+      position: relative;
+    }
+    #lp-content .tsv24k .patten {
+      width: 300px;
+    }
+    #lp-content .kcv .text {
+      top: 25px;
+      text-align: center;
+    }
+    #lp-content .kcv .text img {
+      width: 60%;
+    }
+    #lp-content .kcv .readmore {
+      bottom: 10px;
+    }
+    #lp-content .dong-ho .wrap-top > img {
+      display: none;
+    }
+    .slick-arrow {
+      height: 25px !important;
+      width: 15px !important;
+    }
+    .slick-arrow.slick-prev {
+      left: 0 !important;
+    }
+    .slick-arrow.slick-next {
+      right: 0 !important;
+    }
+    #lp-content .lp-footer {
+      font-size: 1rem;
+    }
+  }
+  
+  @media only screen and (max-width: 820px) {
+    #lp-content .lp-sale .text-clock {
+      margin-bottom: 20px;
+      font-size: 1rem;
+      left: 0 !important;
+      position: relative;
+    }
+    .main-example .time:before {
+      display: none;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    #lp-content .da-mau .wrap-tsdm-fashion {
+      position: relative;
+      bottom: 25px;
+    }
+    #lp-clock {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+    .text-clock {
+      text-align: center;
+      width: 100%;
+    }
+    .text-clock:nth-child(3n+1) {
+      text-align: center;
+    }
+    .main-example .time {
+      margin-bottom: 20px;
+    }
+    .main-example .label {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    #lp-content .readmore a {
+      display: inline-block;
+      max-width: 100px;
+    }
+    .main-example .text-clock {
+      display: none;
+    }
+    #lp-content .tskc {
+      padding-bottom: 70px;
+    }
+    #lp-content .tskc #slider-tskc .item .lp-price span {
+      display: block;
+      margin: 0 !important;
+    }
+    #lp-content .tskc #slider-tskc .item .lp-product-name a {
+      font-size: 0.875rem;
+    }
+    #lp-content .tskc .wrap-title .lp-title {
+      font-size: 1.4rem;
+    }
+    #lp-content .tskc .wrap-title .lp-title:after {
+      display: none;
+    }
+    #lp-content .tskc .wrap-title .view-all {
+      bottom: -40px;
+    }
+    #lp-content .tskc #slider-tskc .item {
+      margin: 0 10px;
+      padding: 30px 10px;
+    }
+    #lp-content .tskc .san-pham-noi-bat {
+      margin-top: 70px;
+    }
+    #lp-content .da-mau-ngoc-trai .product-listing .item {
+      padding: 0;
+    }
+    #lp-content .nhan-cuoi .product-listing .item {
+      padding: 5px;
+    }
+    .desktop {
+      display: none !important;
+    }
+    .mobile {
+      display: block;
+    }
+    #lp-clock {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+    .text-clock {
+      text-align: center;
+      width: auto;
+      position: absolute;
+    }
+    .text-clock:nth-child(5n+1) {
+      left: -10px !important;
+      right: auto;
+      z-index: 3;
+    }
+    .text-clock:nth-child(5n+2) {
+      left: -10px !important;
+      right: auto;
+      z-index: 1;
+    }
+    .text-clock:nth-child(5n+4) {
+      right: -10px !important;
+      left: auto;
+      z-index: 3;
+    }
+    .text-clock:nth-child(5n+5) {
+      right: -10px !important;
+      left: auto;
+      z-index: 1;
+    }
+    .text-clock img {
+      width: 35%;
+    }
+    .main-example {
+      align-items: center;
+    }
+    .main-example .label {
+      font-size: 1.2rem;
+    }
+    .main-example .countdown-container {
+      margin-bottom: 15px;
+    }
+    .main-example .time {
+      margin: 0 !important;
+    }
+    #lp-content .lp-sale .text-clock {
+      margin-bottom: 30px;
+      font-size: 1rem;
+      left: 0 !important;
+      position: relative;
+    }
+    .lp-readmore a {
+      width: 100px;
+    }
+    #lp-content .da-mau .da-mau-fashion .readmore {
+      bottom: 40%;
+    }
+    #lp-content .tsv24k .patten {
+      display: none;
+    }
+    .tsv24k {
+      background: none !important;
+      padding: 0 !important;
+    }
+    .tsv24k > img {
+      width: 100%;
+    }
+    .tsv24k > .readmore {
+      position: absolute;
+      bottom: 15px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    #lp-content .kcv {
+      overflow: hidden;
+    }
+    #lp-content .kcv > img {
+      width: 150%;
+    }
+    .kbp {
+      background: none !important;
+      padding: 0 !important;
+    }
+    .kbp > img {
+      width: 100%;
+    }
+    .kbp > .readmore {
+      position: absolute;
+      bottom: 2px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }

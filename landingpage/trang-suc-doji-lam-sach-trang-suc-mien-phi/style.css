@@ -1,0 +1,1357 @@
+@font-face {
+    font-family: Doji;
+    src: url("https://trangsuc.doji.vn/Upload/landing-page/sntd2022/fonts/DojiGodWordR.ttf") format("truetype");
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  .lp-outer {
+    max-width: 1575px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .mobile {
+    display: none;
+  }
+  
+  .lp-loadingpage {
+    position: relative;
+  }
+  
+  .lp-loadingpage:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background: url("https://trangsuc.doji.vn/Upload/landing-page/lamsach/images/img/loading-paged.gif") center/30px no-repeat, rgba(255, 255, 255, 0.7);
+    z-index: 99;
+  }
+  
+  .main-example {
+    margin: 60px auto 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  
+  .main-example .text-clock {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 135px;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: #000;
+    font-family: DOJI, sans-serif;
+  }
+  
+  .main-example .countdown-container {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+  }
+  
+  .main-example .time {
+    margin: 0 40px;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    height: calc(125px * 240 / 161);
+    width: 200px;
+    -webkit-perspective: 479px;
+    -moz-perspective: 479px;
+    -ms-perspective: 479px;
+    -o-perspective: 479px;
+    perspective: 479px;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    position: relative;
+  }
+  
+  .main-example .time:before {
+    content: "";
+    position: absolute;
+    width: calc(100% + 0px);
+    height: calc(100% + 135px);
+    background: url("https://trangsuc.doji.vn/Upload/landing-page/sntd2022/images/gift-box.png") center/100% no-repeat;
+    top: -117px;
+    left: 0;
+    z-index: 10;
+  }
+  
+  .main-example .count {
+    color: #e4282a;
+    display: block;
+    font-family: Doji, sans-serif;
+    font-size: 5rem;
+    line-height: 11.6rem;
+    font-weight: 600;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-transform-style: flat;
+    -moz-transform-style: flat;
+    -ms-transform-style: flat;
+    -o-transform-style: flat;
+    transform-style: flat;
+  }
+  
+  .main-example .count.top {
+    background-image: linear-gradient(#e2d0e6, #e9e5f2);
+    height: 50%;
+    -webkit-transform-origin: 50% 100%;
+    -moz-transform-origin: 50% 100%;
+    -ms-transform-origin: 50% 100%;
+    -o-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+  }
+  
+  .main-example .count.bottom {
+    background-image: linear-gradient(#e9e5f2, #dfe7f4);
+    line-height: 0;
+    height: 50%;
+    top: 50%;
+    -webkit-transform-origin: 50% 0;
+    -moz-transform-origin: 50% 0;
+    -ms-transform-origin: 50% 0;
+    -o-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+  }
+  
+  .main-example .label {
+    font-family: Doji, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    display: block;
+    position: absolute;
+    top: calc(85px * 240 / 145);
+    width: 100%;
+    color: #e4282a;
+    z-index: 11;
+  }
+  
+  /* Animation start */
+  .main-example .count.curr.top {
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+    -ms-transform: rotateX(0deg);
+    -o-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+    z-index: 3;
+  }
+  
+  .main-example .count.next.bottom {
+    -webkit-transform: rotateX(90deg);
+    -moz-transform: rotateX(90deg);
+    -ms-transform: rotateX(90deg);
+    -o-transform: rotateX(90deg);
+    transform: rotateX(90deg);
+    z-index: 2;
+  }
+  
+  /* Animation end */
+  .main-example .flip .count.curr.top {
+    -webkit-transition: all 250ms ease-in-out;
+    -moz-transition: all 250ms ease-in-out;
+    -ms-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+    -webkit-transform: rotateX(-90deg);
+    -moz-transform: rotateX(-90deg);
+    -ms-transform: rotateX(-90deg);
+    -o-transform: rotateX(-90deg);
+    transform: rotateX(-90deg);
+  }
+  
+  .main-example .flip .count.next.bottom {
+    -webkit-transition: all 250ms ease-in-out 250ms;
+    -moz-transition: all 250ms ease-in-out 250ms;
+    -ms-transition: all 250ms ease-in-out 250ms;
+    -o-transition: all 250ms ease-in-out 250ms;
+    transition: all 250ms ease-in-out 250ms;
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+    -ms-transform: rotateX(0deg);
+    -o-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+  }
+  
+  @media screen and (max-width: 48em) {
+    .main-example {
+      width: 100%;
+      flex-wrap: wrap;
+    }
+  
+    .main-example .countdown-container {
+      height: 100px;
+    }
+  
+    .main-example .time {
+      height: 90px;
+      width: 68px;
+    }
+  
+    .main-example .count {
+      font-size: 2.8em;
+      line-height: 90px;
+    }
+  
+    .main-example .label {
+      font-size: 1.8em;
+      top: 92px;
+    }
+  }
+  
+  #lp-content {
+    font-family: Doji, sans-serif;
+    font-size: 16px;
+  }
+  
+  #lp-content p {
+    margin: 0 0 5px;
+  }
+  
+  .text.desc {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+  }
+  
+  .text.desc2 {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .text.title img {
+    max-width: calc(100vw * 750 / 1920);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .text.img-8h8a img {
+    max-width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .ts-cao-cap {
+    background: url("https://trangsuc.doji.vn/Upload/landing-page/lamsach/images/img/back-top1.jpg") center top/100% no-repeat, #bd1415;
+  }
+  
+  .ts-cao-cap .wrap-content {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .ts-cao-cap .wrap-content .title-logo {
+    padding-top: 80px;
+    padding-bottom: 40px;
+  }
+  
+  .ts-cao-cap .wrap-content .title-logo>.top {
+    font-size: 3rem;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+  }
+  
+  .ts-cao-cap .wrap-content .title-logo>.bottom {
+    font-size: 14rem;
+  }
+  
+  .ts-cao-cap .wrap-content .title-logo+.text.desc {
+    margin-bottom: 10px;
+  }
+  
+  .ts-cao-cap .wrap-content .text {
+    max-width: calc(100vw * 768 / 1920);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .ts-cao-cap .wrap-content .text.title {
+    margin-bottom: 20px;
+  }
+  
+  .ts-cao-cap .wrap-content .text.desc2 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+  }
+  
+  .ts-cao-cap .wrap-content .text.img-8h8a {
+    margin-bottom: 0;
+    margin-top: 20px;
+  }
+  
+  .ts-cao-cap .wrap-content .lp-slider {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .ts-cao-cap .wrap-content .lp-slider .slick-track {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .ts-cao-cap .wrap-content .lp-slider .lp-item {
+    margin: 0 40px;
+    border: 5px solid #fff;
+  }
+  
+  .ts-cao-cap .wrap-content .lp-slider .lp-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .ts-cao-cap .wrap-content .lp-slider .lp-item.slick-center {
+    transform: scale(1.2);
+  }
+  
+  .ts-cao-cap .wrap-content .lp-slider .lp-item.slick-center img {
+    min-height: calc(100vw * 650 / 1920);
+  }
+  
+  .ts-cao-cap .wrap-content .lp-slider .slick-arrow {
+    position: absolute;
+    font-size: 4rem;
+    cursor: pointer;
+    z-index: 99;
+  }
+  
+  .ts-cao-cap .wrap-content .lp-slider .slick-arrow.slick-prev {
+    left: 0;
+  }
+  
+  .ts-cao-cap .wrap-content .lp-slider .slick-arrow.slick-next {
+    right: 0;
+  }
+  
+  .kim-cuong-vien {
+    background-color: #bd1415;
+    background-image: linear-gradient(#bd1415, #bf1817);
+  }
+  
+  .kim-cuong-vien .wrap-back {
+    background: url("https://trangsuc.doji.vn/Upload/landing-page/lamsach/images/img/back-kim-cuong.jpg") center/cover no-repeat;
+  }
+  
+  .kim-cuong-vien .wrap-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 150px;
+  }
+  
+  .kim-cuong-vien .wrap-content>.image {
+    width: 40%;
+  }
+  
+  .kim-cuong-vien .wrap-content>.image img {
+    width: 100%;
+    transform: translate(20%, 20%);
+    transform-origin: right bottom;
+  }
+  
+  .kim-cuong-vien .wrap-content>.lp-content {
+    width: 45%;
+  }
+  
+  .kim-cuong-vien .wrap-content>.lp-content .wrap-lp-content {
+    text-align: center;
+    color: #003f7a;
+  }
+  
+  .kim-cuong-vien .wrap-content>.lp-content .wrap-lp-content .lp-title img {
+    max-width: calc(100vw * 750 / 1920);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .kim-cuong-vien .wrap-content>.lp-content .wrap-lp-content .lp-desc {
+    font-size: 2.875rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .kim-cuong-vien .wrap-content>.lp-content .wrap-lp-content .text.normal {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  
+  .kim-cuong-vien .wrap-content .flex-img {
+    position: absolute;
+    bottom: -25%;
+    right: 0;
+    max-width: calc(100vw * 459 / 1920);
+  }
+  
+  .kim-cuong-vien .wrap-bottom {
+    padding-top: 180px;
+    padding-bottom: 140px;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .kim-cuong-vien .wrap-bottom>.left {
+    width: 50%;
+  }
+  
+  .kim-cuong-vien .wrap-bottom>.left img {
+    width: 100%;
+    height: calc(100vw * 450 / 1920);
+    object-fit: contain;
+  }
+  
+  .kim-cuong-vien .wrap-bottom>.right {
+    width: 50%;
+  }
+  
+  .kim-cuong-vien .wrap-bottom>.right img {
+    width: 100%;
+    height: calc(100vw * 450 / 1920);
+    object-fit: contain;
+  }
+  
+  .kim-cuong-vien .wrap-next {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 70px;
+  }
+  
+  .kim-cuong-vien .wrap-next .text.title {
+    margin-bottom: 10px;
+  }
+  
+  .kim-cuong-vien .wrap-next .text.title img {
+    max-width: calc(100vw * 750 / 1920);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .ts-vang-24k {
+    background-color: #bd1415;
+    /* background-image: linear-gradient(#bd1415, #be1415); */
+    /* background: #570810; */
+  }
+  
+  .ts-vang-24k .wrap-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    font-size: 2rem;
+  }
+  
+  .ts-vang-24k .wrap-content>.left {
+    width: calc(100% / 2 - (20px * 1 / 2));
+    margin-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .ts-vang-24k .wrap-content>.left>.top {
+    margin-bottom: 20px;
+    background: url("https://trangsuc.doji.vn/Upload/landing-page/lamsach/images/img/back-vang-24k-1.png") center/cover no-repeat;
+    padding: 40px;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .ts-vang-24k .wrap-content>.left>.top .text.normal .wrap-normal {
+    width: 53%;
+    text-align: right;
+    margin-right: 0;
+    margin-left: auto;
+    font-size: 1.6rem;
+    line-height: 1.4;
+  }
+  
+  .ts-vang-24k .wrap-content>.left>.bottom {
+    position: relative;
+  }
+  
+  .ts-vang-24k .wrap-content>.left>.bottom>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .ts-vang-24k .wrap-content>.left>.bottom .wrap-text {
+    position: absolute;
+    right: 40px;
+    top: 60px;
+    width: 53%;
+    text-align: right;
+    line-height: 1.4;
+    font-size: 1.6rem;
+  }
+  
+  .ts-vang-24k .wrap-content>.right {
+    width: calc(100% / 2 - (20px * 1 / 2));
+    margin-right: 0;
+    position: relative;
+  }
+  
+  .ts-vang-24k .wrap-content>.right>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .ts-vang-24k .wrap-content>.right .wrap-text {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    width: 65%;
+    line-height: 1.4;
+    font-size: 1.6rem;
+  }
+  
+  .vang-ep-vi {
+    background-color: #bd1415;
+    background-image: linear-gradient(#be1415, #8a1012);
+    /* background: #721314; */
+    text-align: center;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  .vang-ep-vi .text {
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .vang-ep-vi .text.title {
+    margin-bottom: 10px;
+  }
+  
+  .vang-ep-vi .text.normal {
+    margin-bottom: 30px;
+    line-height: 1.4;
+  }
+  
+  .vang-ep-vi .text.desc2 {
+    margin-bottom: 80px;
+  }
+  
+  .vang-ep-vi .desc {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+  
+  .vang-ep-vi .wrap-video {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .vang-ep-vi .wrap-video .lp-video {
+    width: 50%;
+  }
+  
+  .vang-ep-vi .wrap-video .lp-video iframe {
+    width: 100%;
+  }
+  
+  .vang-ep-vi .wrap-video .lp-img {
+    width: 50%;
+  }
+  
+  .vang-ep-vi .wrap-video .lp-img img {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .form-dang-ky {
+    background: #f8ebdd;
+    padding-top: 150px;
+  }
+  
+  .form-dang-ky .wrap-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  
+  .form-dang-ky .wrap-content .lp-img {
+    width: 50%;
+  }
+  
+  .form-dang-ky .wrap-content .lp-img img {
+    width: 100%;
+  }
+  
+  .form-dang-ky .wrap-content .lp-form {
+    width: calc(40% - 40px);
+    margin-left: 40px;
+    padding-bottom: 100px;
+  }
+  
+  .form-dang-ky .wrap-content .lp-form .text.title {
+    color: #781113;
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .form-dang-ky .wrap-content .lp-form .lp-suggest {
+    font-size: 1.6rem;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  
+  #form-dang-ky{
+      position:relative;
+  }
+  
+  #form-dang-ky .lp-row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  #form-dang-ky .lp-row label {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+  }
+  
+  #form-dang-ky .lp-row input {
+    width: 100%;
+    background: transparent !important;
+    padding: 7px 3px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border: 1px solid #000;
+  }
+  
+  #form-dang-ky .lp-row input:focus,
+  #form-dang-ky .lp-row input:-internal-autofill-selected {
+    background: transparent !important;
+  }
+  
+  #form-dang-ky .lp-row .error {
+    display: none;
+  }
+  
+  #form-dang-ky .lp-row .error.show {
+    display: inline-block;
+    width: 100%;
+    margin-top: 3px;
+    color: #781113;
+    font-size: 1.2rem;
+  }
+  
+  #form-dang-ky button[type="submit"] {
+    background: transparent !important;
+    border: 0 !important;
+    outline: 0 !important;
+    text-align: center;
+    width: 100%;
+  }
+  
+  #form-dang-ky button[type="submit"] img {
+    display: inline-block;
+    max-width: 180px;
+  }
+  
+  #form-dang-ky button[type="submit"]:focus {
+    outline: 0 !important;
+  }
+  
+  #lp-success {
+    visibility: hidden;
+    opacity: 0;
+    z-index: -99;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    -webkit-transition: 1.2s;
+    -moz-transition: 1.2s;
+    -ms-transition: 1.2s;
+    -o-transition: 1.2s;
+    transition: 1.2s;
+    background: rgba(0, 0, 0, 0.3);
+  }
+  
+  #lp-success.show {
+    visibility: visible;
+    opacity: 1;
+    z-index: 9;
+    -webkit-transition: 1.2s;
+    -moz-transition: 1.2s;
+    -ms-transition: 1.2s;
+    -o-transition: 1.2s;
+    transition: 1.2s;
+  }
+  
+  #lp-success .wrap-lp-success {
+    width: 40%;
+  }
+  
+  #lp-success .wrap-lp-success img {
+    width: 100%;
+  }
+  
+  #lp-popup {
+    visibility: hidden;
+    opacity: 0;
+    z-index: -99;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    -webkit-transition: 1.2s;
+    -moz-transition: 1.2s;
+    -ms-transition: 1.2s;
+    -o-transition: 1.2s;
+    transition: 1.2s;
+    background: rgba(0, 0, 0, 0.3);
+  }
+  
+  #lp-popup.show {
+    visibility: visible;
+    opacity: 1;
+    z-index: 10;
+    -webkit-transition: 1.2s;
+    -moz-transition: 1.2s;
+    -ms-transition: 1.2s;
+    -o-transition: 1.2s;
+    transition: 1.2s;
+  }
+  
+  #lp-popup .wrap-lp-popup {
+    width: 50%;
+  }
+  
+  #lp-popup .wrap-lp-popup a {
+    display: block;
+    width: 100%;
+  }
+  
+  #lp-popup .wrap-lp-popup img {
+    width: 100%;
+  }
+  
+  .ts-cao-cap .wrap-content .text.img img {
+    width: 100%;
+  }
+  
+  @media only screen and (max-width: 1366px) {
+    .text.desc {
+      font-size: 1.8rem;
+    }
+  
+    .ts-cao-cap .wrap-content .text.desc2 {
+      font-size: 1.2rem;
+    }
+  
+    .kim-cuong-vien .wrap-content .flex-img {
+      bottom: -16%;
+    }
+  
+    .ts-vang-24k .wrap-content>.left>.top .text.normal .wrap-normal {
+      width: 74%;
+      font-size: 1.2rem;
+    }
+  
+    .ts-vang-24k .wrap-content>.right .wrap-text {
+      font-size: 1.2rem;
+    }
+  
+    .ts-vang-24k .wrap-content>.left>.bottom .wrap-text {
+      font-size: 1.2rem;
+    }
+  
+    .text.title img {
+      max-width: 100%;
+    }
+  
+    .form-dang-ky .wrap-content .lp-form .text.title {
+      font-size: 1.4rem;
+    }
+  
+    .form-dang-ky .wrap-content .lp-form .lp-suggest {
+      font-size: 1rem;
+    }
+  
+    #form-dang-ky .lp-row label {
+      font-size: 1rem;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .desktop {
+      display: none;
+    }
+  
+    .mobile {
+      display: block;
+    }
+  
+    #lp-content {
+      font-family: Doji, sans-serif;
+      font-size: 16px;
+    }
+  
+    #lp-content p {
+      margin: 0 0 5px;
+    }
+  
+    .text.desc {
+      font-size: 1rem;
+      text-transform: uppercase;
+    }
+  
+    .text.desc2 {
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+  
+    .text.title img {
+      max-width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .text.img-8h8a img {
+      max-width: 160px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .ts-cao-cap {
+      background: url("https://trangsuc.doji.vn/Upload/landing-page/lamsach/images/img/back-top-mb.jpg") center/cover no-repeat;
+    }
+  
+    .ts-cao-cap .wrap-content {
+      text-align: center;
+      color: #fff;
+    }
+  
+    .ts-cao-cap .wrap-content .title-logo {
+      padding-top: 80px;
+      padding-bottom: 40px;
+    }
+  
+    .ts-cao-cap .wrap-content .title-logo>.top {
+      font-size: 1rem;
+      letter-spacing: 14px;
+      text-transform: uppercase;
+    }
+  
+    .ts-cao-cap .wrap-content .title-logo>.bottom {
+      font-size: 5rem;
+    }
+  
+    .ts-cao-cap .wrap-content .title-logo+.text.desc {
+      margin-bottom: 10px;
+    }
+  
+    .ts-cao-cap .wrap-content .text {
+      max-width: 98%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .ts-cao-cap .wrap-content .text img {
+      width: 100%;
+    }
+  
+    .ts-cao-cap .wrap-content .text.title {
+      margin-bottom: 20px;
+    }
+  
+    .ts-cao-cap .wrap-content .text.desc2 {
+      margin-bottom: 10px;
+      font-size: 1rem;
+    }
+  
+    .ts-cao-cap .wrap-content .text.img-8h8a {
+      margin-bottom: 0;
+      margin-top: 20px;
+    }
+  
+    .ts-cao-cap .wrap-content .lp-slider {
+      display: flex;
+      align-items: center;
+      position: relative;
+    }
+  
+    .ts-cao-cap .wrap-content .lp-slider .slick-track {
+      padding-top: 100px;
+      padding-bottom: 100px;
+      display: flex;
+      align-items: center;
+    }
+  
+    .ts-cao-cap .wrap-content .lp-slider .lp-item {
+      margin: 0 40px;
+      border: 5px solid #fff;
+    }
+  
+    .ts-cao-cap .wrap-content .lp-slider .lp-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  
+    .ts-cao-cap .wrap-content .lp-slider .lp-item.slick-center {
+      transform: scale(1.2);
+    }
+  
+    .ts-cao-cap .wrap-content .lp-slider .lp-item.slick-center img {
+      min-height: calc(100vw * 650 / 1920);
+    }
+  
+    .ts-cao-cap .wrap-content .lp-slider .slick-arrow {
+      position: absolute;
+      font-size: 2rem;
+      cursor: pointer;
+      z-index: 99;
+    }
+  
+    .ts-cao-cap .wrap-content .lp-slider .slick-arrow.slick-prev {
+      left: -10px;
+    }
+  
+    .ts-cao-cap .wrap-content .lp-slider .slick-arrow.slick-next {
+      right: -10px;
+    }
+  
+    .kim-cuong-vien {
+      background-color: #bd1415;
+      background-image: linear-gradient(#bd1415, #bf1817);
+      /* background: #570810; */
+    }
+  
+    .kim-cuong-vien .wrap-back {
+      background: url("https://trangsuc.doji.vn/Upload/landing-page/lamsach/images/img/back-kim-cuong.jpg") center/cover no-repeat;
+    }
+  
+    .kim-cuong-vien .wrap-content {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      position: relative;
+      padding-top: 40px;
+      padding-bottom: 0;
+    }
+  
+    .kim-cuong-vien .wrap-content>.image {
+      width: 100%;
+    }
+  
+    .kim-cuong-vien .wrap-content>.image img {
+      width: 100%;
+      transform: translate(0, 0);
+      transform-origin: center;
+    }
+  
+    .kim-cuong-vien .wrap-content>.lp-content {
+      width: 100%;
+    }
+  
+    .kim-cuong-vien .wrap-content>.lp-content .wrap-lp-content {
+      text-align: center;
+      color: #003f7a;
+    }
+  
+    .kim-cuong-vien .wrap-content>.lp-content .wrap-lp-content .lp-title img {
+      max-width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .kim-cuong-vien .wrap-content>.lp-content .wrap-lp-content .lp-desc {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+  
+    .kim-cuong-vien .wrap-content>.lp-content .wrap-lp-content .text.normal {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 20px;
+      font-size: 0.8rem;
+    }
+  
+    .kim-cuong-vien .wrap-content>.lp-content .wrap-lp-content .text.desc2 {
+      font-size: 0.8rem;
+    }
+  
+    .kim-cuong-vien .wrap-content>.lp-content .wrap-lp-content .image.mobile img {
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .kim-cuong-vien .wrap-content .flex-img {
+      position: absolute;
+      bottom: -15%;
+      right: 0;
+      max-width: 42%;
+    }
+  
+    .kim-cuong-vien .wrap-bottom {
+      padding-top: 40px;
+      padding-bottom: 40px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+    }
+  
+    .kim-cuong-vien .wrap-bottom>.left {
+      width: 100%;
+    }
+  
+    .kim-cuong-vien .wrap-bottom>.left img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+  
+    .kim-cuong-vien .wrap-bottom>.right {
+      width: 100%;
+    }
+  
+    .kim-cuong-vien .wrap-bottom>.right img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      margin-top: 20px;
+    }
+  
+    .kim-cuong-vien .wrap-next {
+      color: #fff;
+      text-align: center;
+      padding-bottom: 20px;
+    }
+  
+    .kim-cuong-vien .wrap-next .text.title {
+      margin-bottom: 10px;
+    }
+  
+    .kim-cuong-vien .wrap-next .text.title img {
+      max-width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .kim-cuong-vien .wrap-next p.mobile {
+      font-size: 1rem;
+      margin-top: 5px !important;
+    }
+  
+    .ts-vang-24k {
+      background-color: #bd1415;
+      /* background: #570810; */
+    }
+  
+    .ts-vang-24k .wrap-content {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: stretch;
+      font-size: 2rem;
+    }
+  
+    /* .ts-vang-24k .wrap-content>.left {
+      width: 100%;
+      margin-right: 0;
+      display: flex;
+      flex-wrap: wrap;
+    } */
+    .ts-vang-24k .wrap-content>.left>.top {
+      margin-bottom: 20px;
+      background: url("https://trangsuc.doji.vn/Upload/landing-page/lamsach/images/img/back-vang-24k-1.png") center/cover no-repeat;
+      padding: 15px;
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+  
+    .ts-vang-24k .wrap-content>.left>.top .text.normal .wrap-normal {
+      width: 90%;
+      text-align: right;
+      margin-right: 0;
+      margin-left: auto;
+      font-size: 1rem;
+      line-height: 1.4;
+    }
+  
+    .ts-vang-24k .wrap-content>.left>.bottom {
+      position: relative;
+    }
+  
+    .ts-vang-24k .wrap-content>.left>.bottom>img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  
+    .ts-vang-24k .wrap-content>.left>.bottom .wrap-text {
+      position: absolute;
+      right: 15px;
+      top: 20px;
+      width: 80%;
+      text-align: right;
+      line-height: 1.4;
+      font-size: 1rem;
+    }
+  
+    .ts-vang-24k .wrap-content>.left>.bottom .wrap-text .text.title img {
+      max-width: 65% !important;
+    }
+  
+    /* .ts-vang-24k .wrap-content>.right {
+      width: 100%;
+      margin-right: 0;
+      position: relative;
+      margin-top: 20px;
+    } */
+    .ts-vang-24k .wrap-content>.right>img {
+      width: 100%;
+    }
+  
+    .ts-vang-24k .wrap-content>.right .wrap-text {
+      position: absolute;
+      left: 15px;
+      bottom: 5px;
+      width: 80%;
+      line-height: 1.4;
+      font-size: 1rem;
+      text-align: left;
+    }
+  
+    .vang-ep-vi {
+      background-color: #bd1415;
+      background-image: linear-gradient(#be1415, #8a1012);
+      /* background: #721314; */
+      text-align: center;
+      color: #fff;
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+  
+    .vang-ep-vi .text {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .vang-ep-vi .text.title {
+      margin-bottom: 10px;
+    }
+  
+    .vang-ep-vi .text.normal {
+      margin-bottom: 10px;
+      line-height: 1.4;
+      font-size: 0.6rem;
+    }
+  
+    .vang-ep-vi .text.desc2 {
+      margin-bottom: 30px;
+      font-size: 0.6rem;
+    }
+  
+    .vang-ep-vi .desc {
+      margin-bottom: 20px;
+      font-weight: bold;
+      font-size: 1rem;
+      text-transform: uppercase;
+    }
+  
+    .vang-ep-vi .wrap-video {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+  
+    .vang-ep-vi .wrap-video .lp-video {
+      width: 100%;
+    }
+  
+    .vang-ep-vi .wrap-video .lp-video iframe {
+      width: 100%;
+    }
+  
+    .vang-ep-vi .wrap-video .lp-img {
+      width: 100%;
+      margin-top: 20px;
+    }
+  
+    .vang-ep-vi .wrap-video .lp-img img {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .form-dang-ky {
+      background: #f8ebdd;
+      padding-top: 40px;
+      padding-bottom: 20px;
+      position: relative;
+    }
+  
+    .form-dang-ky>.lp-outer {
+      position: relative;
+      z-index: 2;
+    }
+    .form-dang-ky>.mobile {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1;
+    }
+  
+    .form-dang-ky .wrap-content {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+    }
+  
+    .form-dang-ky .wrap-content .lp-img {
+      width: 100%;
+      display: none;
+    }
+  
+    .form-dang-ky .wrap-content .lp-img img {
+      width: 100%;
+    }
+  
+    .form-dang-ky .wrap-content .lp-form {
+      width: 100%;
+      margin-left: 0;
+      padding-bottom: 40px;
+    }
+  
+    .form-dang-ky .wrap-content .lp-form .text.title {
+      color: #781113;
+      font-size: 1rem;
+      font-weight: bold;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  
+    .form-dang-ky .wrap-content .lp-form .lp-suggest {
+      font-size: 0.8rem;
+      text-align: center;
+      font-style: italic;
+      margin-bottom: 20px;
+    }
+  
+    #form-dang-ky .lp-row {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+    }
+  
+    #form-dang-ky .lp-row label {
+      width: 100%;
+      margin-bottom: 10px;
+      font-size: 1rem;
+    }
+  
+    #form-dang-ky .lp-row input {
+      width: 100%;
+      background: transparent !important;
+      padding: 7px 0;
+      border-radius: 3px;
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px;
+      border: 1px solid #000;
+    }
+  
+    #form-dang-ky button[type="submit"] {
+      background: transparent !important;
+      border: 0 !important;
+      outline: 0 !important;
+      text-align: center;
+      width: 100%;
+      margin-top: 20px;
+    }
+  
+    #form-dang-ky button[type="submit"] img {
+      display: inline-block;
+      max-width: 180px;
+    }
+  
+    #form-dang-ky button[type="submit"]:focus {
+      outline: 0 !important;
+    }
+  
+    #lp-success .wrap-lp-success {
+      width: 90%;
+    }
+  
+    #lp-popup .wrap-lp-popup {
+      width: 90%;
+    }
+  }

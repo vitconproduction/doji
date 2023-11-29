@@ -1,0 +1,309 @@
+@media only screen and (max-device-width: 1920px) and (min-device-width: 1601px) {
+	/* #lp-content .lp-slide-wrap #lp-slide .slide-img a{
+		background-size: 130% !important;
+	} */
+}
+@media only screen and (max-device-width: 1600px) and (min-device-width: 1441px) {
+	/* #lp-content .lp-slide-wrap #lp-slide .slide-img a{
+		background-size: 130% !important;
+	} */
+}
+@media only screen and (max-device-width: 1440px) and (min-device-width: 1367px) {
+	/* #lp-content .lp-slide-wrap #lp-slide .slide-img a{
+		background-size: 130% !important;
+	} */
+}
+@media only screen and (max-device-width: 1366px) and (min-device-width: 1281px) {
+
+}
+@media only screen and (max-device-width: 1280px) and (min-device-width: 1025px) {
+
+}
+@media only screen and (max-device-width: 1024px) and (min-device-width: 769px) {
+	#lp-content .uu-dai .colright img{
+		max-width: 85%;
+	}
+	#lp-content .uu-dai .colright{
+		right: 0;
+	}
+	#lp-content .uu-dai-nc .colleft .item{
+		white-space: nowrap;
+	}
+}
+@media only screen and (max-device-width: 768px) and (min-device-width: 767px) {
+	#lp-content .uu-dai{
+		padding-bottom: 30px;
+	}
+	#lp-content .uu-dai .colright{
+		right: 0;
+	}
+	#lp-content .uu-dai .colright img{
+		max-width: 100%;
+	}
+	#lp-content .uu-dai .colleft .item:nth-child(6n+1){
+		display: block;
+	}
+	#lp-content .uu-dai .colleft .item:nth-child(6n+1) .inner{font-size: 3.6rem;margin-left: 3px;margin-right: 5px;}
+	#lp-content .uu-dai .colleft .item:nth-child(6n+2) .inner{font-size: 3.6rem;}
+	#lp-content .uu-dai .colleft .item:nth-child(6n+3) .inner{font-size: 3.6rem;}
+	#lp-content .uu-dai .colleft .item:nth-child(6n+4) .inner{font-size: 3.6rem;}
+	#lp-content .uu-dai .colleft .item:nth-child(6n+5) .inner{font-size: 2.6rem;}
+	#lp-content .uu-dai .colleft .item:nth-child(6n+6) .inner{font-size: 2.6rem;}
+	#lp-content .lp-slide-wrap #lp-slide .slide-img a{
+		background-size: 140% !important;
+	}
+	#lp-content .schedule .schedule-wrap #schedule-tabs ul.ui-tabs-nav{
+		display: block;
+	}
+	#lp-content .schedule .schedule-wrap #schedule-tabs ul.ui-tabs-nav li{
+		width: calc(100% / 3 - 2px);
+		margin: 0 1px 1px;
+	}
+	#lp-content .schedule .schedule-wrap #schedule-tabs ul.ui-tabs-nav li a{
+		font-size: 1.8rem;
+	}
+	#lp-content .schedule .schedule-wrap #schedule-tabs .day-content-wrap .day-content .item{
+		width: 50% !important;
+	}
+	#lp-content .schedule .schedule-wrap #schedule-tabs .day-content-wrap .day-content .item:last-child{
+		width: 100% !important;
+	}
+	#clock222 #clock .clock-part span:nth-child(2n+1){
+		font-size: 2rem;
+	}
+	#clock222 #clock .clock-part span:nth-child(2n+2){
+		font-size: 1.2rem;
+	}
+	#lp-content .uu-dai-nc {
+    background: url(/uploads-landing-page/lp/tlts2019/images/back-uu-da-nc.jpg) 75% 50%/cover no-repeat;
+	}
+	#lp-content .uu-dai-nc .colleft{
+		width: 60%;
+		white-space: nowrap;
+	}
+	#lp-content .schedule .schedule-wrap #schedule-tabs .day-content-wrap .day-content .item.content{
+		max-height: 430px !important;
+	}
+}
+@media only screen and (max-device-width:767px) {
+	#lp-content{
+		font-size: 1.4rem;
+	}
+	#lp-content .outer{
+
+	}
+	#lp-content .desktop{
+	  display: none;
+	}
+	#lp-content .mobile{
+	  display: block;
+	}
+	#lp-content .uu-dai .colleft .item:nth-child(6n+1){
+		display: block;
+		line-height: 1.4;
+	}
+	#lp-content .uu-dai .colleft .item:nth-child(6n+1)::before{
+		bottom: 0;
+		top: 18px;
+	}
+	#lp-content .uu-dai .colleft .item:nth-child(6n+1) .inner{font-size: 3.6rem;margin-left: 3px;margin-right: 3px;}
+	#lp-content .uu-dai .colleft .item:nth-child(6n+2) .inner{font-size: 3.6rem;}
+	#lp-content .uu-dai .colleft .item:nth-child(6n+3) .inner{font-size: 3.6rem;}
+	#lp-content .uu-dai .colleft .item:nth-child(6n+4) .inner{font-size: 3.6rem;}
+	#lp-content .uu-dai .colleft .item:nth-child(6n+5) .inner{font-size: 2.6rem;}
+	#lp-content .uu-dai .colleft .item:nth-child(6n+6) .inner{font-size: 2.6rem;}
+	#lp-content .uu-dai .uu-dai-title{padding-bottom: 0;}
+	#lp-content .uu-dai .the-le{
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	#lp-content .countdown {
+    padding-top: 30px;
+    padding-bottom: 30px;
+	}
+	#lp-content .countdown .outer .video{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	#lp-content .countdown .outer .mdays{
+		width: 100%;
+		padding-left: 0;
+	}
+	#clock222 #clock .clock-part span:nth-child(2n+1){
+		font-size: 2rem;
+	}
+	#clock222 #clock .clock-part span:nth-child(2n+2){
+		font-size: 1.2rem;
+	}
+	#lp-content .uu-dai .uu-dai-title{
+		font-size: 1.8rem;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+	}
+	#lp-content .uu-dai .top{
+		flex-wrap: wrap;
+	}
+	#lp-content .uu-dai .colleft{
+		width: 100%;
+	}
+	#lp-content .uu-dai .colright {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    right: 0;
+	}
+	#lp-content .uu-dai .colleft .item > .item-1{width: 10%;}
+	#lp-content .uu-dai .colleft .item > .item-2{width: 20%;}
+	#lp-content .uu-dai .colleft .item > .item-3{width: 70%;}
+
+	#lp-content .uu-dai-nc {
+    background: url(/uploads-landing-page/lp/tlts2019/images/back-uu-da-nc-mb.jpg) center/cover no-repeat;
+	}
+	#lp-content .uu-dai-nc .outer {
+    display: flex;
+    flex-wrap: wrap;
+	}
+	#lp-content .uu-dai-nc .top {
+    display: flex;
+    flex-wrap: wrap;
+    order: 2;
+		width: 100%;
+	}
+	#lp-content .uu-dai-nc .colleft {
+    width: 100%;
+	}
+	#lp-content .uu-dai-nc .colright {
+    width: 100%;
+	}
+	#lp-content .uu-dai-nc .colright img{
+		width: 100%;
+	}
+	#lp-content .uu-dai-nc .bottom {
+    display: none;
+    order: 1;
+		width: 100%;
+	}
+	#lp-content .uu-dai-nc .bottom img{
+		padding-top: 30px;
+		padding-bottom: 0;
+		height: auto !important;
+		width: 100% !important;
+		object-fit: contain;
+	}
+	#lp-content .uu-dai-nc .uu-dai-title{
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	#lp-content .uu-dai-nc .colleft .item{
+		white-space: nowrap;
+	}
+	#lp-content .uu-dai-nc .colleft .item:nth-child(2n+1) .inner{
+		font-size: 3rem;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	#lp-content .uu-dai-nc .colleft .item:nth-child(2n+2) .inner{
+		font-size: 3rem;
+	}
+	#lp-content .schedule .schedule-wrap #schedule-tabs ul.ui-tabs-nav{
+		display: block;
+	}
+	#lp-content .schedule .schedule-wrap #schedule-tabs ul.ui-tabs-nav li{
+		width: calc(100% / 3 - 2px);
+		margin: 0 1px 1px;
+	}
+	#lp-content .schedule .schedule-wrap #schedule-tabs ul.ui-tabs-nav li a{
+		font-size: 1.8rem;
+	}
+	#lp-content .schedule .schedule-wrap #schedule-tabs .ui-tabs-panel{
+		padding: 20px 0 0;
+	}
+	#lp-content .schedule .schedule-wrap #schedule-tabs .day-content-wrap .day-content .item{
+		width: 100% !important;
+		padding-left: 0 !important;
+	}
+	#lp-content .schedule .schedule-wrap #schedule-tabs .day-content-wrap .day-content .item.content{
+		margin-top: 0 !important;
+	}
+	#lp-content .schedule .schedule-wrap #schedule-tabs .day-content-wrap .day-content .item.timeline .timeline-item:last-child::before{
+		height: 100%;
+	}
+	#lp-content .schedule .schedule-wrap #schedule-tabs .day-content-wrap .day-content .item.content .content-item{
+		margin-bottom: 20px;
+	}
+	#lp-content .schedule .schedule-wrap #schedule-tabs .day-content-wrap .day-content .item.content .content-item .title{
+		padding-left: 0;
+	}
+	#lp-content .schedule .schedule-wrap #schedule-tabs .day-content-wrap .day-content .item.image-tab-item{
+		padding-top: 20px;
+	}
+	#lp-content .building .outer .content{
+		padding-top: 60px;
+		padding-bottom: 60px;
+		font-size: 1.4rem;
+	}
+	#lp-content .news .content .title{
+		margin-bottom: 10px;
+	}
+	#lp-content .news .content .listing .item{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	#lp-content .video-gallery .content .title{
+		margin-bottom: 10px;
+	}
+	#lp-content .video-gallery .outer .video-listing-day .video{
+		width: 100% !important;
+		margin-right: 0;
+	}
+	#lp-content .lp-slide-wrap #lp-slide .slide-img a{
+		background-size: 140% !important;
+	}
+	#lp-content .read-more{
+		font-size: 1rem;
+		display: inline-block;
+		width: 100%;
+	}
+	#lp-content .read-more .arr-right{
+		border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+		border-left-width: 7px;
+	}
+	.slick-next {
+	  right: -20px !important;
+	}
+	.slick-prev {
+	  left: -20px !important;
+	}
+	.slick-prev, .slick-next {
+    width: 20px !important;
+    height: 20px !important;
+	}
+	#lp-content .uu-dai-nc .colleft .item:nth-child(2n+2) p:nth-child(2n+1){
+		white-space: normal;
+	}
+}
+@media only screen and (max-device-width: 568px) and (min-device-width: 321px) {
+
+}
+@media only screen and (max-device-width: 414px) {
+
+}
+@media only screen and (max-device-width: 375px) {
+
+}
+@media only screen and (max-device-width: 360px) {
+	#lp-content .uu-dai .colleft .item:nth-child(6n+1) .inner{font-size: 2.6rem;}
+	#lp-content .uu-dai .colleft .item:nth-child(6n+2) .inner{font-size: 2.6rem;}
+	#lp-content .uu-dai .colleft .item:nth-child(6n+3) .inner{font-size: 2.6rem;}
+	#lp-content .uu-dai .colleft .item:nth-child(6n+4) .inner{font-size: 2.6rem;}
+	#lp-content .uu-dai .colleft .item:nth-child(6n+5) .inner{font-size: 2.6rem;}
+	#lp-content .uu-dai .colleft .item:nth-child(6n+6) .inner{font-size: 2.6rem;}
+	#lp-content .lp-slide-wrap #lp-slide .slide-img a{
+		background-size: 140% !important;
+	}
+}
+@media only screen and (max-device-width: 320px) {
+
+}

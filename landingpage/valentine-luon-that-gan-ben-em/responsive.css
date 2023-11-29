@@ -1,0 +1,60 @@
+@media only screen and (max-device-width: 1920px) and (min-device-width: 1601px) {
+
+}
+@media only screen and (max-device-width: 1600px) and (min-device-width: 1441px) {
+
+}
+@media only screen and (max-device-width: 1440px) and (min-device-width: 1367px) {
+
+}
+@media only screen and (max-device-width: 1366px) and (min-device-width: 1281px) {
+
+}
+@media only screen and (max-device-width: 1280px) and (min-device-width: 1025px) {
+
+}
+@media only screen and (max-device-width: 1024px) and (min-device-width: 769px) {
+	#content_lp .lp-header{padding-bottom: 70px;}
+}
+@media only screen and (max-device-width: 768px) {
+	#content_lp .lp-header{padding-bottom: 130px;}
+}
+@media only screen and (max-device-width:767px) {
+	#content_lp .lp-header{padding-bottom: 0;}
+	#content_lp .lp-header .lp-left{width:100%;}
+	#content_lp .lp-header .lp-right{width:100%;}
+	.lp-bst-nhan{padding-top:50px !important;margin-top:-2px !important;z-index:1;}
+	#content_lp .w35{width:100%;}
+	#content_lp .w65{width:100%;}
+	#content_lp .lp-bst-image img{width:100%;opacity:1 !important;padding-top:10px;}
+	.lp-bst-hoa-tai__model{opacity:0 !important;z-index:-1;}
+	.lp-bst_text__title___text{font-size:36px;}
+	#content_lp .lp-header .lp-right + img{right: 16%;bottom: -1%;width: 9%;}
+	#content_lp .lp-header .lp-right + img + img{bottom:-3%;width:10%;}
+	.lp-bst_text__content{width:100%;padding-bottom: 20px;text-align: justify;margin-left:0 !important;}
+	#content_lp .lp-bst-lac-tay .small-hearts-1{left:-12px;}
+	#content_lp .lp-bst-hoa-tai .small-hearts-1{left:-12px;}
+	.lp-right .lp-bst_text__title___text{padding-top:5px;}
+	.lp-video{padding-top:30px !important;}
+	.lp-video .lp-left{padding-top:0;}
+	.lp-left .lp-bst_text__title___text{text-align:center;}
+	#content_lp .lp-video .small-hearts-1{width: 30px;top: 10px;}
+	#content_lp .lp-video .small-hearts-2{width: 24px;bottom: 0;}
+	.lp-video .lp-bst_text__content{width:100%;text-align:justify;}
+	#content_lp .lp-right iframe{min-height: 180px;width: 100%;height: auto;}
+}
+@media only screen and (max-device-width: 568px) and (min-device-width: 321px) {
+
+}
+@media only screen and (max-device-width: 414px) {
+
+}
+@media only screen and (max-device-width: 375px) {
+
+}
+@media only screen and (max-device-width: 360px) {
+
+}
+@media only screen and (max-device-width: 320px) {
+	.lp-bst_text__title___text {font-size: 28px;}
+}
