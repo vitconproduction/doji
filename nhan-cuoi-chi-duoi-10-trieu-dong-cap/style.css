@@ -1,79 +1,79 @@
 @font-face {
     font-family: MauTim2;
-    src: url("/fonts/UVNMauTim2.ttf") format("truetype");
+    src: url("./fonts/UVNMauTim2.ttf") format("truetype");
     font-style: normal;
   }
   
   @font-face {
     font-family: Trajan;
-    src: url("/fonts/UTMTrajanProBold.ttf") format("truetype");
+    src: url("./fonts/UTMTrajanProBold.ttf") format("truetype");
     font-style: normal;
   }
   
   @font-face {
     font-family: UTMAvo;
-    src: url("/fonts/UTM Avo.ttf") format("truetype");
+    src: url("./fonts/UTM Avo.ttf") format("truetype");
     font-style: normal;
   }
   
   @font-face {
     font-family: UVNMauTim2;
-    src: url("/fonts/UVNMauTim2.ttf") format("truetype");
+    src: url("./fonts/UVNMauTim2.ttf") format("truetype");
     font-style: normal;
   }
   
   @font-face {
     font-family: Belle;
-    src: url("/fonts/SFUBelleRegular.TTF") format("truetype");
+    src: url("./fonts/SFUBelleRegular.TTF") format("truetype");
     font-style: normal;
   }
   
   @font-face {
     font-family: Aptima;
-    src: url("/fonts/UTM Aptima.ttf") format("truetype");
+    src: url("./fonts/UTM Aptima.ttf") format("truetype");
     font-style: normal;
   }
   
   @font-face {
     font-family: Americana;
-    src: url("/fonts/UTM Americana.ttf") format("truetype");
+    src: url("./fonts/UTM Americana.ttf") format("truetype");
     font-style: normal;
   }
   
   @font-face {
     font-family: Duepu;
-    src: url("/fonts/UTMDuepuntozero.ttf") format("truetype");
+    src: url("./fonts/UTMDuepuntozero.ttf") format("truetype");
     font-style: normal;
   }
   
   @font-face {
     font-family: AnhHai;
-    src: url("/fonts/UVNAnhHai_R.ttf") format("truetype");
+    src: url("./fonts/UVNAnhHai_R.ttf") format("truetype");
     font-style: normal;
   }
   
   @font-face {
     font-family: AiCap;
-    src: url("/fonts/UVNAiCapNhe.ttf") format("truetype");
+    src: url("./fonts/UVNAiCapNhe.ttf") format("truetype");
     font-style: normal;
   }
   
   @font-face {
     font-family: Aphro;
-    src: url("/fonts/UVFAphroditePro.ttf") format("truetype");
+    src: url("./fonts/UVFAphroditePro.ttf") format("truetype");
     font-style: normal;
   }
   
   @font-face {
     font-family: Neo;
-    src: url("/fonts/UTM Neo Sans Intel.ttf") format("truetype");
+    src: url("./fonts/UTM Neo Sans Intel.ttf") format("truetype");
     font-style: normal;
   }
   
   @font-face {
     font-family: MyriadRegular;
-    src: url("/fonts/myriadpro-regular-webfont.eot");
-    src: url("/fonts/myriadpro-regular-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/myriadpro-regular-webfont.ttf") format("truetype");
+    src: url("./fonts/myriadpro-regular-webfont.eot");
+    src: url("./fonts/myriadpro-regular-webfont.eot?#iefix") format("embedded-opentype"), url("./fonts/myriadpro-regular-webfont.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
   }
@@ -111,7 +111,7 @@
   }
   
   #lp-content .list-sp .item .item-wrap .price {
-    background: url("/images/back-sp-03.png") center/100% no-repeat;
+    background: url("./images/back-sp-03.png") center/100% no-repeat;
     width: 96%;
     min-height: 50px;
     margin-left: 2%;
@@ -361,15 +361,15 @@
   }
   
   #lp-content #sp-salsa {
-    background: url("/images/back-04.jpg") center/cover no-repeat;
+    background: url("./images/back-04.jpg") center/cover no-repeat;
   }
   
   #lp-content #sp-mono {
-    background: url("/images/back-05.jpg") center/cover no-repeat;
+    background: url("./images/back-05.jpg") center/cover no-repeat;
   }
   
   #lp-content #sp-eros {
-    background: url("/images/back-06.jpg") center/cover no-repeat;
+    background: url("./images/back-06.jpg") center/cover no-repeat;
   }
   
   #lp-content .viewall {
@@ -385,7 +385,7 @@
   }
   
   #lp-content .lp-wd {
-    background: url("/images/backWD.jpg") center/cover no-repeat;
+    background: url("./images/backWD.jpg") center/cover no-repeat;
   }
   
   #lp-content .lp-wd .lp-wd-wrap {
@@ -490,7 +490,7 @@
       display: none;
     }
     #lp-content .lp-evoucher {
-      background: url("/images/back-voucher.jpg") center/cover no-repeat;
+      background: url("./images/back-voucher.jpg") center/cover no-repeat;
     }
     #lp-content .lp-evoucher .lp-evoucher-text-wrap {
       width: 90%;
@@ -522,7 +522,7 @@
     }
     #lp-content .bst-salsa__text {
       position: relative;
-      background: url("/images/salsa.jpg") center/cover no-repeat;
+      background: url("./images/salsa.jpg") center/cover no-repeat;
       padding-top: 20px;
       padding-bottom: 20px;
     }
@@ -548,7 +548,7 @@
     }
     #lp-content .bst-mono__text {
       position: relative;
-      background: url("/images/mono.jpg") center/cover no-repeat;
+      background: url("./images/mono.jpg") center/cover no-repeat;
       padding-top: 20px;
       padding-bottom: 20px;
     }
@@ -571,7 +571,7 @@
     }
     #lp-content .bst-eros__text {
       position: relative;
-      background: url("/images/eros.jpg") center/cover no-repeat;
+      background: url("./images/eros.jpg") center/cover no-repeat;
       padding-top: 20px;
       padding-bottom: 20px;
     }
