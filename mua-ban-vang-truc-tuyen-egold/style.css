@@ -1,6 +1,6 @@
 @font-face {
     font-family: TPB;
-    src: url("/fonts/TPB.ttf") format("truetype");
+    src: url("./fonts/TPB.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -8,7 +8,7 @@
   
   @font-face {
     font-family: TPB_B;
-    src: url("/fonts/TPB_B.ttf") format("truetype");
+    src: url("./fonts/TPB_B.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -16,7 +16,7 @@
   
   @font-face {
     font-family: TPB_I;
-    src: url("/fonts/TPB_I.ttf") format("truetype");
+    src: url("./fonts/TPB_I.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -24,7 +24,7 @@
   
   @font-face {
     font-family: TPB_BI;
-    src: url("/fonts/TPB_BI.ttf") format("truetype");
+    src: url("./fonts/TPB_BI.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -187,7 +187,7 @@
   }
   
   #lp-section-2 {
-    background: url("/back.jpg") center top/100% no-repeat, linear-gradient(#ffd85c, #ffd85c, #ffd85c, #ffd85c, #ffd85c, #fff);
+    background: url("./back.jpg") center top/100% no-repeat, linear-gradient(#ffd85c, #ffd85c, #ffd85c, #ffd85c, #ffd85c, #fff);
   }
   
   #lp-section-2 .top {
@@ -634,7 +634,7 @@
     }
   
     #lp-section-2 {
-      background: url("/images/back-mb.jpg") center top/cover no-repeat, linear-gradient(#ffd85c, #ffd85c, #ffd85c, #ffd85c, #ffd85c, #fff);
+      background: url("./images/back-mb.jpg") center top/cover no-repeat, linear-gradient(#ffd85c, #ffd85c, #ffd85c, #ffd85c, #ffd85c, #fff);
     }
   
     #lp-section-2 .top {
