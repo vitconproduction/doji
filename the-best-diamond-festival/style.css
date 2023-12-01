@@ -1,7 +1,7 @@
-@font-face {font-family: Felix;src: url("/uploads-landing-page/lp/kc052019/fonts/Felix Titling MT.ttf") format("truetype");font-style: normal;}
-@font-face {font-family: UTMTime;src: url("/uploads-landing-page/lp/kc052019/fonts/UTM Times.ttf") format("truetype");font-style: normal;}
-@font-face {font-family: UTMAvo;src: url("/uploads-landing-page/lp/kc052019/fonts/UTM Avo.ttf") format("truetype");font-style: normal;}
-@font-face {font-family: MyriadRegular;src: url('/uploads-landing-page/lp/kc052019/fonts/myriadpro-regular-webfont.eot');src: url('/uploads-landing-page/lp/kc052019/fonts/myriadpro-regular-webfont.eot?#iefix') format('embedded-opentype'), url('/uploads-landing-page/lp/kc052019/fonts/myriadpro-regular-webfont.ttf') format('truetype');font-weight: normal;font-style: normal;}
+@font-face {font-family: Felix;src: url("/fonts/Felix Titling MT.ttf") format("truetype");font-style: normal;}
+@font-face {font-family: UTMTime;src: url("/images/fonts/UTM Times.ttf") format("truetype");font-style: normal;}
+@font-face {font-family: UTMAvo;src: url("/images/fonts/UTM Avo.ttf") format("truetype");font-style: normal;}
+@font-face {font-family: MyriadRegular;src: url('/images/fonts/myriadpro-regular-webfont.eot');src: url('/images/fonts/myriadpro-regular-webfont.eot?#iefix') format('embedded-opentype'), url('/images/fonts/myriadpro-regular-webfont.ttf') format('truetype');font-weight: normal;font-style: normal;}
 #lp-content{width:100%;display: inline-block;font-size: 15px;font-family: UTMAvo, sans-serif;}
 #lp-content section{width: 100%;display: inline-block;position: relative;float: left;}
 #lp-content .outer{width: 90%;margin-left: 5%;margin-right: 5%;}
@@ -74,9 +74,9 @@
 .contact-fixed a span {display: block;}
 .contact-fixed a span:nth-child(2n+1){}
 .contact-fixed a span:nth-child(2n+2){font-weight: 600;}
-.contact-fixed > span:nth-child(3n+1){background: url("/uploads-landing-page/lp/kc052019/images/phone2.png") 98% 50%/40px no-repeat,#d5d7d9;}
-.contact-fixed > span:nth-child(3n+2){background: url("/uploads-landing-page/lp/kc052019/images/home.png") 98% 50%/40px no-repeat,#d5d7d9;}
-.contact-fixed > span:nth-child(3n+3){background: url("/uploads-landing-page/lp/kc052019/images/fb.png") 98% 50%/40px no-repeat,#d5d7d9;}
+.contact-fixed > span:nth-child(3n+1){background: url("/images/phone2.png") 98% 50%/40px no-repeat,#d5d7d9;}
+.contact-fixed > span:nth-child(3n+2){background: url("/images/home.png") 98% 50%/40px no-repeat,#d5d7d9;}
+.contact-fixed > span:nth-child(3n+3){background: url("/images/fb.png") 98% 50%/40px no-repeat,#d5d7d9;}
 .contact-fixed > span.active{left: 0;}
 /* .contact-fixed a:hover{left: 0;} */
 

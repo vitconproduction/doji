@@ -1,43 +1,43 @@
 @font-face {
   font-family: Doji;
-  src: url("/uploads-landing-page/lp/htv/fonts/DojiGodWordR.ttf") format("truetype");
+  src: url("/fonts/DojiGodWordR.ttf") format("truetype");
   font-style: normal;
 }
 
 @font-face {
   font-family: UTMTime;
-  src: url("/uploads-landing-page/lp/htv/fonts/UTM Times.ttf") format("truetype");
+  src: url("/fonts/UTM Times.ttf") format("truetype");
   font-style: normal;
 }
 
 @font-face {
   font-family: UTMAvo;
-  src: url("/uploads-landing-page/lp/htv/fonts/UTM Avo.ttf") format("truetype");
+  src: url("/fonts/UTM Avo.ttf") format("truetype");
   font-style: normal;
 }
 
 @font-face {
   font-family: Trajan;
-  src: url("/uploads-landing-page/lp/htv/fonts/UTMTrajanProBold.ttf") format("truetype");
+  src: url("/fonts/UTMTrajanProBold.ttf") format("truetype");
   font-style: normal;
 }
 
 @font-face {
   font-family: Helve;
-  src: url("/uploads-landing-page/lp/htv/fonts/UTM Helve.ttf") format("truetype");
+  src: url("/fonts/UTM Helve.ttf") format("truetype");
   font-style: normal;
 }
 
 @font-face {
   font-family: HelveB;
-  src: url("/uploads-landing-page/lp/htv/fonts/UTM HelveBold.ttf") format("truetype");
+  src: url("/fonts/UTM HelveBold.ttf") format("truetype");
   font-style: normal;
 }
 
 @font-face {
   font-family: MyriadRegular;
-  src: url("/uploads-landing-page/lp/htv/fonts/myriadpro-regular-webfont.eot");
-  src: url("/uploads-landing-page/lp/htv/fonts/myriadpro-regular-webfont.eot?#iefix") format("embedded-opentype"), url("/uploads-landing-page/lp/htv/fonts/myriadpro-regular-webfont.ttf") format("truetype");
+  src: url("/fonts/myriadpro-regular-webfont.eot");
+  src: url("/fonts/myriadpro-regular-webfont.eot") format("embedded-opentype"), url("/fonts/myriadpro-regular-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -47,7 +47,7 @@
   display: inline-block;
   font-size: 1.6rem;
   position: relative;
-  background: url("/uploads-landing-page/lp/htv/images/htv-14.png");
+  background: url("/htv-14.png");
   padding-bottom: 70px;
   padding-top: 70px;
 }

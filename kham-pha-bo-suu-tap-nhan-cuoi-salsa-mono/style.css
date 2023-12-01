@@ -1,4 +1,4 @@
-.bg-body2{background: url("http://trangsuc.doji.vn/uploads-landing-page/nhan-cuoi-vi-ta-mai-yeu/images/background-04.jpg") center/contain repeat-y;display: inline-block;}
+.bg-body2{background: url("/images/background-04.jpg") center/contain repeat-y;display: inline-block;}
 .bg-body2 .xem-them-dong-nhan-cuoi {
     display: inline-block;
     width: 80%;
@@ -12,7 +12,7 @@
 .bg-body2 .xem-them-dong-nhan-cuoi .list-xtmdnc li a{color:#000;}
 .bg-body2 .xem-them-dong-nhan-cuoi .list-xtmdnc li:nth-child(-n+4):after{content: "|";padding: 0 15px;font-size: 12px;position: absolute;}
 .banner {
-    background: url("http://trangsuc.doji.vn/uploads-landing-page/nhan-cuoi-vi-ta-mai-yeu/images/banner-03.jpg") center/contain no-repeat;
+    background: url("/images/banner-03.jpg") center/contain no-repeat;
     height: 600px;
 	width: 100%;
 	display: inline-block;
@@ -62,11 +62,11 @@
 .tb-row1-col2 .text-img-nc2 img{width: 75%;margin-left:15%;z-index: 1;}
 @font-face {
     font-family: DOJIGod;
-    src: url("http://trangsuc.doji.vn/uploads-landing-page/nhan-cuoi-vi-ta-mai-yeu/fonts/DojiGodWordR.ttf") format("truetype")
+    src: url("/fonts/DojiGodWordR.ttf") format("truetype")
 }
 @font-face {
     font-family: UVNBachDang_R;
-    src: url("http://trangsuc.doji.vn/uploads-landing-page/nhan-cuoi-vi-ta-mai-yeu/fonts/UVNBachDang_R.TTF") format("truetype")
+    src: url("/fonts/UVNBachDang_R.TTF") format("truetype")
 }
 .tb-row2-qua-tang {
     display: inline-block;
@@ -175,5 +175,5 @@ right:0px;
     top: 170px;
     right: 5px;
 }
-#nav-lp li:nth-child(1) a div{background: url(http://trangsuc.doji.vn/uploads-landing-page/nhan-cuoi-vi-ta-mai-yeu/images/menu-11.png) right/cover no-repeat;width:70px;height: 89px;}
-#nav-lp li:nth-child(2) a div{background: url(http://trangsuc.doji.vn/uploads-landing-page/nhan-cuoi-vi-ta-mai-yeu/images/menu-12.png) right/cover no-repeat;width:70px;height: 76px;}
+#nav-lp li:nth-child(1) a div{background: url(/images/menu-11.png) right/cover no-repeat;width:70px;height: 89px;}
+#nav-lp li:nth-child(2) a div{background: url(/images/menu-12.png) right/cover no-repeat;width:70px;height: 76px;}

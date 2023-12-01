@@ -7,10 +7,10 @@
 #lp-content .lp-header .lp-header-top-banner img{width: 100%;}
 
 #lp-content .text-block-01 {text-align: justify;text-align-last: center;width: 70%;margin-left: 15%;margin-right: 15%;line-height: 1.6em;padding-top: 25px;padding-bottom: 45px;margin-bottom: 25px;color: #050001;position: relative;}
-#lp-content .text-block-01::after{content: "";position: absolute;bottom: 0;left: 0;background: url("/uploads-landing-page/lp/ngaycuame2018/images/line-blue.png") center bottom/60% no-repeat;height: 30px;width: 100%;}
+#lp-content .text-block-01::after{content: "";position: absolute;bottom: 0;left: 0;background: url("/images/line-blue.png") center bottom/60% no-repeat;height: 30px;width: 100%;}
 
 .bst-vong-tay-yeu-thuong{position: relative;padding-bottom: 45px;margin-bottom: 25px;}
-.bst-vong-tay-yeu-thuong::after{content: "";position: absolute;bottom: 0;left: 15%;background: url("/uploads-landing-page/lp/ngaycuame2018/images/line-yellow.png") center bottom/60% no-repeat;height: 30px;width: 70%;}
+.bst-vong-tay-yeu-thuong::after{content: "";position: absolute;bottom: 0;left: 15%;background: url("/images/line-yellow.png") center bottom/60% no-repeat;height: 30px;width: 70%;}
 .bst-vong-tay-yeu-thuong_content{position: relative;}
 .bst-vong-tay-yeu-thuong_content__text{position: absolute;bottom: 5%;right: 0;width: 50%;padding: 60px;background-color: #0a0d88;color: #fff;line-height: 2em;font-size: 13px;text-align: center;}
 .bst-vong-tay-yeu-thuong_content__text .round{height: 100%;width: 100%;display: inline-block;position: absolute;bottom: 30px;left: 30px;border: 1px solid #f0c72a;}

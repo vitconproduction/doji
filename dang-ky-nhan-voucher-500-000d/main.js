@@ -26,10 +26,10 @@ $('#gioitinh1 input').each(function () {
     $input.removeClass("valid").addClass("invalid");
     $("#gioitinh1 img").on("click", function () {
         $("#gioitinh1 img").each(function () {
-            $(this).attr("src", "http://trangsuc.doji.vn/uploads-landing-page/formhcm/images/radio-img-1.png");
+            $(this).attr("src", "/images/radio-img-1.png");
             $(this).prev().attr("checked", false);
         });
-        $(this).attr("src", "http://trangsuc.doji.vn/uploads-landing-page/formhcm/images/radio-img-2.png");
+        $(this).attr("src", "/images/radio-img-2.png");
         $(this).prev().attr("checked", true);
         $('#gioitinh1 input').removeClass("invalid").addClass("valid");
     });

@@ -1,0 +1,628 @@
+@font-face {font-family: MyriadRegular;src: url('/fonts/myriadpro-regular-webfont.eot');src: url('/fonts/myriadpro-regular-webfont.eot?#iefix') format('embedded-opentype'), url('/uploads-landing-page/lp/ngochoc/fonts/myriadpro-regular-webfont.ttf') format('truetype');font-weight: normal;font-style: normal;}
+@font-face {font-family: Swiss;src: url('/fonts/UTM Swiss Condensed.ttf') format('truetype');font-weight: normal;font-style: normal;}
+#lp-content{width:100%;display: inline-block;}
+#lp-content section{width: 100%;display: inline-block;position: relative;float: left;}
+#lp-content .outer{width: 86%;margin-left: 7%;margin-right: 7%;}
+
+#lp-content .page_line {
+    float: left;
+    width: 100%;
+    min-height: 100%;
+    height: 16px;
+    background: url("/images/page-line.png") 50% 100%/contain no-repeat;
+    margin: 30px 0
+}
+
+#lp-content {
+    width: 100%;
+    float: left;
+    background: url("/images/tower-left-back.jpg") top left/21% no-repeat, url("/images/tower-right-back.jpg") top right/21% no-repeat;
+    position: relative;
+    color: #0c3168;
+    line-height: 1.8;
+}
+#lp-content .lp-header{
+  width: 53%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+#lp-content h1{
+  font-family: Swiss, sans-serif;
+  text-align: center;
+}
+#lp-content .sub-title{
+  font-family: Swiss, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+#lp-content .thong-tin-dang-ky{
+  font-family: Swiss, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+#lp-content .thong-tin-dang-ky p{
+  margin: 0;
+  line-height: 1.8;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+#lp-content .thong-tin-dang-ky p span{
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+#lp-content .title {
+  color: #0c3168;
+  font: 2.4rem MyriadRegular,sans-serif;
+  text-align: center;
+  margin: 30px 0 30px;
+	line-height: 1.4em;
+}
+#lp-content .title div {
+    font-size: 18px;
+	text-transform: uppercase;
+}
+
+#lp-content #nhanvoucher {
+  float: left;
+	width: 53%;
+  margin: 0 23.5%;
+}
+
+#lp-content #dangKyVoucher {
+    float: left;
+    width: 100%
+}
+
+#lp-content #dangKyVoucher .formInputContent {
+    padding: 20px 30px 75px;
+}
+
+#lp-content .phone_da_dung,
+#lp-content .em_da_dung,
+#lp-content .cc_sai,
+#lp-content .error {
+    display: none
+}
+
+#lp-content .phone_da_dung_show,
+#lp-content .em_da_dung_show,
+#lp-content .cc_sai_show,
+#lp-content .error_show {
+    color: red;
+    margin: 5px 0 0;
+    display: inline-block;
+    position: relative;
+    font: 14px "Myriad Pro"
+}
+
+#lp-content #er_diadiem {
+    font: 16px "Myriad Pro"
+}
+
+#lp-content #submit_nhanvc {
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 5px 5px 0;
+    margin: -28px 0 0;
+    background: #0c3168;
+    border: 0;
+    border-radius: 7px 7px 7px 7px;
+    -ms-border-radius: 7px 7px 7px 7px;
+    -webkit-border-radius: 7px 7px 7px 7px;
+    width: 200px;
+    height: 54px;
+    text-transform: uppercase
+}
+
+#lp-content #submit_nhanvc:hover{
+  background: rgb(108, 128, 161);
+  color: #fff;
+}
+
+#lp-content #nhanvoucher .formInputContent {
+    float: left;
+    width: 100%;
+    border: dashed 1px;
+    border-image: url("/images/wLdVc.png") 1 round;
+    background: rgba(12, 49, 104, 0.1);
+}
+
+#lp-content #formRowbirthday,
+#lp-content #formRowChoose,
+#lp-content #formRowJob,
+#lp-content #formRowKnowledge,
+#lp-content #formRowDiachi,
+#lp-content #formRowDiadiem,
+#lp-content #formRowCaptcha,
+#lp-content #formRowEmail,
+#lp-content #formRowGioitinh,
+#lp-content #formRowName,
+#lp-content #formRowPhone,
+#lp-content #formRowTuoi {
+    float: left;
+    width: 100%;
+    display: inline-block
+}
+
+#lp-content #formRowName {
+    margin: 15px 0 0;
+    width: 48%;
+}
+
+#lp-content #formRowbirthday {
+    margin: 15px 0 0 4%;
+    width: 48%;
+}
+
+#lp-content #formRowGioitinh {
+    margin: 20px 0 0 7%;
+    width: 23%;
+}
+
+#lp-content #formRowChoose,
+#lp-content #formRowJob,
+#lp-content #formRowKnowledge,
+#lp-content #formRowDiachi,
+#lp-content #formRowDiadiem,
+#lp-content #formRowCaptcha,
+#lp-content #formRowEmail,
+#lp-content #formRowPhone,
+#lp-content #formRowTuoi {
+    margin: 40px 0 0
+}
+
+#lp-content #formRowDiadiem {
+    margin: 30px 0 20px;
+    color: #0c3168;
+    width: 48%;
+    margin-left: 10%
+}
+
+#lp-content #formRowChoose input,
+#lp-content #formRowJob input,
+#lp-content #formRowKnowledge input,
+#lp-content #formRowDiachi input,
+#lp-content #formRowCaptcha input,
+#lp-content #formRowEmail input,
+#lp-content #formRowGioitinh input,
+#lp-content #formRowName input,
+#lp-content #formRowPhone input,
+#lp-content #formRowTuoi input {
+    float: left
+}
+
+#lp-content #formRowDiadiem input {
+    float: left
+}
+
+#lp-content #diadiemkhac {
+    width: 100%
+}
+
+#lp-content .formRowDiachi1,
+#lp-content .formRowDiadiem1,
+#lp-content .formRowCaptcha1,
+#lp-content .formRowEmail1,
+#lp-content .formRowGioitinh1,
+#lp-content .formRowName1,
+#lp-content .formRowPhone1,
+#lp-content .formRowTuoi1 {
+    float: left;
+    width: 25%
+}
+
+#lp-content #nhanvoucher label {
+    font: 18px "Myriad Pro"
+}
+
+#lp-content .formRowDiadiem1 {
+    float: left;
+    width: 100%
+}
+
+#lp-content .formRowDiachi2,
+#lp-content .formRowCaptcha2,
+#lp-content .formRowEmail2,
+#lp-content .formRowGioitinh2,
+#lp-content .formRowName2,
+#lp-content .formRowPhone2,
+#lp-content .formRowTuoi2 {
+    float: left;
+    width: 100%
+}
+
+.formRowDiadiem4 {
+    float: left;
+    width: 55%;
+    margin: 10px 0 0;
+    font: 16px "Myriad Pro"
+}
+
+#lp-content .formRowKnowledge3,
+#lp-content .formRowJob3,
+#lp-content .formRowDiachi3,
+#lp-content .formRowDiadiem3,
+#lp-content .formRowCaptcha3,
+#lp-content .formRowEmail3,
+#lp-content .formRowGioitinh3,
+#lp-content .formRowName3,
+#lp-content .formRowPhone3,
+#lp-content .formRowTuoi3 {
+    float: right;
+    width: 100%
+}
+
+#lp-content .formRowCaptcha2 input {
+    margin-bottom: 10px
+}
+
+#lp-content .formRowName2 input {
+    width: 180px;
+    min-width: 100%
+}
+
+#lp-content .formRowGioitinh2 input {
+    width: 10px;
+    max-width: 20px
+}
+
+#lp-content .formRowTuoi2 input {
+    width: 100%;
+    min-width: 30px
+}
+
+#lp-content #formRowPhone {
+    width: 48%
+}
+
+#lp-content #formRowEmail {
+    width: 48%;
+    margin-left: 4%
+}
+
+#lp-content #formRowDiachi {
+    width: 48%
+}
+
+#lp-content #formRowJob {
+    width: 48%;
+    margin-left: 4%;
+}
+
+#lp-content .formRowJob2 input{
+  width: 100%;
+}
+
+#formRowKnowledge {
+    width: 100%;
+}
+
+#formRowChoose {
+    color: #0c3168;
+    width: 50%
+}
+
+#lp-content .formRowDiachi2 input {
+    width: 180px;
+    min-width: 100%
+}
+
+#lp-content .formRowEmail2 input {
+    width: 180px;
+    min-width: 100%
+}
+
+#lp-content .formRowPhone2 input {
+    width: 180px;
+    min-width: 100%
+}
+
+#lp-content .formRowDiadiem2 select {
+    width: 184px;
+    min-width: 100%
+}
+
+#lp-content .formRowCaptcha2 input {
+    width: 180px;
+    min-width: 100%
+}
+
+#lp-content input[type=text] {
+    border: 1px solid #0c3168;
+    background: rgba(12, 49, 104, 0.05);
+    height: 30px;
+    width: 100%;
+    font: 16px MyriadRegular;
+    color: #0c3168;
+    padding: 0 5px;
+}
+
+#lp-content input[type=radio] {
+    /* display: none */
+}
+
+#lp-content #gioitinh1 {
+    line-height: 24px
+}
+
+#choose1 {
+    line-height: 40px
+}
+
+#gioitinh1 img,
+#choose1 img {
+    height: 12px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+#gioitinh1 div {
+    display: inline-block
+}
+
+#gioitinh1 div div,
+#choose1 div div {
+    display: inline-block;
+    vertical-align: middle
+}
+
+#gioitinh1 div div {
+    margin: 0 10px;
+    font: 16px MyriadRegular;
+    color: #0c3168
+}
+
+/* ::-webkit-input-placeholder {
+    color: #0c3168;
+    opacity: 0.6;
+    font: 16px MyriadRegular
+}
+
+::-moz-placeholder {
+    color: #0c3168;
+    opacity: 0.6;
+    font: 16px MyriadRegular
+}
+
+:-ms-input-placeholder {
+    color: #0c3168;
+    opacity: 0.6;
+    font: 16px MyriadRegular
+}
+
+:-moz-placeholder {
+    color: #0c3168;
+    opacity: 0.6;
+    font: 16px MyriadRegular
+} */
+
+#lp-content .thele {
+    float: left;
+    width: 100%;
+    margin: 50px 0 0
+}
+
+#lp-content .thele1_tit,
+#lp-content .thele2_tit {
+    color: #606060;
+    font-family: SwissCondensed;
+    font-size: 16px;
+    font-weight: bold
+}
+
+#lp-content .thele1_text,
+#lp-content .thele2_text {
+    color: #606060;
+    font-family: SwissCondensed;
+    font-size: 14px;
+    line-height: 24px
+}
+
+#lp-footer {
+    float: left;
+    width: 100%;
+    text-align: center
+}
+
+#lp-footer .social {
+    margin: 50px 0 70px
+}
+
+#lp-footer .socialimage {
+    display: inline-block;
+    width: 7%;
+}
+
+#lp-footer .socialline {
+    display: inline-block;
+    border-bottom: 1px solid #0c3168;
+    width: 22%;
+}
+
+#lp-footer .socialimage img {
+    height: 40px
+}
+
+#lp-footer .textfooter {
+    text-align: center;
+    background: #0c3168;
+    color: white;
+    margin: 15px 0
+}
+
+#lp-footer .textfooter_1 {
+    width: 100%;
+    font: 20px MyriadRegular;
+    padding: 15px 0
+}
+
+#lp-footer .textfooter_2 {
+    width: 100%;
+    display: inline-block
+}
+
+#lp-footer .textfooter_2 .textfooter_2_1 {
+    display: inline-block;
+    text-align: left;
+    font: 14px MyriadRegular;
+    margin: 0 30px;
+    line-height: 45px
+}
+
+#lp-footer .textfooter_2 .textfooter_2_1 img {
+    height: 30px;
+    display: inline-block;
+    vertical-align: top
+}
+
+#lp-footer .textfooter_2 .textfooter_2_1 div {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px
+}
+
+#lp-footer .textfooter_2 .textfooter_2_2 {
+    display: inline-block;
+    font: 18px MyriadRegular;
+    margin: 22px 40px;
+    vertical-align: top
+}
+
+#lp-footer .textfooter_2 .textfooter_2_line {
+    height: 60px;
+    margin: 10px 0 0;
+    border-right: 1px solid #fff;
+    display: inline-block;
+    vertical-align: top
+}
+
+#lp-content + .textcongrat{
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+#lp-content + .textcongrat.pop{
+  width: 100%;
+  height: 100%;
+}
+#lp-content + .textcongrat.pop::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0,0,0,0.7);
+  z-index: 99999;
+}
+
+#lp-content + .textcongrat .text_chuc_mung {
+  top: 80px;
+  width: 40%;
+  padding: 80px 0 90px;
+  color: #0c3168;
+  font: 16px MyriadRegular;
+  background: #fff;
+  border: 1px solid;
+  position: relative;
+  z-index: 999999;
+}
+#lp-content + .textcongrat .text_chuc_mung  a{
+	color: #0c3168;
+	text-decoration: none;
+	font-weight: bold;
+}
+#lp-content + .textcongrat .text_chuc_mung  a:hover{
+	color: red;
+}
+
+#lp-content + .textcongrat .text_chuc_mung .close{
+  position: absolute;
+  max-width: 20px;
+  top: -10px;
+  right: -10px;
+  opacity: 1;
+}
+#lp-content + .textcongrat .text_chuc_mung .close img{
+  width: 100%;
+}
+
+#lp-content .lp-footer{
+  text-align: center;
+}
+#lp-content .lp-footer .thong-tin-khoa-hoc{
+  width: 53%;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+#lp-content .lp-footer .thong-tin-khoa-hoc .content{
+  text-align: justify;
+}
+#lp-content .lp-footer .thong-tin-khoa-hoc .content .element{
+  width: calc(50% - 15px);
+  margin-right: 15px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-content: center;
+  margin-bottom: 20px;
+}
+#lp-content .lp-footer .thong-tin-khoa-hoc .content .element:nth-child(2n+2){
+  margin-right: 0;
+}
+#lp-content .lp-footer .thong-tin-khoa-hoc .content .element .top{
+  width: 100%;
+  position: relative;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+#lp-content .lp-footer .thong-tin-khoa-hoc .content .element .top::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background: #0c3168;
+}
+#lp-content .lp-footer .thong-tin-khoa-hoc .content .element .top span{
+  display: inline-block;
+}
+#lp-content .lp-footer .thong-tin-khoa-hoc .content .element .top span:nth-child(2n+1){
+  float: left;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+#lp-content .lp-footer .thong-tin-khoa-hoc .content .element .top span:nth-child(2n+2){
+  float: right;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+#lp-content .lp-footer .thong-tin-khoa-hoc .content .element .top span:nth-child(2n+2) img{
+  max-width: 10px;
+  margin-left: 2px;
+}
+#lp-content .lp-footer .thong-tin-khoa-hoc .content .element .bottom{
+  display: none;
+}
+#lp-content .lp-footer .thong-tin-khoa-hoc .content .element .bottom p{
+  font-size: 1rem;
+}
+
+.wraper-landing{
+	display: inline-block;
+	width: 100%;
+}

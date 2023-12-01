@@ -1,1 +1,842 @@
-@font-face{font-family:Centur;src:url("http://trangsuc.doji.vn/uploads-landing-page/lp/valentine2020/fonts/UTM Centur.ttf") format("truetype");font-style:normal;font-display:swap}@font-face{font-family:CenturBold;src:url("http://trangsuc.doji.vn/uploads-landing-page/lp/valentine2020/fonts/UTM CenturBold.ttf") format("truetype");font-style:normal;font-display:swap}@font-face{font-family:Bryant;src:url("http://trangsuc.doji.vn/uploads-landing-page/lp/valentine2020/fonts/UTM BryantLG.woff") format("woff"),url("http://trangsuc.doji.vn/uploads-landing-page/lp/valentine2020/fonts/UTM BryantLG.ttf") format("truetype");font-style:normal;font-display:swap}@font-face{font-family:BryantB;src:url("http://trangsuc.doji.vn/uploads-landing-page/lp/valentine2020/fonts/UTM BryantLG_B.woff") format("woff"),url("http://trangsuc.doji.vn/uploads-landing-page/lp/valentine2020/fonts/UTM BryantLG_B.ttf") format("truetype");font-style:normal;font-display:swap}@font-face{font-family:WeddingKT;src:url("http://trangsuc.doji.vn/uploads-landing-page/lp/valentine2020/fonts/UTM Wedding K&T.ttf") format("truetype");font-style:normal;font-display:swap}@font-face{font-family:Aptima;src:url("http://trangsuc.doji.vn/uploads-landing-page/lp/valentine2020/fonts/UTM Aptima.ttf") format("truetype");font-style:normal;font-weight:normal;font-display:swap}@font-face{font-family:Aptima;src:url("http://trangsuc.doji.vn/uploads-landing-page/lp/valentine2020/fonts/UTM AptimaBold.ttf") format("truetype");font-style:normal;font-weight:bold;font-display:swap}@font-face{font-family:Aptima;src:url("http://trangsuc.doji.vn/uploads-landing-page/lp/valentine2020/fonts/UTM AptimaBoldItalic.ttf") format("truetype");font-style:italic;font-weight:bold;font-display:swap}@font-face{font-family:Aptima;src:url("http://trangsuc.doji.vn/uploads-landing-page/lp/valentine2020/fonts/UTM AptimaItalic.ttf") format("truetype");font-style:italic;font-weight:normal;font-display:swap}@font-face{font-family:Avo;src:url("http://trangsuc.doji.vn/uploads-landing-page/lp/valentine2020/fonts/UTM Avo.woff") format("woff"),url("http://trangsuc.doji.vn/uploads-landing-page/lp/valentine2020/fonts/UTM Avo.ttf") format("truetype");font-style:normal;font-weight:normal;font-display:swap}@font-face{font-family:Avo;src:url("http://trangsuc.doji.vn/uploads-landing-page/lp/valentine2020/fonts/UTM AvoBold.ttf") format("truetype");font-style:normal;font-weight:bold;font-display:swap}@font-face{font-family:Avo;src:url("http://trangsuc.doji.vn/uploads-landing-page/lp/valentine2020/fonts/UTM AvoBold_Italic.ttf") format("truetype");font-style:italic;font-weight:bold;font-display:swap}@font-face{font-family:Avo;src:url("http://trangsuc.doji.vn/uploads-landing-page/lp/valentine2020/fonts/UTM AvoItalic.ttf") format("truetype");font-style:italic;font-weight:normal;font-display:swap}@font-face{font-family:UTMTimes;src:url("http://trangsuc.doji.vn/uploads-landing-page/lp/valentine2020/fonts/UTM Times.ttf") format("truetype");font-style:normal;font-weight:normal;font-display:swap}@font-face{font-family:Trajan;src:url("http://trangsuc.doji.vn/uploads-landing-page/lp/valentine2020/fonts/UTMTrajanProBold.ttf") format("truetype");font-style:normal;font-display:swap}@font-face{font-family:Belle;src:url("http://trangsuc.doji.vn/uploads-landing-page/lp/valentine2020/fonts/SFUBELLEREGULAR_0.ttf") format("truetype");font-style:normal;font-weight:normal;font-display:swap}@font-face{font-family:Ongdo;src:url("http://trangsuc.doji.vn/uploads-landing-page/lp/valentine2020/fonts/UTM Ong Do Gia.ttf") format("truetype");font-style:normal;font-weight:normal;font-display:swap}@font-face{font-family:Swiss;src:url("http://trangsuc.doji.vn/uploads-landing-page/lp/valentine2020/fonts/UTM Swiss Condensed.ttf") format("truetype");font-style:normal;font-weight:normal;font-display:swap}@font-face{font-family:Doji;src:url("http://trangsuc.doji.vn/uploads-landing-page/lp/valentine2020/fonts/DojiGodWordR.ttf") format("truetype");font-style:normal;font-weight:normal;font-display:swap}@font-face{font-family:MyriadRegular;src:url("http://trangsuc.doji.vn/uploads-landing-page/lp/valentine2020/fonts/myriadpro-regular-webfont.eot?#iefix") format("embedded-opentype"),url("http://trangsuc.doji.vn/uploads-landing-page/lp/valentine2020/fonts/myriadpro-regular-webfont.ttf") format("truetype");font-weight:normal;font-style:normal;font-display:swap}#lp_main{font-size:16px}#lp_main p{line-height:1.8}#lp_main .outer{width:80%;margin-left:10%;margin-right:10%}#lp_main #lp_banner img{width:100%}#lp_main #lp_product-collection{position:relative;display:flex;flex-wrap:wrap;justify-content:center}#lp_main #lp_product-collection>img{width:100%;object-fit:cover}#lp_main #lp_product-collection .outer{position:absolute;top:0;left:0}#lp_main #lp_product-collection .outer .content-wrap{width:100%;padding:13vh 0 20vh;position:relative;display:flex;flex-wrap:wrap;align-items:flex-start}#lp_main #lp_product-collection .outer .content-wrap .text{width:75%;margin-top:30px;padding:40px 0 150px 40px;position:relative}#lp_main #lp_product-collection .outer .content-wrap .text::before{content:"";position:absolute;top:0;left:0;height:100%;width:100%;background:linear-gradient(9deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 150px, #b4e0f2 10%, #b4e0f2 100%);z-index:2}#lp_main #lp_product-collection .outer .content-wrap .text::after{content:"";position:absolute;top:10px;left:-10px;height:100%;width:100%;background:linear-gradient(9deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 150px, #dfa9c0 10%, #dc8daf 100%);z-index:1}#lp_main #lp_product-collection .outer .content-wrap .text .title{width:75%;position:relative;z-index:3;font-family:MyriadRegular, sans-serif;font-size:2.4rem;font-style:italic;color:#d62a7b}#lp_main #lp_product-collection .outer .content-wrap .text .title p{line-height:1}#lp_main #lp_product-collection .outer .content-wrap .text .title p:nth-child(2n+2) span{color:#33989d;font-style:normal;text-shadow:2px 2px 2px #ababab}#lp_main #lp_product-collection .outer .content-wrap .text .content{width:75%;position:relative;z-index:3;font-family:MyriadRegular, sans-serif;font-size:1.6rem;text-align:justify}#lp_main #lp_product-collection .outer .content-wrap .text+img{width:25%;margin-bottom:0;transform:scale(1.6);transform-origin:right;-webkit-transform-origin-x:right;-webkit-transform-origin-y:10vh;z-index:3}#lp_main #lp_couple{padding-top:50px;padding-bottom:50px}#lp_main #lp_couple .lp_couple-wrap{display:flex;flex-wrap:wrap}#lp_main #lp_couple .lp_couple-wrap .item{flex:1;position:relative;line-height:0}#lp_main #lp_couple .lp_couple-wrap .item:nth-child(3n+2){margin-left:15px;margin-right:15px}#lp_main #lp_couple .lp_couple-wrap .item img{width:100%}#lp_main #lp_couple .lp_couple-wrap .item span{background:#b4e0f2;width:100%;display:block;padding:5px}#lp_main #lp_couple .lp_couple-wrap .item span img{width:100%}#lp_main #lp_product-listing{padding-top:50px;padding-bottom:50px;background:url("http://trangsuc.doji.vn/uploads-landing-page/lp/valentine2020/images/sp-background.jpg") center/cover no-repeat}#lp_main #lp_product-listing .outer .lp_product-listing-wrap{display:flex;flex-wrap:wrap}#lp_main #lp_product-listing .outer .lp_product-listing-wrap .left{width:35%}#lp_main #lp_product-listing .outer .lp_product-listing-wrap .left img{width:100%;height:100%;object-fit:cover}#lp_main #lp_product-listing .outer .lp_product-listing-wrap .right{width:65%;padding-left:40px;display:flex;flex-wrap:wrap}#lp_main #lp_product-listing .outer .lp_product-listing-wrap .right .item{width:calc(100% / 3 - (80px / 3));margin-right:40px;margin-bottom:40px;text-align:center;font-family:BryantB, sans-serif;position:relative;overflow:hidden;transition:0.3s;-moz-transition:0.3s;-webkit-transition:0.3s;border:1px solid #ff4a71;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;background:#fff}#lp_main #lp_product-listing .outer .lp_product-listing-wrap .right .item:hover .item-info{top:0}#lp_main #lp_product-listing .outer .lp_product-listing-wrap .right .item:nth-child(3n+3){margin-right:0}#lp_main #lp_product-listing .outer .lp_product-listing-wrap .right .item:nth-child(n+4){margin-bottom:0}#lp_main #lp_product-listing .outer .lp_product-listing-wrap .right .item .item-thumb{padding-bottom:5px}#lp_main #lp_product-listing .outer .lp_product-listing-wrap .right .item .item-thumb img{width:100%}#lp_main #lp_product-listing .outer .lp_product-listing-wrap .right .item .title{padding-bottom:5px}#lp_main #lp_product-listing .outer .lp_product-listing-wrap .right .item .title a{color:#020001;font-size:1.6rem}#lp_main #lp_product-listing .outer .lp_product-listing-wrap .right .item .price{color:#ff4a71;font-size:1.6rem;padding-bottom:10px}#lp_main #lp_product-listing .outer .lp_product-listing-wrap .right .item .item-info{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;position:absolute;background:rgba(0,0,0,0.5);top:100%;height:100%;width:100%;transition:0.3s;-moz-transition:0.3s;-webkit-transition:0.3s}#lp_main #lp_product-listing .outer .lp_product-listing-wrap .right .item .item-info .item-info-wrap span{display:block;width:100%;color:#fff;margin-bottom:5px;font-size:1.6rem}#lp_main #lp_product-listing .outer .lp_product-listing-wrap .right .item .item-info .item-info-wrap .item-info__title{width:100%}#lp_main #lp_product-listing .outer .lp_product-listing-wrap .right .item .item-info .item-info-wrap .item-info__price{color:#ff4a71}#lp_main #lp_product-listing .outer .lp_product-listing-wrap .right .item .item-info .item-info-wrap .item-info__readmore:hover{color:#ff4a71}#lp_main #lp_product-listing .outer .readmore{margin-top:15px}#lp_main #lp_product-listing .outer .readmore a{font-size:1.6rem;color:#ff4a71;float:right}#lp_main #lp_product-listing .outer .readmore a:hover{color:#fff}#lp_main #lp_product-promotion{margin-bottom:30px}#lp_main #lp_product-promotion .outer .title{margin-top:20px;margin-bottom:25px;text-align:center}#lp_main #lp_product-promotion .outer .title span{font-family:Avo, sans-serif;font-size:1.8rem;color:#d62a7b;text-transform:uppercase;position:relative;padding-bottom:5px}#lp_main #lp_product-promotion .outer .title span:after{content:"";position:absolute;width:100%;height:2px;background:#d62a7b;left:0;bottom:0}#lp_main #lp_product-promotion .outer .promotion .bottom,#lp_main #lp_product-promotion .outer .promotion .left,#lp_main #lp_product-promotion .outer .promotion .right,#lp_main #lp_product-promotion .outer .promotion .top{position:relative;display:flex;justify-content:flex-start}#lp_main #lp_product-promotion .outer .promotion .bottom .text,#lp_main #lp_product-promotion .outer .promotion .left .text,#lp_main #lp_product-promotion .outer .promotion .right .text,#lp_main #lp_product-promotion .outer .promotion .top .text{text-align:center;text-transform:uppercase;position:absolute;bottom:20px}#lp_main #lp_product-promotion .outer .promotion .bottom .text>div,#lp_main #lp_product-promotion .outer .promotion .left .text>div,#lp_main #lp_product-promotion .outer .promotion .right .text>div,#lp_main #lp_product-promotion .outer .promotion .top .text>div{display:flex;flex-wrap:wrap;align-items:flex-end}#lp_main #lp_product-promotion .outer .promotion .bottom .text>div div,#lp_main #lp_product-promotion .outer .promotion .left .text>div div,#lp_main #lp_product-promotion .outer .promotion .right .text>div div,#lp_main #lp_product-promotion .outer .promotion .top .text>div div{display:inline-block;float:left}#lp_main #lp_product-promotion .outer .promotion .bottom .text>div div:nth-child(3n+1),#lp_main #lp_product-promotion .outer .promotion .left .text>div div:nth-child(3n+1),#lp_main #lp_product-promotion .outer .promotion .right .text>div div:nth-child(3n+1),#lp_main #lp_product-promotion .outer .promotion .top .text>div div:nth-child(3n+1){text-align:right;width:20%}#lp_main #lp_product-promotion .outer .promotion .bottom .text>div div:nth-child(3n+2),#lp_main #lp_product-promotion .outer .promotion .left .text>div div:nth-child(3n+2),#lp_main #lp_product-promotion .outer .promotion .right .text>div div:nth-child(3n+2),#lp_main #lp_product-promotion .outer .promotion .top .text>div div:nth-child(3n+2){text-align:center;font-size:6rem;line-height:4.5rem;width:35%}#lp_main #lp_product-promotion .outer .promotion .bottom .text>div div:nth-child(3n+3),#lp_main #lp_product-promotion .outer .promotion .left .text>div div:nth-child(3n+3),#lp_main #lp_product-promotion .outer .promotion .right .text>div div:nth-child(3n+3),#lp_main #lp_product-promotion .outer .promotion .top .text>div div:nth-child(3n+3){text-align:left;width:45%}#lp_main #lp_product-promotion .outer .promotion .bottom .text>a,#lp_main #lp_product-promotion .outer .promotion .left .text>a,#lp_main #lp_product-promotion .outer .promotion .right .text>a,#lp_main #lp_product-promotion .outer .promotion .top .text>a{text-transform:uppercase;font-size:1.2rem;padding:3px 7px;display:inline-block;margin-top:7px;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px}#lp_main #lp_product-promotion .outer .promotion .sector-1{display:flex;flex-wrap:wrap;min-height:75vh;margin-bottom:10px}#lp_main #lp_product-promotion .outer .promotion .sector-1>.left{width:calc(65% - 5px);min-height:75vh;background-image:url("http://trangsuc.doji.vn/uploads-landing-page/lp/valentine2020/images/trang-suc-kim-cuong.jpg");background-size:cover;background-position:center top;background-repeat:no-repeat}#lp_main #lp_product-promotion .outer .promotion .sector-1>.left .text{left:10%;color:#084072}#lp_main #lp_product-promotion .outer .promotion .sector-1>.left .text>a{color:#084072;background:#fff;border-color:#084072}#lp_main #lp_product-promotion .outer .promotion .sector-1>.left .text>a:hover{color:#fff;background:#084072}#lp_main #lp_product-promotion .outer .promotion .sector-1>.left .text>a:hover .arrow{border-color:#fff}#lp_main #lp_product-promotion .outer .promotion .sector-1>.right{width:calc(35% - 5px);min-height:75vh;margin-left:10px;background-image:url("http://trangsuc.doji.vn/uploads-landing-page/lp/valentine2020/images/charm.jpg");background-size:cover;background-position:center top;background-repeat:no-repeat}#lp_main #lp_product-promotion .outer .promotion .sector-1>.right .text{color:#084072;width:90%}#lp_main #lp_product-promotion .outer .promotion .sector-1>.right .text>div div:nth-child(3n+2){color:#da000e}#lp_main #lp_product-promotion .outer .promotion .sector-1>.right .text>a{color:#084072;background:#fff;border-color:#084072}#lp_main #lp_product-promotion .outer .promotion .sector-1>.right .text>a:hover{color:#fff;background:#084072}#lp_main #lp_product-promotion .outer .promotion .sector-1>.right .text>a:hover .arrow{border-color:#fff}#lp_main #lp_product-promotion .outer .promotion .sector-2{display:flex;flex-wrap:wrap;min-height:95vh}#lp_main #lp_product-promotion .outer .promotion .sector-2>.left{width:calc(35% - 5px);min-height:95vh;background-image:url("http://trangsuc.doji.vn/uploads-landing-page/lp/valentine2020/images/kim-bao-phuc.jpg");background-size:cover;background-position:28% top;background-repeat:no-repeat}#lp_main #lp_product-promotion .outer .promotion .sector-2>.left .text{color:#fff;width:90%}#lp_main #lp_product-promotion .outer .promotion .sector-2>.left .text>div div:nth-child(3n+2){color:#ffd400}#lp_main #lp_product-promotion .outer .promotion .sector-2>.left .text>a{color:#fff;background:#da000e;border-color:#fff}#lp_main #lp_product-promotion .outer .promotion .sector-2>.left .text>a:hover{color:#da000e;background:#fff}#lp_main #lp_product-promotion .outer .promotion .sector-2>.left .text>a:hover .arrow{border-color:#da000e}#lp_main #lp_product-promotion .outer .promotion .sector-2>.right{width:calc(65% - 5px);min-height:95vh;margin-left:10px;flex-wrap:wrap}#lp_main #lp_product-promotion .outer .promotion .sector-2>.right .top{width:100%;height:calc(50% - 5px);margin-bottom:10px;background-image:url("http://trangsuc.doji.vn/uploads-landing-page/lp/valentine2020/images/nhan-cuoi.jpg");background-size:cover;background-position:center center;background-repeat:no-repeat}#lp_main #lp_product-promotion .outer .promotion .sector-2>.right .top .text{left:5%;color:#6c2e94}#lp_main #lp_product-promotion .outer .promotion .sector-2>.right .top .text>a{color:#6c2e94;background:#fff;border-color:#6c2e94}#lp_main #lp_product-promotion .outer .promotion .sector-2>.right .top .text>a:hover{color:#fff;background:#6c2e94}#lp_main #lp_product-promotion .outer .promotion .sector-2>.right .top .text>a:hover .arrow{border-color:#fff}#lp_main #lp_product-promotion .outer .promotion .sector-2>.right .bottom{width:100%;height:calc(50% - 5px);background-image:url("http://trangsuc.doji.vn/uploads-landing-page/lp/valentine2020/images/dong-ho.jpg");background-size:cover;background-position:center center;background-repeat:no-repeat}#lp_main #lp_product-promotion .outer .promotion .sector-2>.right .bottom .text{left:5%;color:#084072;width:25%;bottom:50px}#lp_main #lp_product-promotion .outer .promotion .sector-2>.right .bottom .text>div{align-items:center}#lp_main #lp_product-promotion .outer .promotion .sector-2>.right .bottom .text>div div:nth-child(3n+1){width:35%}#lp_main #lp_product-promotion .outer .promotion .sector-2>.right .bottom .text>div div:nth-child(3n+2){color:#d62a7b;width:65%}#lp_main #lp_product-promotion .outer .promotion .sector-2>.right .bottom .text>div div:nth-child(3n+3){width:63%;margin-left:37%;text-align:left;margin-top:5px}#lp_main #lp_product-promotion .outer .promotion .sector-2>.right .bottom .text>a{color:#fff;background:#d62a7b;border-color:#fff}#lp_main #lp_product-promotion .outer .promotion .sector-2>.right .bottom .text>a:hover{color:#d62a7b;background:#fff}#lp_main #lp_product-promotion .outer .promotion .sector-2>.right .bottom .text>a:hover .arrow{border-color:#d62a7b}#lp_main #lp_gift{position:relative;display:flex;flex-wrap:wrap;align-items:center;background:url("http://trangsuc.doji.vn/uploads-landing-page/lp/valentine2020/images/qua-tang-background-02.jpg") center/cover no-repeat}#lp_main #lp_gift>img{width:100%;display:none}#lp_main #lp_gift .outer{display:flex;flex-wrap:wrap;align-items:center}#lp_main #lp_gift .outer .lp_gift-wrap{width:50%}#lp_main #lp_gift .outer .lp_gift-wrap .title{font-family:Avo, sans-serif;font-size:2.8rem;color:#494949;text-align:justify;margin-bottom:10px;line-height:1.4}#lp_main #lp_gift .outer .lp_gift-wrap .content p{font-family:Avo, sans-serif;font-size:1.6rem;margin-bottom:0}#lp_main #lp_gift .outer .lp_gift-wrap .content p span{font-size:2.8rem;font-weight:600;color:#d791bb}#lp_main #lp_gift .outer .image{width:50%}#lp_main #lp_gift .outer .image img{width:100%}#lp_main #lp_footer{background:#d62a7b}#lp_main #lp_footer .text{display:flex;align-items:center;justify-content:center;padding-top:30px;padding-bottom:30px;color:#fff;font-size:1.8rem}#lp_main #lp_footer .text span{text-transform:uppercase}#lp_main #lp_footer .text span:nth-child(3n+2){margin-left:10px;margin-right:10px}#lp_main #lp_footer .text a{color:#fff}#lp_main .arrow{position:relative !important;border-style:solid;border-width:0 2px 2px 0;display:inline-block !important;padding:2px;bottom:1px}#lp_main .arrow.right{transform:rotate(-45deg) !important;-webkit-transform:rotate(-45deg) !important}#lp_main .arrow.left{transform:rotate(135deg) !important;-webkit-transform:rotate(135deg) !important}#lp_main .arrow.up{transform:rotate(-135deg) !important;-webkit-transform:rotate(-135deg) !important}#lp_main .arrow.down{transform:rotate(45deg) !important;-webkit-transform:rotate(45deg) !important}
+@font-face {
+    font-family: Centur;
+    src: url("/fonts/UTM Centur.ttf") format("truetype");
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: CenturBold;
+    src: url("/fonts/UTM CenturBold.ttf") format("truetype");
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Bryant;
+    src: url("/fonts/UTM BryantLG.woff") format("woff"), url("/fonts/UTM BryantLG.ttf") format("truetype");
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: BryantB;
+    src: url("/fonts/UTM BryantLG_B.woff") format("woff"), url("/fonts/UTM BryantLG_B.ttf") format("truetype");
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: WeddingKT;
+    src: url("/fonts/UTM Wedding K&T.ttf") format("truetype");
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Aptima;
+    src: url("/fonts/UTM Aptima.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Aptima;
+    src: url("/fonts/UTM AptimaBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Aptima;
+    src: url("/fonts/UTM AptimaBoldItalic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: bold;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Aptima;
+    src: url("/fonts/UTM AptimaItalic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Avo;
+    src: url("/fonts/UTM Avo.woff") format("woff"), url("/fonts/UTM Avo.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Avo;
+    src: url("/fonts/UTM AvoBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Avo;
+    src: url("/fonts/UTM AvoBold_Italic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: bold;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Avo;
+    src: url("/fonts/UTM AvoItalic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: UTMTimes;
+    src: url("/fonts/UTM Times.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Trajan;
+    src: url("/fonts/UTMTrajanProBold.ttf") format("truetype");
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Belle;
+    src: url("/fonts/SFUBELLEREGULAR_0.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Ongdo;
+    src: url("/fonts/UTM Ong Do Gia.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Swiss;
+    src: url("/fonts/UTM Swiss Condensed.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Doji;
+    src: url("/fonts/DojiGodWordR.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: MyriadRegular;
+    src: url("/fonts/myriadpro-regular-webfont.eot") format("embedded-opentype"), url("/fonts/myriadpro-regular-webfont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap
+}
+
+#lp_main {
+    font-size: 16px
+}
+
+#lp_main p {
+    line-height: 1.8
+}
+
+#lp_main .outer {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%
+}
+
+#lp_main #lp_banner img {
+    width: 100%
+}
+
+#lp_main #lp_product-collection {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+#lp_main #lp_product-collection>img {
+    width: 100%;
+    object-fit: cover
+}
+
+#lp_main #lp_product-collection .outer {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+#lp_main #lp_product-collection .outer .content-wrap {
+    width: 100%;
+    padding: 13vh 0 20vh;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start
+}
+
+#lp_main #lp_product-collection .outer .content-wrap .text {
+    width: 75%;
+    margin-top: 30px;
+    padding: 40px 0 150px 40px;
+    position: relative
+}
+
+#lp_main #lp_product-collection .outer .content-wrap .text::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(9deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 150px, #b4e0f2 10%, #b4e0f2 100%);
+    z-index: 2
+}
+
+#lp_main #lp_product-collection .outer .content-wrap .text::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(9deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 150px, #dfa9c0 10%, #dc8daf 100%);
+    z-index: 1
+}
+
+#lp_main #lp_product-collection .outer .content-wrap .text .title {
+    width: 75%;
+    position: relative;
+    z-index: 3;
+    font-family: MyriadRegular, sans-serif;
+    font-size: 2.4rem;
+    font-style: italic;
+    color: #d62a7b
+}
+
+#lp_main #lp_product-collection .outer .content-wrap .text .title p {
+    line-height: 1
+}
+
+#lp_main #lp_product-collection .outer .content-wrap .text .title p:nth-child(2n+2) span {
+    color: #33989d;
+    font-style: normal;
+    text-shadow: 2px 2px 2px #ababab
+}
+
+#lp_main #lp_product-collection .outer .content-wrap .text .content {
+    width: 75%;
+    position: relative;
+    z-index: 3;
+    font-family: MyriadRegular, sans-serif;
+    font-size: 1.6rem;
+    text-align: justify
+}
+
+#lp_main #lp_product-collection .outer .content-wrap .text+img {
+    width: 25%;
+    margin-bottom: 0;
+    transform: scale(1.6);
+    transform-origin: right;
+    -webkit-transform-origin-x: right;
+    -webkit-transform-origin-y: 10vh;
+    z-index: 3
+}
+
+#lp_main #lp_couple {
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+#lp_main #lp_couple .lp_couple-wrap {
+    display: flex;
+    flex-wrap: wrap
+}
+
+#lp_main #lp_couple .lp_couple-wrap .item {
+    flex: 1;
+    position: relative;
+    line-height: 0
+}
+
+#lp_main #lp_couple .lp_couple-wrap .item:nth-child(3n+2) {
+    margin-left: 15px;
+    margin-right: 15px
+}
+
+#lp_main #lp_couple .lp_couple-wrap .item img {
+    width: 100%
+}
+
+#lp_main #lp_couple .lp_couple-wrap .item span {
+    background: #b4e0f2;
+    width: 100%;
+    display: block;
+    padding: 5px
+}
+
+#lp_main #lp_couple .lp_couple-wrap .item span img {
+    width: 100%
+}
+
+#lp_main #lp_product-listing {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: url("/images/sp-background.jpg") center/cover no-repeat
+}
+
+#lp_main #lp_product-listing .outer .lp_product-listing-wrap {
+    display: flex;
+    flex-wrap: wrap
+}
+
+#lp_main #lp_product-listing .outer .lp_product-listing-wrap .left {
+    width: 35%
+}
+
+#lp_main #lp_product-listing .outer .lp_product-listing-wrap .left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+#lp_main #lp_product-listing .outer .lp_product-listing-wrap .right {
+    width: 65%;
+    padding-left: 40px;
+    display: flex;
+    flex-wrap: wrap
+}
+
+#lp_main #lp_product-listing .outer .lp_product-listing-wrap .right .item {
+    width: calc(100% / 3 - (80px / 3));
+    margin-right: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: BryantB, sans-serif;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s;
+    -moz-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    border: 1px solid #ff4a71;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background: #fff
+}
+
+#lp_main #lp_product-listing .outer .lp_product-listing-wrap .right .item:hover .item-info {
+    top: 0
+}
+
+#lp_main #lp_product-listing .outer .lp_product-listing-wrap .right .item:nth-child(3n+3) {
+    margin-right: 0
+}
+
+#lp_main #lp_product-listing .outer .lp_product-listing-wrap .right .item:nth-child(n+4) {
+    margin-bottom: 0
+}
+
+#lp_main #lp_product-listing .outer .lp_product-listing-wrap .right .item .item-thumb {
+    padding-bottom: 5px
+}
+
+#lp_main #lp_product-listing .outer .lp_product-listing-wrap .right .item .item-thumb img {
+    width: 100%
+}
+
+#lp_main #lp_product-listing .outer .lp_product-listing-wrap .right .item .title {
+    padding-bottom: 5px
+}
+
+#lp_main #lp_product-listing .outer .lp_product-listing-wrap .right .item .title a {
+    color: #020001;
+    font-size: 1.6rem
+}
+
+#lp_main #lp_product-listing .outer .lp_product-listing-wrap .right .item .price {
+    color: #ff4a71;
+    font-size: 1.6rem;
+    padding-bottom: 10px
+}
+
+#lp_main #lp_product-listing .outer .lp_product-listing-wrap .right .item .item-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    top: 100%;
+    height: 100%;
+    width: 100%;
+    transition: 0.3s;
+    -moz-transition: 0.3s;
+    -webkit-transition: 0.3s
+}
+
+#lp_main #lp_product-listing .outer .lp_product-listing-wrap .right .item .item-info .item-info-wrap span {
+    display: block;
+    width: 100%;
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 1.6rem
+}
+
+#lp_main #lp_product-listing .outer .lp_product-listing-wrap .right .item .item-info .item-info-wrap .item-info__title {
+    width: 100%
+}
+
+#lp_main #lp_product-listing .outer .lp_product-listing-wrap .right .item .item-info .item-info-wrap .item-info__price {
+    color: #ff4a71
+}
+
+#lp_main #lp_product-listing .outer .lp_product-listing-wrap .right .item .item-info .item-info-wrap .item-info__readmore:hover {
+    color: #ff4a71
+}
+
+#lp_main #lp_product-listing .outer .readmore {
+    margin-top: 15px
+}
+
+#lp_main #lp_product-listing .outer .readmore a {
+    font-size: 1.6rem;
+    color: #ff4a71;
+    float: right
+}
+
+#lp_main #lp_product-listing .outer .readmore a:hover {
+    color: #fff
+}
+
+#lp_main #lp_product-promotion {
+    margin-bottom: 30px
+}
+
+#lp_main #lp_product-promotion .outer .title {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    text-align: center
+}
+
+#lp_main #lp_product-promotion .outer .title span {
+    font-family: Avo, sans-serif;
+    font-size: 1.8rem;
+    color: #d62a7b;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 5px
+}
+
+#lp_main #lp_product-promotion .outer .title span:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #d62a7b;
+    left: 0;
+    bottom: 0
+}
+
+#lp_main #lp_product-promotion .outer .promotion .bottom,
+#lp_main #lp_product-promotion .outer .promotion .left,
+#lp_main #lp_product-promotion .outer .promotion .right,
+#lp_main #lp_product-promotion .outer .promotion .top {
+    position: relative;
+    display: flex;
+    justify-content: flex-start
+}
+
+#lp_main #lp_product-promotion .outer .promotion .bottom .text,
+#lp_main #lp_product-promotion .outer .promotion .left .text,
+#lp_main #lp_product-promotion .outer .promotion .right .text,
+#lp_main #lp_product-promotion .outer .promotion .top .text {
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 20px
+}
+
+#lp_main #lp_product-promotion .outer .promotion .bottom .text>div,
+#lp_main #lp_product-promotion .outer .promotion .left .text>div,
+#lp_main #lp_product-promotion .outer .promotion .right .text>div,
+#lp_main #lp_product-promotion .outer .promotion .top .text>div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end
+}
+
+#lp_main #lp_product-promotion .outer .promotion .bottom .text>div div,
+#lp_main #lp_product-promotion .outer .promotion .left .text>div div,
+#lp_main #lp_product-promotion .outer .promotion .right .text>div div,
+#lp_main #lp_product-promotion .outer .promotion .top .text>div div {
+    display: inline-block;
+    float: left
+}
+
+#lp_main #lp_product-promotion .outer .promotion .bottom .text>div div:nth-child(3n+1),
+#lp_main #lp_product-promotion .outer .promotion .left .text>div div:nth-child(3n+1),
+#lp_main #lp_product-promotion .outer .promotion .right .text>div div:nth-child(3n+1),
+#lp_main #lp_product-promotion .outer .promotion .top .text>div div:nth-child(3n+1) {
+    text-align: right;
+    width: 20%
+}
+
+#lp_main #lp_product-promotion .outer .promotion .bottom .text>div div:nth-child(3n+2),
+#lp_main #lp_product-promotion .outer .promotion .left .text>div div:nth-child(3n+2),
+#lp_main #lp_product-promotion .outer .promotion .right .text>div div:nth-child(3n+2),
+#lp_main #lp_product-promotion .outer .promotion .top .text>div div:nth-child(3n+2) {
+    text-align: center;
+    font-size: 6rem;
+    line-height: 4.5rem;
+    width: 35%
+}
+
+#lp_main #lp_product-promotion .outer .promotion .bottom .text>div div:nth-child(3n+3),
+#lp_main #lp_product-promotion .outer .promotion .left .text>div div:nth-child(3n+3),
+#lp_main #lp_product-promotion .outer .promotion .right .text>div div:nth-child(3n+3),
+#lp_main #lp_product-promotion .outer .promotion .top .text>div div:nth-child(3n+3) {
+    text-align: left;
+    width: 45%
+}
+
+#lp_main #lp_product-promotion .outer .promotion .bottom .text>a,
+#lp_main #lp_product-promotion .outer .promotion .left .text>a,
+#lp_main #lp_product-promotion .outer .promotion .right .text>a,
+#lp_main #lp_product-promotion .outer .promotion .top .text>a {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    padding: 3px 7px;
+    display: inline-block;
+    margin-top: 7px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px
+}
+
+#lp_main #lp_product-promotion .outer .promotion .sector-1 {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 75vh;
+    margin-bottom: 10px
+}
+
+#lp_main #lp_product-promotion .outer .promotion .sector-1>.left {
+    width: calc(65% - 5px);
+    min-height: 75vh;
+    background-image: url("/images/trang-suc-kim-cuong.jpg");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat
+}
+
+#lp_main #lp_product-promotion .outer .promotion .sector-1>.left .text {
+    left: 10%;
+    color: #084072
+}
+
+#lp_main #lp_product-promotion .outer .promotion .sector-1>.left .text>a {
+    color: #084072;
+    background: #fff;
+    border-color: #084072
+}
+
+#lp_main #lp_product-promotion .outer .promotion .sector-1>.left .text>a:hover {
+    color: #fff;
+    background: #084072
+}
+
+#lp_main #lp_product-promotion .outer .promotion .sector-1>.left .text>a:hover .arrow {
+    border-color: #fff
+}
+
+#lp_main #lp_product-promotion .outer .promotion .sector-1>.right {
+    width: calc(35% - 5px);
+    min-height: 75vh;
+    margin-left: 10px;
+    background-image: url("http://trangsuc.doji.vn/uploads-landing-page/lp/valentine2020/images/charm.jpg");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat
+}
+
+#lp_main #lp_product-promotion .outer .promotion .sector-1>.right .text {
+    color: #084072;
+    width: 90%
+}
+
+#lp_main #lp_product-promotion .outer .promotion .sector-1>.right .text>div div:nth-child(3n+2) {
+    color: #da000e
+}
+
+#lp_main #lp_product-promotion .outer .promotion .sector-1>.right .text>a {
+    color: #084072;
+    background: #fff;
+    border-color: #084072
+}
+
+#lp_main #lp_product-promotion .outer .promotion .sector-1>.right .text>a:hover {
+    color: #fff;
+    background: #084072
+}
+
+#lp_main #lp_product-promotion .outer .promotion .sector-1>.right .text>a:hover .arrow {
+    border-color: #fff
+}
+
+#lp_main #lp_product-promotion .outer .promotion .sector-2 {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 95vh
+}
+
+#lp_main #lp_product-promotion .outer .promotion .sector-2>.left {
+    width: calc(35% - 5px);
+    min-height: 95vh;
+    background-image: url("/images/kim-bao-phuc.jpg");
+    background-size: cover;
+    background-position: 28% top;
+    background-repeat: no-repeat
+}
+
+#lp_main #lp_product-promotion .outer .promotion .sector-2>.left .text {
+    color: #fff;
+    width: 90%
+}
+
+#lp_main #lp_product-promotion .outer .promotion .sector-2>.left .text>div div:nth-child(3n+2) {
+    color: #ffd400
+}
+
+#lp_main #lp_product-promotion .outer .promotion .sector-2>.left .text>a {
+    color: #fff;
+    background: #da000e;
+    border-color: #fff
+}
+
+#lp_main #lp_product-promotion .outer .promotion .sector-2>.left .text>a:hover {
+    color: #da000e;
+    background: #fff
+}
+
+#lp_main #lp_product-promotion .outer .promotion .sector-2>.left .text>a:hover .arrow {
+    border-color: #da000e
+}
+
+#lp_main #lp_product-promotion .outer .promotion .sector-2>.right {
+    width: calc(65% - 5px);
+    min-height: 95vh;
+    margin-left: 10px;
+    flex-wrap: wrap
+}
+
+#lp_main #lp_product-promotion .outer .promotion .sector-2>.right .top {
+    width: 100%;
+    height: calc(50% - 5px);
+    margin-bottom: 10px;
+    background-image: url("/images/nhan-cuoi.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat
+}
+
+#lp_main #lp_product-promotion .outer .promotion .sector-2>.right .top .text {
+    left: 5%;
+    color: #6c2e94
+}
+
+#lp_main #lp_product-promotion .outer .promotion .sector-2>.right .top .text>a {
+    color: #6c2e94;
+    background: #fff;
+    border-color: #6c2e94
+}
+
+#lp_main #lp_product-promotion .outer .promotion .sector-2>.right .top .text>a:hover {
+    color: #fff;
+    background: #6c2e94
+}
+
+#lp_main #lp_product-promotion .outer .promotion .sector-2>.right .top .text>a:hover .arrow {
+    border-color: #fff
+}
+
+#lp_main #lp_product-promotion .outer .promotion .sector-2>.right .bottom {
+    width: 100%;
+    height: calc(50% - 5px);
+    background-image: url("/images/dong-ho.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat
+}
+
+#lp_main #lp_product-promotion .outer .promotion .sector-2>.right .bottom .text {
+    left: 5%;
+    color: #084072;
+    width: 25%;
+    bottom: 50px
+}
+
+#lp_main #lp_product-promotion .outer .promotion .sector-2>.right .bottom .text>div {
+    align-items: center
+}
+
+#lp_main #lp_product-promotion .outer .promotion .sector-2>.right .bottom .text>div div:nth-child(3n+1) {
+    width: 35%
+}
+
+#lp_main #lp_product-promotion .outer .promotion .sector-2>.right .bottom .text>div div:nth-child(3n+2) {
+    color: #d62a7b;
+    width: 65%
+}
+
+#lp_main #lp_product-promotion .outer .promotion .sector-2>.right .bottom .text>div div:nth-child(3n+3) {
+    width: 63%;
+    margin-left: 37%;
+    text-align: left;
+    margin-top: 5px
+}
+
+#lp_main #lp_product-promotion .outer .promotion .sector-2>.right .bottom .text>a {
+    color: #fff;
+    background: #d62a7b;
+    border-color: #fff
+}
+
+#lp_main #lp_product-promotion .outer .promotion .sector-2>.right .bottom .text>a:hover {
+    color: #d62a7b;
+    background: #fff
+}
+
+#lp_main #lp_product-promotion .outer .promotion .sector-2>.right .bottom .text>a:hover .arrow {
+    border-color: #d62a7b
+}
+
+#lp_main #lp_gift {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: url("/images/qua-tang-background-02.jpg") center/cover no-repeat
+}
+
+#lp_main #lp_gift>img {
+    width: 100%;
+    display: none
+}
+
+#lp_main #lp_gift .outer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center
+}
+
+#lp_main #lp_gift .outer .lp_gift-wrap {
+    width: 50%
+}
+
+#lp_main #lp_gift .outer .lp_gift-wrap .title {
+    font-family: Avo, sans-serif;
+    font-size: 2.8rem;
+    color: #494949;
+    text-align: justify;
+    margin-bottom: 10px;
+    line-height: 1.4
+}
+
+#lp_main #lp_gift .outer .lp_gift-wrap .content p {
+    font-family: Avo, sans-serif;
+    font-size: 1.6rem;
+    margin-bottom: 0
+}
+
+#lp_main #lp_gift .outer .lp_gift-wrap .content p span {
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: #d791bb
+}
+
+#lp_main #lp_gift .outer .image {
+    width: 50%
+}
+
+#lp_main #lp_gift .outer .image img {
+    width: 100%
+}
+
+#lp_main #lp_footer {
+    background: #d62a7b
+}
+
+#lp_main #lp_footer .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+    font-size: 1.8rem
+}
+
+#lp_main #lp_footer .text span {
+    text-transform: uppercase
+}
+
+#lp_main #lp_footer .text span:nth-child(3n+2) {
+    margin-left: 10px;
+    margin-right: 10px
+}
+
+#lp_main #lp_footer .text a {
+    color: #fff
+}
+
+#lp_main .arrow {
+    position: relative !important;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    display: inline-block !important;
+    padding: 2px;
+    bottom: 1px
+}
+
+#lp_main .arrow.right {
+    transform: rotate(-45deg) !important;
+    -webkit-transform: rotate(-45deg) !important
+}
+
+#lp_main .arrow.left {
+    transform: rotate(135deg) !important;
+    -webkit-transform: rotate(135deg) !important
+}
+
+#lp_main .arrow.up {
+    transform: rotate(-135deg) !important;
+    -webkit-transform: rotate(-135deg) !important
+}
+
+#lp_main .arrow.down {
+    transform: rotate(45deg) !important;
+    -webkit-transform: rotate(45deg) !important
+}

@@ -1,7 +1,7 @@
 @font-face {
     font-family: MyriadRegular;
-    src: url("../fonts/myriadproregularwebfont.eot");
-    src: url("../fonts/myriadproregularwebfont.eot?#iefix") format("embedded-opentype"), url("../fonts/myriadproregularwebfont.ttf") format("truetype");
+    src: url("/fonts/myriadproregularwebfont.eot");
+    src: url("/fonts/myriadproregularwebfont.eot?#iefix") format("embedded-opentype"), url("/fonts/myriadproregularwebfont.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -9,43 +9,43 @@
   
   @font-face {
     font-family: UTMTrajan;
-    src: url("../fonts/UTMTrajan.ttf") format("truetype");
+    src: url("/fonts/UTMTrajan.ttf") format("truetype");
     font-display: swap;
   }
   
   @font-face {
     font-family: UTMTrajanR;
-    src: url("../fonts/TrajanPro-Regular.otf") format("opentype");
+    src: url("/fonts/TrajanPro-Regular.otf") format("opentype");
     font-display: swap;
   }
   
   @font-face {
     font-family: UTMTrajanB;
-    src: url("../fonts/TrajanPro-Bold.otf") format("opentype");
+    src: url("/fonts/TrajanPro-Bold.otf") format("opentype");
     font-display: swap;
   }
   
   @font-face {
     font-family: Sign;
-    src: url("../fonts/PHOTOGRAPH SIGNATURE.TTF") format("truetype");
+    src: url("/fonts/PHOTOGRAPH SIGNATURE.TTF") format("truetype");
     font-display: swap;
   }
   
   @font-face {
     font-family: TPB;
-    src: url("../fonts/TPB Neo Sans.ttf") format("truetype");
+    src: url("/fonts/TPB Neo Sans.ttf") format("truetype");
     font-display: swap;
   }
   
   @font-face {
     font-family: TPBB;
-    src: url("../fonts/TPB Neo Sans_Bold.ttf") format("truetype");
+    src: url("/fonts/TPB Neo Sans_Bold.ttf") format("truetype");
     font-display: swap;
   }
   
   @font-face {
     font-family: TPBBI;
-    src: url("../fonts/TPB Neo Sans_Bold_Italic.ttf") format("truetype");
+    src: url("/fonts/TPB Neo Sans_Bold_Italic.ttf") format("truetype");
     font-display: swap;
   }
   
@@ -231,7 +231,7 @@
     outline: 0;
     padding: 0;
     cursor: pointer;
-    background: url("../images/djs-24.png") center/18px no-repeat;
+    background: url("/images/djs-24.png") center/18px no-repeat;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.4);
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -241,13 +241,13 @@
   .lp-view .slick-dots li.slick-active button {
     width: 25px;
     height: 25px;
-    background: url("../images/djs-23.png") center/28px no-repeat;
+    background: url("/images/djs-23.png") center/28px no-repeat;
   }
   
   .lp-technology {
     padding-top: 50px;
     padding-bottom: 30px;
-    background: url("../images/djs-25.jpg") center/cover no-repeat;
+    background: url("/images/djs-25.jpg") center/cover no-repeat;
   }
   
   .lp-technology .lp-title {
@@ -287,7 +287,7 @@
   }
   
   .lp-bst {
-    background: url("../images/djs-27.jpg") center/cover no-repeat;
+    background: url("/images/djs-27.jpg") center/cover no-repeat;
     padding-top: 50px;
     padding-bottom: 50px;
   }
@@ -351,7 +351,7 @@
   }
   
   .lp-footer {
-    background: url("../images/djs-32.jpg") center/cover no-repeat;
+    background: url("/images/djs-32.jpg") center/cover no-repeat;
     padding-top: 100px;
     padding-bottom: 100px;
   }
@@ -389,7 +389,7 @@
     right: -1px;
     height: 100%;
     width: 2px;
-    background: url("../images/djs-37.png") center/cover no-repeat;
+    background: url("/images/djs-37.png") center/cover no-repeat;
   }
   
   .lp-footer .wrap-lp-footer .lp-address .item:nth-child(2n+2) {
@@ -466,7 +466,7 @@
     -webkit-border-radius: 30px;
     -ms-border-radius: 30px;
     width: 40%;
-    background: url("../images/djs-33.jpg") center/cover no-repeat;
+    background: url("/images/djs-33.jpg") center/cover no-repeat;
     min-height: 50vh;
     box-shadow: 0 8px 6px 0 rgba(0, 0, 0, 0.4);
   }
@@ -704,7 +704,7 @@
     .lp-footer {
       padding-top: 30px;
       padding-bottom: 50px;
-      background: url("../images/footer-mb.jpg") center/cover no-repeat;
+      background: url("/images/footer-mb.jpg") center/cover no-repeat;
     }
     .lp-footer .wrap-lp-footer .lp-address {
       width: 100%;
@@ -724,7 +724,7 @@
       right: 25%;
       height: 3px;
       width: 50%;
-      background: url("../images/line.png") center/cover no-repeat;
+      background: url("/images/line.png") center/cover no-repeat;
     }
     .lp-footer .wrap-lp-footer .lp-address .item .lp-title img {
       width: 70%;

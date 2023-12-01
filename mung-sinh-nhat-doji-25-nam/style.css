@@ -2,7 +2,7 @@
 @font-face {font-family: UTMTime;src: url("/uploads-landing-page/lp/sntd2019/fonts/UTM Times.ttf") format("truetype");font-style: normal;}
 @font-face {font-family: UTMAvo;src: url("/uploads-landing-page/lp/sntd2019/fonts/UTM Avo.ttf") format("truetype");font-style: normal;}
 @font-face {font-family: Trajan;src: url("/uploads-landing-page/lp/sntd2019/fonts/UTMTrajanProBold.ttf") format("truetype");font-style: normal;}
-@font-face {font-family: MyriadRegular;src: url('/uploads-landing-page/lp/sntd2019/fonts/myriadpro-regular-webfont.eot');src: url('/uploads-landing-page/lp/sntd2019/fonts/myriadpro-regular-webfont.eot?#iefix') format('embedded-opentype'), url('/uploads-landing-page/lp/sntd2019/fonts/myriadpro-regular-webfont.ttf') format('truetype');font-weight: normal;font-style: normal;}
+@font-face {font-family: MyriadRegular;src: url('/fonts/myriadpro-regular-webfont.eot');src: url('/fonts/myriadpro-regular-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/myriadpro-regular-webfont.ttf') format('truetype');font-weight: normal;font-style: normal;}
 #lp-content{width:100%;display: inline-block;font-size: 1.6rem;position: relative;}
 #lp-content section{width: 100%;display: inline-block;position: relative;float: left;}
 #lp-content .outer{width: 90%;margin-left: 5%;margin-right: 5%;}
@@ -73,7 +73,7 @@
   top: 0;
   position: relative;
 }
-#lp-content .uu-dai{background: url("/uploads-landing-page/lp/sntd2019/images/back-footer.jpg") center top/100% no-repeat, #da2031;font-family: Doji, sans-serif;}
+#lp-content .uu-dai{background: url("/images/back-footer.jpg") center top/100% no-repeat, #da2031;font-family: Doji, sans-serif;}
 #lp-content .uu-dai .uu-dai-title{
   text-align: center;
   padding-top: 30px;
@@ -112,7 +112,7 @@
   position: absolute;
   width: 15px;
   height: 15px;
-  background: url("/uploads-landing-page/lp/sntd2019/images/dot.png") center/100% no-repeat;
+  background: url("/images/dot.png") center/100% no-repeat;
   left: -25px;
 }
 #lp-content .uu-dai .colleft .item:nth-child(5n+1)::before{
@@ -120,7 +120,7 @@
   position: absolute;
   width: 15px;
   height: 15px;
-  background: url("/uploads-landing-page/lp/sntd2019/images/dot.png") center/100% no-repeat;
+  background: url("/images/dot.png") center/100% no-repeat;
   top: 0;
   left: -25px;
 }
@@ -129,7 +129,7 @@
   position: absolute;
   width: 15px;
   height: 15px;
-  background: url("/uploads-landing-page/lp/sntd2019/images/dot.png") center/100% no-repeat;
+  background: url("/images/dot.png") center/100% no-repeat;
   top: 10px;
   left: -25px;
 }

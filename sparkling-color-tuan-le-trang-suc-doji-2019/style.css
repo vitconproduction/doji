@@ -1,10 +1,10 @@
-@font-face {font-family: Doji;src: url("/uploads-landing-page/lp/tlts2019/fonts/DojiGodWordR.ttf") format("truetype");font-style: normal;}
-@font-face {font-family: UTMTime;src: url("/uploads-landing-page/lp/tlts2019/fonts/UTM Times.ttf") format("truetype");font-style: normal;}
-@font-face {font-family: UTMAvo;src: url("/uploads-landing-page/lp/tlts2019/fonts/UTM Avo.ttf") format("truetype");font-style: normal;}
-@font-face {font-family: Trajan;src: url("/uploads-landing-page/lp/tlts2019/fonts/UTMTrajanProBold.ttf") format("truetype");font-style: normal;}
-@font-face {font-family: MyriadRegular;src: url('/uploads-landing-page/lp/tlts2019/fonts/myriadpro-regular-webfont.eot');src: url('/uploads-landing-page/lp/tlts2019/fonts/myriadpro-regular-webfont.eot?#iefix') format('embedded-opentype'), url('/uploads-landing-page/lp/tlts2019/fonts/myriadpro-regular-webfont.ttf') format('truetype');font-weight: normal;font-style: normal;}
+@font-face {font-family: Doji;src: url("/fonts/DojiGodWordR.ttf") format("truetype");font-style: normal;}
+@font-face {font-family: UTMTime;src: url("/fonts//fonts/UTM Times.ttf") format("truetype");font-style: normal;}
+@font-face {font-family: UTMAvo;src: url("/fonts//fonts/UTM Avo.ttf") format("truetype");font-style: normal;}
+@font-face {font-family: Trajan;src: url("/fonts/UTMTrajanProBold.ttf") format("truetype");font-style: normal;}
+@font-face {font-family: MyriadRegular;src: url('/fonts//fonts/myriadpro-regular-webfont.eot');src: url('/fonts//fonts/myriadpro-regular-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts//fonts/myriadpro-regular-webfont.ttf') format('truetype');font-weight: normal;font-style: normal;}
 @font-face{font-family: 'slick';font-weight: normal;font-style: normal;
-src: url('/uploads-landing-page/lp/tlts2019/fonts/slick.eot');src: url('/uploads-landing-page/lp/tlts2019/fonts/slick.eot?#iefix') format('embedded-opentype'), url('/uploads-landing-page/lp/tlts2019/fonts/slick.woff') format('woff'), url('/uploads-landing-page/lp/tlts2019/fonts/slick.ttf') format('truetype'), url('/uploads-landing-page/lp/tlts2019/fonts/slick.svg#slick') format('svg');}
+src: url('/fonts//fonts/slick.eot');src: url('/fonts//fonts/slick.eot?#iefix') format('embedded-opentype'), url('/fonts//fonts/slick.woff') format('woff'), url('/fonts//fonts/slick.ttf') format('truetype'), url('/fonts//fonts/slick.svg#slick') format('svg');}
 #lp-content{width:100%;display: inline-block;font-size: 1.8rem;position: relative;letter-spacing: 1px;}
 #lp-content section{width: 100%;display: inline-block;position: relative;float: left;}
 #lp-content .outer{width: 80%;margin-left: 10%;margin-right: 10%;}
@@ -76,7 +76,7 @@ src: url('/uploads-landing-page/lp/tlts2019/fonts/slick.eot');src: url('/uploads
   top: 0;
   position: relative;
 }
-#lp-content .uu-dai{background: url("/uploads-landing-page/lp/tlts2019/images/back-uu-dai.jpg") center/cover no-repeat, #da2031;font-family: Doji, sans-serif;padding-bottom: 50px;}
+#lp-content .uu-dai{background: url("/back-uu-dai.jpg") center/cover no-repeat, #da2031;font-family: Doji, sans-serif;padding-bottom: 50px;}
 #lp-content .uu-dai .uu-dai-title{
   text-align: center;
   padding-top: 30px;
@@ -124,7 +124,7 @@ src: url('/uploads-landing-page/lp/tlts2019/fonts/slick.eot');src: url('/uploads
   position: absolute;
   width: 15px;
   height: 15px;
-  background: url("/uploads-landing-page/lp/tlts2019/images/dot.png") center/100% no-repeat;
+  background: url("/dot.png") center/100% no-repeat;
   left: -25px;
 }
 #lp-content .uu-dai .colleft .item:nth-child(6n+1)::before{
@@ -132,7 +132,7 @@ src: url('/uploads-landing-page/lp/tlts2019/fonts/slick.eot');src: url('/uploads
   position: absolute;
   width: 15px;
   height: 15px;
-  background: url("/uploads-landing-page/lp/tlts2019/images/dot.png") center/100% no-repeat;
+  background: url("/dot.png") center/100% no-repeat;
   bottom: 0;
   left: -25px;
 }
@@ -141,7 +141,7 @@ src: url('/uploads-landing-page/lp/tlts2019/fonts/slick.eot');src: url('/uploads
   position: absolute;
   width: 15px;
   height: 15px;
-  background: url("/uploads-landing-page/lp/tlts2019/images/dot.png") center/100% no-repeat;
+  background: url("/dot.png") center/100% no-repeat;
   top: 10px;
   left: -25px;
 }
@@ -181,7 +181,7 @@ src: url('/uploads-landing-page/lp/tlts2019/fonts/slick.eot');src: url('/uploads
   margin-bottom: 30px;
 }
 
-#lp-content .uu-dai-nc{background: url("/uploads-landing-page/lp/tlts2019/images/back-uu-da-nc.jpg") center/cover no-repeat;font-family: Doji, sans-serif;}
+#lp-content .uu-dai-nc{background: url("/back-uu-da-nc.jpg") center/cover no-repeat;font-family: Doji, sans-serif;}
 #lp-content .uu-dai-nc .uu-dai-title{
   text-align: center;
   padding-top: 30px;
@@ -222,7 +222,7 @@ src: url('/uploads-landing-page/lp/tlts2019/fonts/slick.eot');src: url('/uploads
   position: absolute;
   width: 15px;
   height: 15px;
-  background: url("/uploads-landing-page/lp/tlts2019/images/dot.png") center/100% no-repeat;
+  background: url("/dot.png") center/100% no-repeat;
   left: -25px;
 }
 #lp-content .uu-dai-nc .colleft .item:nth-child(2n+1)::before{
@@ -230,7 +230,7 @@ src: url('/uploads-landing-page/lp/tlts2019/fonts/slick.eot');src: url('/uploads
   position: absolute;
   width: 15px;
   height: 15px;
-  background: url("/uploads-landing-page/lp/tlts2019/images/dot.png") center/100% no-repeat;
+  background: url("/dot.png") center/100% no-repeat;
   bottom: 0;
   left: -25px;
 }
@@ -239,12 +239,12 @@ src: url('/uploads-landing-page/lp/tlts2019/fonts/slick.eot');src: url('/uploads
   position: absolute;
   width: 15px;
   height: 15px;
-  background: url("/uploads-landing-page/lp/tlts2019/images/dot.png") center/100% no-repeat;
+  background: url("/dot.png") center/100% no-repeat;
   tpo: 0;
   left: -25px;
 }
 
-#lp-content .building{background-image: url("/uploads-landing-page/lp/tlts2019/images/doji-tower.jpg");background-size: cover;background-position: center;background-attachment: fixed;position: relative;display: flex;align-items: center;}
+#lp-content .building{background-image: url("/doji-tower.jpg");background-size: cover;background-position: center;background-attachment: fixed;position: relative;display: flex;align-items: center;}
 #lp-content .building::before{content: "";position: absolute;top: 0;left: 0;width: 100%;height: 100%;background: rgba(2, 24, 56, 0.6);z-index: 1;}
 #lp-content .building .outer{}
 #lp-content .building .outer .content{padding-top: 120px;padding-bottom: 120px;font-family: UTMAvo, sans-serif;color: #fff;font-size: 1.6rem;position: relative;z-index: 2;text-align: justify;}

@@ -75,7 +75,7 @@
 		font-size: 1.2rem;
 	}
 	#lp-content .uu-dai-nc {
-    background: url(/uploads-landing-page/lp/tlts2019/images/back-uu-da-nc.jpg) 75% 50%/cover no-repeat;
+    background: url(/back-uu-da-nc.jpg) 75% 50%/cover no-repeat;
 	}
 	#lp-content .uu-dai-nc .colleft{
 		width: 60%;
@@ -158,7 +158,7 @@
 	#lp-content .uu-dai .colleft .item > .item-3{width: 70%;}
 
 	#lp-content .uu-dai-nc {
-    background: url(/uploads-landing-page/lp/tlts2019/images/back-uu-da-nc-mb.jpg) center/cover no-repeat;
+    background: url(/back-uu-da-nc-mb.jpg) center/cover no-repeat;
 	}
 	#lp-content .uu-dai-nc .outer {
     display: flex;

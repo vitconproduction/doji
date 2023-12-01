@@ -18,12 +18,12 @@
 }
 @media only screen and (max-device-width: 1024px) and (min-device-width: 769px) {
 	#lp-content .lp-header{
-    background: url("/uploads-landing-page/lp/dojitower1/images/kiet-tac-kien-truc-giua-long-ha-noi.jpg?v=1.02") 25% 50%/cover no-repeat;
+    background: url("/kiet-tac-kien-truc-giua-long-ha-noi.jpg") 25% 50%/cover no-repeat;
 	}
 }
 @media only screen and (max-device-width: 768px) and (min-device-width: 767px) {
 	#lp-content .lp-header {
-    background: url("/uploads-landing-page/lp/dojitower1/images/kiet-tac-kien-truc-giua-long-ha-noi.jpg?v=1.02") 25% 50%/cover no-repeat;
+    background: url("/kiet-tac-kien-truc-giua-long-ha-noi.jpg") 25% 50%/cover no-repeat;
 	}
 }
 @media only screen and (max-device-width:767px) {

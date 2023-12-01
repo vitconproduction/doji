@@ -1,0 +1,62 @@
+@media only screen and (max-device-width: 1920px) and (min-device-width: 1601px) {
+
+}
+@media only screen and (max-device-width: 1600px) and (min-device-width: 1441px) {
+
+}
+@media only screen and (max-device-width: 1440px) and (min-device-width: 1367px) {
+
+}
+@media only screen and (max-device-width: 1366px) and (min-device-width: 1281px) {
+
+}
+@media only screen and (max-device-width: 1280px) and (min-device-width: 1025px) {
+
+}
+@media only screen and (max-device-width: 1024px) and (min-device-width: 769px) {
+
+}
+@media only screen and (max-device-width: 768px) and (min-device-width: 767px) {
+
+}
+@media only screen and (max-device-width:767px) {
+	#lp-content{
+		background: none;
+	}
+	#lp-content header{
+		width: 90%;
+	}
+	#nhanvoucher{
+		width: 90%;
+    margin: 0 5%;
+	}
+	#formRowbirthday, #formRowChoose, #formRowJob, #formRowKnowledge, #formRowDiachi, #formRowDiadiem, #formRowCaptcha, #formRowEmail, #formRowGioitinh, #formRowName, #formRowPhone, #formRowTuoi{
+		width: 100%;
+		margin: 25px 0 0;
+	}
+	#dangKyVoucher .formInputContent{
+		padding: 0 30px 55px;
+	}
+	footer .thong-tin-khoa-hoc{
+		width: 90%;
+	}
+	footer .thong-tin-khoa-hoc .content .element{
+		width: 100%;
+		margin-right: 0;
+	}
+}
+@media only screen and (max-device-width: 568px) and (min-device-width: 321px) {
+
+}
+@media only screen and (max-device-width: 414px) {
+
+}
+@media only screen and (max-device-width: 375px) {
+
+}
+@media only screen and (max-device-width: 360px) {
+
+}
+@media only screen and (max-device-width: 320px) {
+
+}

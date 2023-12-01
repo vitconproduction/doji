@@ -359,7 +359,7 @@ $(function(){
               // console.log(report);
               tr += '<td><a target="_blank" href="http://trangsuc.doji.vn/kim-cuong-vien-'+report+'/kim-cuong-vien-'+arrTemp[key][i]+'">Chi tiáº¿t</a></td>';
             }else if(i==11){
-              tr += '<td><a href="tel:'+arrTemp[key][i]+'"><img src="http://trangsuc.doji.vn/uploads-landing-page/lp/kc052019/images/phone.png">'+arrTemp[key][i]+'</a></td>';
+              tr += '<td><a href="tel:'+arrTemp[key][i]+'"><img src="/images/phone.png">'+arrTemp[key][i]+'</a></td>';
             }else if(i==7 || i==8 || i==9){
               tr += '<td>'+formatNumber(arrTemp[key][i])+'</td>';
             }else{
