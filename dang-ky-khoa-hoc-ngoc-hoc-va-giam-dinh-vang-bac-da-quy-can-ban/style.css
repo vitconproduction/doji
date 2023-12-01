@@ -1,5 +1,5 @@
-@font-face {font-family: MyriadRegular;src: url('/fonts/myriadpro-regular-webfont.eot');src: url('/fonts/myriadpro-regular-webfont.eot?#iefix') format('embedded-opentype'), url('/uploads-landing-page/lp/ngochoc/fonts/myriadpro-regular-webfont.ttf') format('truetype');font-weight: normal;font-style: normal;}
-@font-face {font-family: Swiss;src: url('/fonts/UTM Swiss Condensed.ttf') format('truetype');font-weight: normal;font-style: normal;}
+@font-face {font-family: MyriadRegular;src: url('./fonts/myriadpro-regular-webfont.eot');src: url('./fonts/myriadpro-regular-webfont.eot?#iefix') format('embedded-opentype'), url('/uploads-landing-page/lp/ngochoc./fonts/myriadpro-regular-webfont.ttf') format('truetype');font-weight: normal;font-style: normal;}
+@font-face {font-family: Swiss;src: url('./fonts/UTM Swiss Condensed.ttf') format('truetype');font-weight: normal;font-style: normal;}
 #lp-content{width:100%;display: inline-block;}
 #lp-content section{width: 100%;display: inline-block;position: relative;float: left;}
 #lp-content .outer{width: 86%;margin-left: 7%;margin-right: 7%;}
@@ -9,14 +9,14 @@
     width: 100%;
     min-height: 100%;
     height: 16px;
-    background: url("/images/page-line.png") 50% 100%/contain no-repeat;
+    background: url("./images/page-line.png") 50% 100%/contain no-repeat;
     margin: 30px 0
 }
 
 #lp-content {
     width: 100%;
     float: left;
-    background: url("/images/tower-left-back.jpg") top left/21% no-repeat, url("/images/tower-right-back.jpg") top right/21% no-repeat;
+    background: url("./images/tower-left-back.jpg") top left/21% no-repeat, url("./images/tower-right-back.jpg") top right/21% no-repeat;
     position: relative;
     color: #0c3168;
     line-height: 1.8;
@@ -129,7 +129,7 @@
     float: left;
     width: 100%;
     border: dashed 1px;
-    border-image: url("/images/wLdVc.png") 1 round;
+    border-image: url("./images/wLdVc.png") 1 round;
     background: rgba(12, 49, 104, 0.1);
 }
 

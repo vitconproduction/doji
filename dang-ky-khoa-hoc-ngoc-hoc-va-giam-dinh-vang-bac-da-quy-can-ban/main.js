@@ -248,9 +248,9 @@ $(function(){
   
     $('.thong-tin-khoa-hoc').on('click','.top',function(){
       if($(this).parent().find('.bottom').is(':visible')) {
-        $(this).find('span').last().html('Xem thĂªm <img src="/uploads-landing-page/lp/ngochoc/images/left-arr.png" />');
+        $(this).find('span').last().html('Xem thĂªm <img src="./images/left-arr.png" />');
       }else{
-        $(this).find('span').last().html('Thu gá»n <img src="/uploads-landing-page/lp/ngochoc/images/down-arr.png" />');
+        $(this).find('span').last().html('Thu gá»n <img src="./images/down-arr.png" />');
         // var pos = $(this).offset();
         // var distantTop = pos.top;
         // var h_main = $("#h-main").height();
