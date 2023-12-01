@@ -1,8 +1,8 @@
-@font-face {font-family: Doji;src: url("/fonts/DojiGodWordR.ttf") format("truetype");font-style: normal;font-display: swap;}
-@font-face {font-family: UTMTime;src: url("/fonts/UTM Times.ttf") format("truetype");font-style: normal;font-display: swap;}
-@font-face {font-family: UTMAvo;src: url("/fonts/UTM Avo.ttf") format("truetype");font-style: normal;font-display: swap;}
-@font-face {font-family: Trajan;src: url("/fonts/UTMTrajanProBold.ttf") format("truetype");font-style: normal;font-display: swap;}
-@font-face {font-family: MyriadRegular;src: url('/fonts/myriadpro-regular-webfont.eot');src: url('/fonts/myriadpro-regular-webfont.eot') format('embedded-opentype'), url('/fonts/myriadpro-regular-webfont.ttf') format('truetype');font-weight: normal;font-style: normal;font-display: swap;}
+@font-face {font-family: Doji;src: url("./fonts/DojiGodWordR.ttf") format("truetype");font-style: normal;font-display: swap;}
+@font-face {font-family: UTMTime;src: url("./fonts/UTM Times.ttf") format("truetype");font-style: normal;font-display: swap;}
+@font-face {font-family: UTMAvo;src: url("./fonts/UTM Avo.ttf") format("truetype");font-style: normal;font-display: swap;}
+@font-face {font-family: Trajan;src: url("./fonts/UTMTrajanProBold.ttf") format("truetype");font-style: normal;font-display: swap;}
+@font-face {font-family: MyriadRegular;src: url('./fonts/myriadpro-regular-webfont.eot');src: url('./fonts/myriadpro-regular-webfont.eot') format('embedded-opentype'), url('./fonts/myriadpro-regular-webfont.ttf') format('truetype');font-weight: normal;font-style: normal;font-display: swap;}
 #lp-content{width:100%;display: inline-block;font-family: UTMAvo, sans-serif;font-size: 1.6rem;position: relative;background: #e6e7e8;}
 /* #lp-content section{width: 100%;display: inline-block;position: relative;float: left;} */
 #lp-content .desktop{
@@ -13,7 +13,7 @@
 }
 #lp-content .lp-header{
   position: relative;
-  background: url("/kiet-tac-kien-truc-giua-long-ha-noi.jpg") center/cover no-repeat;
+  background: url("./kiet-tac-kien-truc-giua-long-ha-noi.jpg") center/cover no-repeat;
 }
 /* #lp-content .lp-header .container{
   position: relative;
@@ -69,7 +69,7 @@
 #lp-content .gallerys .item-wrap .item .last-item span span:nth-child(2n+1){font-size: 8rem;}
 #lp-content .video{
   /* display: none; */
-  background: url("/video-back.jpg") left/cover no-repeat;
+  background: url("./video-back.jpg") left/cover no-repeat;
 }
 #lp-content .video .text-wrap{
   float: right;
