@@ -1,35 +1,35 @@
 @font-face {
     font-family: MyriadRegular;
-    src: url("/fonts/myriadpro-regular-webfont.eot");
-    src: url("/fonts/myriadpro-regular-webfont.eot") format("embedded-opentype"), url("/fonts/myriadpro-regular-webfont.ttf") format("truetype");
+    src: url("./fonts/myriadpro-regular-webfont.eot");
+    src: url("./fonts/myriadpro-regular-webfont.eot") format("embedded-opentype"), url("./fonts/myriadpro-regular-webfont.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
   }
   
   @font-face {
     font-family: Helve;
-    src: url("/fonts/UTM Helve.ttf") format("truetype");
+    src: url("./fonts/UTM Helve.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
   }
   
   @font-face {
     font-family: BachDang;
-    src: url("/fonts/UVNBachDang_R.TTF") format("truetype");
+    src: url("./fonts/UVNBachDang_R.TTF") format("truetype");
     font-weight: normal;
     font-style: normal;
   }
   
   @font-face {
     font-family: BachDangBI;
-    src: url("/fonts/UVNBachDang_BI.TTF") format("truetype");
+    src: url("./fonts/UVNBachDang_BI.TTF") format("truetype");
     font-weight: normal;
     font-style: normal;
   }
   
   @font-face {
     font-family: BaiSau;
-    src: url("/fonts/UVNBaiSau_R.TTF") format("truetype");
+    src: url("./fonts/UVNBaiSau_R.TTF") format("truetype");
     font-weight: normal;
     font-style: normal;
   }
@@ -1192,9 +1192,9 @@
   }
   
   .listing .item a .sale.red {
-    background: url("/sale-red.png") center/cover no-repeat;
+    background: url("./sale-red.png") center/cover no-repeat;
   }
   
   .listing .item a .sale.purple {
-    background: url("/sale-pur.png") center/cover no-repeat;
+    background: url("./sale-pur.png") center/cover no-repeat;
   }
