@@ -189,17 +189,6 @@
   position: relative;
 }
 
-#lp-content .loi-chuc::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 38%;
-  bottom: 0;
-  left: 0;
-  background: #c61d23;
-  z-index: 0;
-}
-
 #lp-content .loi-chuc .top {
   margin-top: 70px;
   text-align: center;
