@@ -1,0 +1,98 @@
+$(function(){
+
+    $(window).on('load', function() {
+  
+      var day = '2020/07/10 08:30:00';
+      var datetimeStart = '2020/07/10 08:30:00';
+      var datetimeEnd = '2020/07/31 20:00:00';
+      if( Date.now() < Date.parse(datetimeStart) ){
+        day = '2020/07/10 08:30:00';
+      }else if( Date.now() > Date.parse(datetimeEnd) ){
+        $('.main-example').html('<div style="text-align: center;" class="text-clock">Sá»° kiá»‡n Ä‘Ă£ káº¿t thĂºc!</div>');
+        return false;
+      }else{
+        day = '2020/07/31 20:00:00';
+        $('.main-example').find('.text-clock').each(function(index){
+          if( index == 0 ){
+            $(this).html('ChÆ°Æ¡ng trĂ¬nh cĂ²n');
+          }
+          if( index == 1 ){
+            $(this).html('');
+          }
+        });
+      }
+  
+      var labels = ['NgĂ y', 'Giá»', 'PhĂºt', 'GiĂ¢y'],
+        // nextYear = (new Date().getFullYear() + 1) + '/01/01',
+        nextYear = day,
+        template = _.template($('#main-example-template').html()),
+        currDate = '00:00:00:00:00',
+        nextDate = '00:00:00:00:00',
+        parser = /([0-9]{2})/gi,
+        $example = $('#main-example');
+      // Parse countdown string to an object
+      function strfobj(str) {
+        var parsed = str.match(parser),
+          obj = {};
+        labels.forEach(function(label, i) {
+          obj[label] = parsed[i]
+        });
+        return obj;
+      }
+      // Return the time components that diffs
+      function diff(obj1, obj2) {
+        var diff = [];
+        labels.forEach(function(key) {
+          if (obj1[key] !== obj2[key]) {
+            diff.push(key);
+          }
+        });
+        return diff;
+      }
+      // Build the layout
+      var initData = strfobj(currDate);
+      labels.forEach(function(label, i) {
+        $example.append(template({
+          curr: initData[label],
+          next: initData[label],
+          label: label
+        }));
+      });
+      // Starts the countdown
+      $example.countdown(nextYear, function(event) {
+        var newDate = event.strftime('%D:%H:%M:%S'),
+          data;
+        if (newDate !== nextDate) {
+          currDate = nextDate;
+          nextDate = newDate;
+          // Setup the data
+          data = {
+            'curr': strfobj(currDate),
+            'next': strfobj(nextDate)
+          };
+          // Apply the new values to each node that changed
+          diff(data.curr, data.next).forEach(function(label) {
+            var selector = '.%s'.replace(/%s/, label),
+                $node = $example.find(selector);
+            // Update the node
+            $node.removeClass('flip');
+            $node.find('.curr').text(data.curr[label]);
+            $node.find('.next').text(data.next[label]);
+            // Wait for a repaint to then flip
+            _.delay(function($node) {
+              $node.addClass('flip');
+            }, 50, $node);
+          });
+        }
+      });
+    });
+  
+    $('.the-le-btn').on('click',function(){
+      $('#the-le').addClass('avai');
+    });
+  
+    $('#the-le').find('.close').on('click',function(){
+      $('#the-le').removeClass('avai');
+    });
+  
+  });

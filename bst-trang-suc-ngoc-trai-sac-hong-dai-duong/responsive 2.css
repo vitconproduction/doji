@@ -1,0 +1,68 @@
+@media only screen and (max-device-width: 1920px) and (min-device-width: 1601px) {
+
+}
+@media only screen and (max-device-width: 1600px) and (min-device-width: 1441px) {
+
+}
+@media only screen and (max-device-width: 1440px) and (min-device-width: 1367px) {
+
+}
+@media only screen and (max-device-width: 1366px) and (min-device-width: 1281px) {
+
+}
+@media only screen and (max-device-width: 1280px) and (min-device-width: 1025px) {
+
+}
+@media only screen and (max-device-width: 1024px) and (min-device-width: 769px) {
+	#content_lp .banner .text-in-banner .text-in-banner-1{font-size: 50px;}
+	#content_lp .banner .text-in-banner .text-in-banner-3{font-size: 50px;}
+	#content_lp .bst-sac-hong .column-left-item a{font-size: 20px;}
+}
+@media only screen and (max-device-width: 768px) {
+	#content_lp .banner{background: url("../images/mau-banner.png") 100% 100%/55% no-repeat, url("../images/banner-layout-1.png") center/cover no-repeat,url("../images/light.jpg") 15% 67%/40% no-repeat,#fedaec}
+	#content_lp .banner .text-in-banner{width: 50%;margin-left: 5%;}
+	#content_lp .banner .text-in-banner .text-in-banner-4 img{padding-top: 0;}
+	#content_lp .bst-sac-hong{padding-top: 20px;padding-bottom: 20px;}
+	#content_lp .bst-sac-hong .column-left-item{width: calc(100% / 2);}
+	#content_lp .bst-sac-hong .column-left-item a{font-size: 12px;}
+	#content_lp .bst-sac-hong .text-in-banner-2{font-size: 22px;padding-top: 20px;}
+	#content_lp .bst-sac-hong .text-in-banner-3{font-size: 32px;padding-bottom: 20px;}
+	#content_lp .bst-sac-hong .text-in-banner-5{font-size: 14px;}
+	#content_lp .bst-sac-hong .text-in-banner-6 img{padding-top: 20px;}
+	#content_lp .uu-dai{padding-top: 20px;padding-bottom: 20px;}
+	#content_lp .uu-dai .text-in-banner-7 img{padding-top: 20px;}
+	#content_lp .uu-dai .text-in-banner-8 ul{padding-top: 0;}
+	#content_lp .uu-dai .text-in-banner-8 ul li a{font-size: 14px;}
+	#content_lp .uu-dai .image-uu-dai img{width: calc(100% / 2 - 2px);margin-top: 20px;margin-right: 0;}
+	#content_lp .uu-dai .image-uu-dai img:nth-child(3){padding-top: 0;}
+	#content_lp .uu-dai .time{font-size: 12px;padding-top: 15px;font-weight: bold;}
+	#content_lp .footer{padding-top: 20px;}
+	#content_lp .footer .phone{font-size: 14px;}
+	#content_lp .footer .phone a{font-size: 14px;}
+	#content_lp .footer .facebook a{font-size: 14px;}
+	#content_lp .footer .shop{font-size: 14px;line-height: 1.4em;}
+	#content_lp .footer .phone::before{top: 6px;left: -30px;height: 26px;width: 26px;}
+	#content_lp .footer .facebook::before{top: 6px;left: -30px;height: 26px;width: 26px;}
+}
+@media only screen and (max-device-width:767px) {
+	#content_lp .banner{background: url("../images/banner-layout-1.png") center/cover no-repeat,url("../images/light.jpg") 50% 70%/100% no-repeat,#fedaec;}
+	#content_lp .banner .text-in-banner{width: 80%;padding-top: 40px;padding-bottom: 40px;margin-left: 10%;}
+	#content_lp .banner .text-in-banner .text-in-banner-1{font-size: 34px;}
+	#content_lp .banner .text-in-banner .text-in-banner-2{font-size: 14px;}
+	#content_lp .banner .text-in-banner .text-in-banner-3{min-height: 42px;font-size: 30px;padding-top: 2px;}
+}
+@media only screen and (max-device-width: 568px) and (min-device-width: 321px) {
+
+}
+@media only screen and (max-device-width: 414px) {
+
+}
+@media only screen and (max-device-width: 375px) {
+
+}
+@media only screen and (max-device-width: 360px) {
+
+}
+@media only screen and (max-device-width: 320px) {
+
+}

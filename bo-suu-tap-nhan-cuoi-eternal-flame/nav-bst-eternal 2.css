@@ -1,0 +1,24 @@
+ul.nav-land-fix {float:left;width: 100%;margin:0;padding:0}
+ul.nav-land-fix li:nth-child(1):after,ul.nav-land-fix li:nth-child(2):after{content: '';position: absolute;top: 10px;min-height: 0.5%;border-right: 2px solid #fff;}
+ul.nav-land-fix li.actived a:hover{background-color:#FA4B74,background:url("http://trangsuc.doji.vn/Uploads/Temp/2016/7/1/mui-ten-bg-2.png") bottom/contain no-repeat !important;text-decoration:none;font-size: 22px}
+ul.nav-land-fix li {list-style-type:none;float:left;width: calc(100% / 3);background-color:#FA4B74;}
+ul.nav-land-fix li a {text-decoration:none;text-align:center;width:100%;float:left;color:#fff;font-weight:bold;font-size: 18px;padding: 16px 0 !important;}
+ul.nav-land-fix li a:hover {background-color:#FA4B74,background:url("http://trangsuc.doji.vn/Uploads/Temp/2016/7/1/mui-ten-bg-2.png") bottom/contain no-repeat !important;text-decoration:none;font-size: 22px;height: 50px;}
+ul.nav-land-fix li.actived {color:#FA4B74;background-image:url("http://trangsuc.doji.vn/Uploads/Temp/2016/7/1/mui-ten-bg-2.png");background-position:bottom;background-repeat: no-repeat;background-size: 24px;}
+ul.nav-land-fix li.actived a {color:#fff;background-image:url("http://trangsuc.doji.vn/Uploads/Temp/2016/7/1/mui-ten-bg-2.png");background-position:bottom;background-repeat: no-repeat;background-size: 24px;}
+ul.nav-land-fix a.actived {color:#FA4B74;font-weight:bold;}
+
+ul.nav-land-respon {list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color: #FA4B74;width:100%;}
+ul.nav-land-respon li {float: left;padding:0 20px 0 0;}
+ul.nav-land-respon li a {display: inline-block;color: #fff;text-align: center;text-decoration: none;transition: 0.3s;font-size: 24px;}
+ul.nav-land-respon li a:hover {background-color: #FA4B74;}
+ul.nav-land-respon li.icon {display: none;font-size:30px;height:40px;}
+@media screen and (max-width:1023px) {
+  .nav-land-top{width:100%;}
+  ul.nav-land-respon li {display: none;}
+  ul.nav-land-respon li.icon {float: right;display: inline-block;}
+  ul.nav-land-respon.responsive {position: relative;width:100%;}
+  ul.nav-land-respon.responsive li.icon {position: absolute;right: 0;top: 0;}
+  ul.nav-land-respon.responsive li {float: none;display: inline;}
+  ul.nav-land-respon.responsive li a {display: block;text-align: center;padding: 5px 0;}
+}
