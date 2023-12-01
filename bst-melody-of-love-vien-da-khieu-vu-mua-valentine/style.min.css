@@ -1,41 +1,41 @@
 @font-face {
     font-family: Centur;
-    src: url("/fonts/UTM Centur.ttf") format("truetype");
+    src: url("./fonts/UTM Centur.ttf") format("truetype");
     font-style: normal;
     font-display: swap
 }
 
 @font-face {
     font-family: CenturBold;
-    src: url("/fonts/UTM CenturBold.ttf") format("truetype");
+    src: url("./fonts/UTM CenturBold.ttf") format("truetype");
     font-style: normal;
     font-display: swap
 }
 
 @font-face {
     font-family: Bryant;
-    src: url("/fonts/UTM BryantLG.woff") format("woff"), url("/fonts/UTM BryantLG.ttf") format("truetype");
+    src: url("./fonts/UTM BryantLG.woff") format("woff"), url("./fonts/UTM BryantLG.ttf") format("truetype");
     font-style: normal;
     font-display: swap
 }
 
 @font-face {
     font-family: BryantB;
-    src: url("/fonts/UTM BryantLG_B.woff") format("woff"), url("/fonts/UTM BryantLG_B.ttf") format("truetype");
+    src: url("./fonts/UTM BryantLG_B.woff") format("woff"), url("./fonts/UTM BryantLG_B.ttf") format("truetype");
     font-style: normal;
     font-display: swap
 }
 
 @font-face {
     font-family: WeddingKT;
-    src: url("/fonts/UTM Wedding K&T.ttf") format("truetype");
+    src: url("./fonts/UTM Wedding K&T.ttf") format("truetype");
     font-style: normal;
     font-display: swap
 }
 
 @font-face {
     font-family: Aptima;
-    src: url("/fonts/UTM Aptima.ttf") format("truetype");
+    src: url("./fonts/UTM Aptima.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
     font-display: swap
@@ -43,7 +43,7 @@
 
 @font-face {
     font-family: Aptima;
-    src: url("/fonts/UTM AptimaBold.ttf") format("truetype");
+    src: url("./fonts/UTM AptimaBold.ttf") format("truetype");
     font-style: normal;
     font-weight: bold;
     font-display: swap
@@ -51,7 +51,7 @@
 
 @font-face {
     font-family: Aptima;
-    src: url("/fonts/UTM AptimaBoldItalic.ttf") format("truetype");
+    src: url("./fonts/UTM AptimaBoldItalic.ttf") format("truetype");
     font-style: italic;
     font-weight: bold;
     font-display: swap
@@ -59,7 +59,7 @@
 
 @font-face {
     font-family: Aptima;
-    src: url("/fonts/UTM AptimaItalic.ttf") format("truetype");
+    src: url("./fonts/UTM AptimaItalic.ttf") format("truetype");
     font-style: italic;
     font-weight: normal;
     font-display: swap
@@ -67,7 +67,7 @@
 
 @font-face {
     font-family: Avo;
-    src: url("/fonts/UTM Avo.woff") format("woff"), url("/fonts/UTM Avo.ttf") format("truetype");
+    src: url("./fonts/UTM Avo.woff") format("woff"), url("./fonts/UTM Avo.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
     font-display: swap
@@ -75,7 +75,7 @@
 
 @font-face {
     font-family: Avo;
-    src: url("/fonts/UTM AvoBold.ttf") format("truetype");
+    src: url("./fonts/UTM AvoBold.ttf") format("truetype");
     font-style: normal;
     font-weight: bold;
     font-display: swap
@@ -83,7 +83,7 @@
 
 @font-face {
     font-family: Avo;
-    src: url("/fonts/UTM AvoBold_Italic.ttf") format("truetype");
+    src: url("./fonts/UTM AvoBold_Italic.ttf") format("truetype");
     font-style: italic;
     font-weight: bold;
     font-display: swap
@@ -91,7 +91,7 @@
 
 @font-face {
     font-family: Avo;
-    src: url("/fonts/UTM AvoItalic.ttf") format("truetype");
+    src: url("./fonts/UTM AvoItalic.ttf") format("truetype");
     font-style: italic;
     font-weight: normal;
     font-display: swap
@@ -99,7 +99,7 @@
 
 @font-face {
     font-family: UTMTimes;
-    src: url("/fonts/UTM Times.ttf") format("truetype");
+    src: url("./fonts/UTM Times.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
     font-display: swap
@@ -107,14 +107,14 @@
 
 @font-face {
     font-family: Trajan;
-    src: url("/fonts/UTMTrajanProBold.ttf") format("truetype");
+    src: url("./fonts/UTMTrajanProBold.ttf") format("truetype");
     font-style: normal;
     font-display: swap
 }
 
 @font-face {
     font-family: Belle;
-    src: url("/fonts/SFUBELLEREGULAR_0.ttf") format("truetype");
+    src: url("./fonts/SFUBELLEREGULAR_0.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
     font-display: swap
@@ -122,7 +122,7 @@
 
 @font-face {
     font-family: Ongdo;
-    src: url("/fonts/UTM Ong Do Gia.ttf") format("truetype");
+    src: url("./fonts/UTM Ong Do Gia.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
     font-display: swap
@@ -130,7 +130,7 @@
 
 @font-face {
     font-family: Swiss;
-    src: url("/fonts/UTM Swiss Condensed.ttf") format("truetype");
+    src: url("./fonts/UTM Swiss Condensed.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
     font-display: swap
@@ -138,7 +138,7 @@
 
 @font-face {
     font-family: Doji;
-    src: url("/fonts/DojiGodWordR.ttf") format("truetype");
+    src: url("./fonts/DojiGodWordR.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
     font-display: swap
@@ -146,7 +146,7 @@
 
 @font-face {
     font-family: MyriadRegular;
-    src: url("/fonts/myriadpro-regular-webfont.eot") format("embedded-opentype"), url("/fonts/myriadpro-regular-webfont.ttf") format("truetype");
+    src: url("./fonts/myriadpro-regular-webfont.eot") format("embedded-opentype"), url("./fonts/myriadpro-regular-webfont.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
     font-display: swap
@@ -304,7 +304,7 @@
 #lp_main #lp_product-listing {
     padding-top: 50px;
     padding-bottom: 50px;
-    background: url("/images/sp-background.jpg") center/cover no-repeat
+    background: url("./images/sp-background.jpg") center/cover no-repeat
 }
 
 #lp_main #lp_product-listing .outer .lp_product-listing-wrap {
@@ -546,7 +546,7 @@
 #lp_main #lp_product-promotion .outer .promotion .sector-1>.left {
     width: calc(65% - 5px);
     min-height: 75vh;
-    background-image: url("/images/trang-suc-kim-cuong.jpg");
+    background-image: url("./images/trang-suc-kim-cuong.jpg");
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat
@@ -615,7 +615,7 @@
 #lp_main #lp_product-promotion .outer .promotion .sector-2>.left {
     width: calc(35% - 5px);
     min-height: 95vh;
-    background-image: url("/images/kim-bao-phuc.jpg");
+    background-image: url("./images/kim-bao-phuc.jpg");
     background-size: cover;
     background-position: 28% top;
     background-repeat: no-repeat
@@ -656,7 +656,7 @@
     width: 100%;
     height: calc(50% - 5px);
     margin-bottom: 10px;
-    background-image: url("/images/nhan-cuoi.jpg");
+    background-image: url("./images/nhan-cuoi.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat
@@ -685,7 +685,7 @@
 #lp_main #lp_product-promotion .outer .promotion .sector-2>.right .bottom {
     width: 100%;
     height: calc(50% - 5px);
-    background-image: url("/images/dong-ho.jpg");
+    background-image: url("./images/dong-ho.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat
@@ -738,7 +738,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    background: url("/images/qua-tang-background-02.jpg") center/cover no-repeat
+    background: url("./images/qua-tang-background-02.jpg") center/cover no-repeat
 }
 
 #lp_main #lp_gift>img {

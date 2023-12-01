@@ -1,7 +1,7 @@
-@font-face {font-family: Doji;src: url("/fonts/DojiGodWordR.ttf") format("truetype");font-style: normal;}
-@font-face {font-family: UTMTime;src: url("/fonts//fonts/UTM Times.ttf") format("truetype");font-style: normal;}
-@font-face {font-family: UTMAvo;src: url("/fonts//fonts/UTM Avo.ttf") format("truetype");font-style: normal;}
-@font-face {font-family: Trajan;src: url("/fonts/UTMTrajanProBold.ttf") format("truetype");font-style: normal;}
+@font-face {font-family: Doji;src: url("./fonts/DojiGodWordR.ttf") format("truetype");font-style: normal;}
+@font-face {font-family: UTMTime;src: url("./fonts//fonts/UTM Times.ttf") format("truetype");font-style: normal;}
+@font-face {font-family: UTMAvo;src: url("./fonts//fonts/UTM Avo.ttf") format("truetype");font-style: normal;}
+@font-face {font-family: Trajan;src: url("./fonts/UTMTrajanProBold.ttf") format("truetype");font-style: normal;}
 @font-face {font-family: MyriadRegular;src: url('/fonts//fonts/myriadpro-regular-webfont.eot');src: url('/fonts//fonts/myriadpro-regular-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts//fonts/myriadpro-regular-webfont.ttf') format('truetype');font-weight: normal;font-style: normal;}
 @font-face{font-family: 'slick';font-weight: normal;font-style: normal;
 src: url('/fonts//fonts/slick.eot');src: url('/fonts//fonts/slick.eot?#iefix') format('embedded-opentype'), url('/fonts//fonts/slick.woff') format('woff'), url('/fonts//fonts/slick.ttf') format('truetype'), url('/fonts//fonts/slick.svg#slick') format('svg');}

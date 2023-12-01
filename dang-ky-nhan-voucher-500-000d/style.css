@@ -54,14 +54,14 @@ img {
     width: 100%;
     min-height: 100%;
     height: 16px;
-    background: url("/images/page-line.png") 50% 100%/contain no-repeat;
+    background: url("./images/page-line.png") 50% 100%/contain no-repeat;
     margin: 30px 0
 }
 
 #content_lp {
     width: 100%;
     float: left;
-    background: url("/images/tower-left-back.jpg") top left/21% no-repeat, url("/images/tower-right-back.jpg") top right/21% no-repeat;
+    background: url("./images/tower-left-back.jpg") top left/21% no-repeat, url("./images/tower-right-back.jpg") top right/21% no-repeat;
 }
 
 .title {
@@ -135,7 +135,7 @@ img {
     float: left;
     width: 100%;
     border: dashed 1px;
-    border-image: url("/images/wLdVc.png") 1 round;
+    border-image: url("./images/wLdVc.png") 1 round;
     background: rgba(217, 32, 49, 0.025);
 }
 

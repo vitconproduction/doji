@@ -1,31 +1,31 @@
 @font-face {
     font-family: UTMAvo;
-    src: url("/fonts/UTMAvo.ttf") format("truetype");
+    src: url("./fonts/UTMAvo.ttf") format("truetype");
   }
   
   @font-face {
     font-family: UTMAvoB;
-    src: url("/fonts/UTMAvoBold.ttf") format("truetype");
+    src: url("./fonts/UTMAvoBold.ttf") format("truetype");
   }
   
   @font-face {
     font-family: UTMAvoBI;
-    src: url("/fonts/UTMAvoItalic.ttf") format("truetype");
+    src: url("./fonts/UTMAvoItalic.ttf") format("truetype");
   }
   
   @font-face {
     font-family: UTMAvoI;
-    src: url("/fonts/UTMAvoBold_Italic.ttf") format("truetype");
+    src: url("./fonts/UTMAvoBold_Italic.ttf") format("truetype");
   }
   
   @font-face {
     font-family: UTMTimes;
-    src: url("/fonts/UTMTimes.ttf") format("truetype");
+    src: url("./fonts/UTMTimes.ttf") format("truetype");
   }
   
   @font-face {
     font-family: MyriadRegular;
-    src: url("/fonts/myriadpro-regular-webfont.ttf") format("truetype");
+    src: url("./fonts/myriadpro-regular-webfont.ttf") format("truetype");
   }
   
   #lp-content {
@@ -55,7 +55,7 @@
   }
   
   #lp-content .lp-content_top {
-    background: url("/images/banner.jpg") center/cover no-repeat;
+    background: url("./images/banner.jpg") center/cover no-repeat;
     line-height: 1.5;
   }
   
@@ -103,7 +103,7 @@
     left: 0;
     width: 158px;
     height: 12px;
-    background: url("/images/line-1.png") left top/100% no-repeat;
+    background: url("./images/line-1.png") left top/100% no-repeat;
   }
   
   #lp-content .lp-content_bottom {
@@ -149,7 +149,7 @@
     left: calc(100% + 30px);
     width: 348px;
     height: 70px;
-    background: url("/images/line-4.png") right top/100% no-repeat;
+    background: url("./images/line-4.png") right top/100% no-repeat;
     z-index: -1;
   }
   
@@ -195,7 +195,7 @@
     right: 0;
     width: 158px;
     height: 12px;
-    background: url("/images/line-2.png") right top/100% no-repeat;
+    background: url("./images/line-2.png") right top/100% no-repeat;
   }
   
   #lp-content .lp-content_bottom .lp-content_bottom-content-1 .outer .content-1-wrap .right .excerpt::after {
@@ -205,7 +205,7 @@
     right: -35px;
     width: 70px;
     height: 288px;
-    background: url("/images/line-3.png") right top/70% no-repeat;
+    background: url("./images/line-3.png") right top/70% no-repeat;
     z-index: -1;
   }
   
@@ -240,7 +240,7 @@
     left: calc(40% + 30px);
     width: 348px;
     height: 70px;
-    background: url("/images/line-4.png") right top/100% no-repeat;
+    background: url("./images/line-4.png") right top/100% no-repeat;
     z-index: 0;
   }
   
@@ -268,7 +268,7 @@
     left: -55px;
     width: 70px;
     height: 288px;
-    background: url("/images/line-3.png") right top/70% no-repeat;
+    background: url("./images/line-3.png") right top/70% no-repeat;
     z-index: -1;
   }
   
@@ -300,7 +300,7 @@
     left: 0;
     width: 158px;
     height: 12px;
-    background: url("/images/line-2.png") right top/100% no-repeat;
+    background: url("./images/line-2.png") right top/100% no-repeat;
   }
   
   #lp-content .lp-content_bottom .lp-content_bottom-content-2 .outer .content-2-wrap .left .image-sp {
@@ -435,7 +435,7 @@
   
   @media only screen and (max-width: 1024px) {
     #lp-content .lp-content_top {
-      background: url("/images/banner.png") 70% 50%/cover no-repeat;
+      background: url("./images/banner.png") 70% 50%/cover no-repeat;
     }
     #lp-content .lp-content_bottom .lp-content_bottom-content-1 .outer .content-1-wrap .left::after {
       display: none;
@@ -482,7 +482,7 @@
       margin-top: 20px;
     }
     #lp-content .lp-content_top .outer .lp-content_top-wrap .excerpt::before {
-      background: url("/images/line-2.png") left top/100% no-repeat;
+      background: url("./images/line-2.png") left top/100% no-repeat;
     }
     #lp-content .lp-content_bottom .lp-content_bottom-content-1::before {
       height: 90%;
@@ -538,7 +538,7 @@
     #lp-content .lp-content_bottom .lp-content_bottom-content-2 .outer .content-2-wrap .left::after {
       top: 50%;
       left: 0;
-      background: url("/images/line-3.png") left top/70% no-repeat;
+      background: url("./images/line-3.png") left top/70% no-repeat;
     }
     #lp-content .lp-content_bottom .lp-content_bottom-content-2 .outer .content-2-wrap .left .excerpt {
       padding-top: 20px;

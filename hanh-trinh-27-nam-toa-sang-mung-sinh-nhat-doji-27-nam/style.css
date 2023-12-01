@@ -1,7 +1,7 @@
 @font-face {
     font-family: MyriadRegular;
-    src: url("/fonts/myriadproregularwebfont.eot");
-    src: url("/fonts/myriadproregularwebfont.eot") format("embedded-opentype"), url("/fonts/myriadproregularwebfont.ttf") format("truetype");
+    src: url("./fonts/myriadproregularwebfont.eot");
+    src: url("./fonts/myriadproregularwebfont.eot") format("embedded-opentype"), url("./fonts/myriadproregularwebfont.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -9,25 +9,25 @@
   
   @font-face {
     font-family: UTMTrajan;
-    src: url("/fonts/UTMTrajan.ttf") format("truetype");
+    src: url("./fonts/UTMTrajan.ttf") format("truetype");
     font-display: swap;
   }
   
   @font-face {
     font-family: UTMTrajanR;
-    src: url("/fonts/TrajanPro-Regular.otf") format("opentype");
+    src: url("./fonts/TrajanPro-Regular.otf") format("opentype");
     font-display: swap;
   }
   
   @font-face {
     font-family: UTMTrajanB;
-    src: url("/fonts/TrajanPro-Bold.otf") format("opentype");
+    src: url("./fonts/TrajanPro-Bold.otf") format("opentype");
     font-display: swap;
   }
   
   @font-face {
     font-family: Sign;
-    src: url("/fonts/PHOTOGRAPH SIGNATURE.TTF") format("truetype");
+    src: url("./fonts/PHOTOGRAPH SIGNATURE.TTF") format("truetype");
     font-display: swap;
   }
   
@@ -142,7 +142,7 @@
     position: absolute;
     width: calc(100% + 60px);
     height: calc(100% + 60px);
-    background: url("/images/clock-back.png") center/100% no-repeat;
+    background: url("./images/clock-back.png") center/100% no-repeat;
     top: -30px;
     left: -30px;
     z-index: 10;
@@ -409,7 +409,7 @@
     right: 5px;
     height: 20px;
     width: 20px;
-    background: url("/images/arrow.png") center/cover no-repeat;
+    background: url("./images/arrow.png") center/cover no-repeat;
   }
   
   #tskc .desktop .image > img {
@@ -424,7 +424,7 @@
   }
   
   #tskc .desktop .lp-sp .item {
-    background: url("/images/tskc-sp-back.jpg") center/cover no-repeat;
+    background: url("./images/tskc-sp-back.jpg") center/cover no-repeat;
     width: calc(100% / 4 - (15px * 4 / 5));
     margin-right: 15px;
     display: flex;
@@ -461,7 +461,7 @@
   }
   
   #tskc .mobile .lp-sp .item {
-    background: url("/images/tskc-sp-back.jpg") center/cover no-repeat;
+    background: url("./images/tskc-sp-back.jpg") center/cover no-repeat;
     width: calc(100% / 4 - (15px * 4 / 5));
     margin-right: 15px;
     display: flex;
@@ -496,7 +496,7 @@
   }
   
   .lp-wrap-head {
-    background: url("/images/tskc-back.jpg") center/cover no-repeat;
+    background: url("./images/tskc-back.jpg") center/cover no-repeat;
   }
   
   #kcv .desktop {
@@ -518,7 +518,7 @@
   }
   
   #lp-video .desktop {
-    background: url("/images/kcv-back.jpg") center/cover no-repeat;
+    background: url("./images/kcv-back.jpg") center/cover no-repeat;
   }
   
   #lp-video .desktop .title {
@@ -770,7 +770,7 @@
   }
   
   #tsc .mobile {
-    background: url("/images/nc-back-mb.jpg") center/cover no-repeat;
+    background: url("./images/nc-back-mb.jpg") center/cover no-repeat;
     padding-bottom: 30px;
   }
   
@@ -800,7 +800,7 @@
   }
   
   #tsc .mobile .lp-wrap .lp-sp .item {
-    background: url("/images/tskc-sp-back.jpg") center/cover no-repeat;
+    background: url("./images/tskc-sp-back.jpg") center/cover no-repeat;
     width: calc(100% / 3 - (15px * 2 / 3));
     margin-right: 15px;
     margin-bottom: 15px;
@@ -821,7 +821,7 @@
   
   #tsdm {
     position: relative;
-    background: url("/images/tsdm-back-mb.jpg") center/cover no-repeat;
+    background: url("./images/tsdm-back-mb.jpg") center/cover no-repeat;
   }
   
   #tsdm .desktop {
@@ -924,7 +924,7 @@
   }
   
   #tsvt .mobile {
-    background: url("/images/tsvt-back-mb.jpg") center/cover no-repeat;
+    background: url("./images/tsvt-back-mb.jpg") center/cover no-repeat;
   }
   
   #tsvt .mobile > img {
@@ -1009,7 +1009,7 @@
   }
   
   #kbp .desktop .lp-wrap .lp-sp .item {
-    background: url("/images/kbp-back-sp.jpg") center/cover no-repeat;
+    background: url("./images/kbp-back-sp.jpg") center/cover no-repeat;
     width: calc(100% / 5 - (15px * 4 / 5));
     margin-right: 15px;
     margin-bottom: 15px;
@@ -1058,7 +1058,7 @@
   }
   
   #kbp .mobile .lp-wrap .lp-sp .item {
-    background: url("/images/kbp-back-sp.jpg") center/cover no-repeat;
+    background: url("./images/kbp-back-sp.jpg") center/cover no-repeat;
     width: calc(100% / 2 - (15px * 1 / 2));
     margin-right: 15px;
     margin-bottom: 15px;
@@ -1116,7 +1116,7 @@
   }
   
   #dongho .desktop .lp-wrap .lp-sp .item {
-    background: url("/images/dongho-back-sp.jpg") center/cover no-repeat;
+    background: url("./images/dongho-back-sp.jpg") center/cover no-repeat;
     width: calc(100% / 2 - (15px * 1 / 2));
     margin-right: 15px;
     margin-bottom: 15px;
@@ -1609,7 +1609,7 @@
       width: 100%;
       padding-left: 15px;
       padding-right: 15px;
-      background: url("/images/tskc-fashion-back-mb-2.jpg") center/cover no-repeat;
+      background: url("./images/tskc-fashion-back-mb-2.jpg") center/cover no-repeat;
       padding-bottom: 30px;
       right: 0;
     }
@@ -1692,7 +1692,7 @@
       margin-top: 0;
     }
     #kcv-bst {
-      background: url("/images/kcv-back.jpg") center/cover no-repeat;
+      background: url("./images/kcv-back.jpg") center/cover no-repeat;
       padding-bottom: 30px;
     }
     #dat-coc .view-more {

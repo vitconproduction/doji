@@ -529,7 +529,7 @@ Copyright (c) 2015 Daniel Eden
 @font-face {
     font-family: 'themify';
     src: url("https://trangsuc.doji.vn/Upload/landing-page/zing20201110/font/themify.eot?-fvbane");
-    src: url("https://trangsuc.doji.vn/Upload/landing-page/zing20201110/font/themify.eot?#iefix-fvbane") format("embedded-opentype"), url("/fonts/themify.woff") format("woff"), url("https://trangsuc.doji.vn/Upload/landing-page/zing20201110/font/themify.ttf?-fvbane") format("truetype"), url("https://trangsuc.doji.vn/Upload/landing-page/zing20201110/font/themify.svg?-fvbane#themify") format("svg");
+    src: url("https://trangsuc.doji.vn/Upload/landing-page/zing20201110/font/themify.eot?#iefix-fvbane") format("embedded-opentype"), url("./fonts/themify.woff") format("woff"), url("https://trangsuc.doji.vn/Upload/landing-page/zing20201110/font/themify.ttf?-fvbane") format("truetype"), url("https://trangsuc.doji.vn/Upload/landing-page/zing20201110/font/themify.svg?-fvbane#themify") format("svg");
     font-weight: normal;
     font-style: normal
 }
@@ -2251,7 +2251,7 @@ textarea:focus {
 }
 
 .ti-zalo {
-    background: url("/images/icon_zalomessage.png") no-repeat 50% 50%;
+    background: url("./images/icon_zalomessage.png") no-repeat 50% 50%;
     width: 16px;
     height: 16px;
     display: inline-block;
@@ -2262,7 +2262,7 @@ textarea:focus {
 }
 
 .ti-zalo.blue {
-    background: url("/images/icon_zalo.png") no-repeat 50% 50% !important;
+    background: url("./images/icon_zalo.png") no-repeat 50% 50% !important;
     width: 16px;
     height: 16px
 }

@@ -6,7 +6,7 @@
 	font-style: normal;
 }
 #warpper-bg{
-    background: url(/images/Doji-v22.jpg);
+    background: url(./images/Doji-v22.jpg);
     background-repeat: no-repeat;
     background-position-y: 10px;
     background-size: cover;
@@ -206,7 +206,7 @@
 	position: absolute;
 	top: -170px;
 	right: -110px;
-    background-image: url(/images/td/on-top.png);
+    background-image: url(./images/td/on-top.png);
     width: 192px;
     height: 385px;
 }
@@ -229,7 +229,7 @@
 	#warpper .col_left h3, #warpper .col_right h3	{font-size: 50px!important;}
 	#warpper .col_left p, #warpper .col_right p{font-size: 18px!important;}
 	 #warpper-bg{
-	    background: url(/images/Doji-v5.jpg);
+	    background: url(./images/Doji-v5.jpg);
 		background-repeat: no-repeat;
 		background-position-y: 10px;
 		background-size: cover;	    
@@ -238,7 +238,7 @@
 @media screen and (max-device-width: 1366px){
 	#warpper-bg{
 		background-size:cover;
-		background: url(/images/Doji.jpg) top left/cover no-repeat;
+		background: url(./images/Doji.jpg) top left/cover no-repeat;
 	}
 	#warpper .section-content .section-inner.section-cover .text-pos{top:460px;}
 }
@@ -248,7 +248,7 @@
 	}
 	#warpper-bg{
 		background-size:cover;
-		background: url(/images/Doji.jpg) top center/cover no-repeat !important;
+		background: url(./images/Doji.jpg) top center/cover no-repeat !important;
 	}
 	#warpper .section-footer .warp{
 		padding: 20px 120px 10px 30px;	
@@ -257,7 +257,7 @@
 @media screen and (max-device-width: 900px){
 	#warpper .section-content .section-inner.full-screen{height:65vh;}
 	#warpper-bg{
-		background: url(/images/Doji.jpg) top center/cover no-repeat !important;;
+		background: url(./images/Doji.jpg) top center/cover no-repeat !important;;
 		background-repeat: no-repeat;
 	}
 	#warpper .section-content .section-inner.section-cover .text-pos{width:700px;}
@@ -337,7 +337,7 @@
 		padding-bottom: 0;
 	}
 	#warpper .on_top {
-		background: url(/images/on-top.png) left top -150px;
+		background: url(./images/on-top.png) left top -150px;
 		width: 192px;
 		height: 250px;
 		margin: 0 auto;
@@ -354,7 +354,7 @@
 }
 @media screen and (max-device-width: 480px){
 	#warpper-bg{
-		background: url(/images/Doji-mobile-v2.jpg) top center/cover no-repeat !important;
+		background: url(./images/Doji-mobile-v2.jpg) top center/cover no-repeat !important;
 		}
 	#warpper .section-content .section-inner.full-screen {
 		height: 375px;
@@ -362,7 +362,7 @@
 }	
 @media screen and (max-device-width: 375px){
 	#warpper-bg{
-		background: url(/images/Doji-mobile-v2.jpg) top center/cover no-repeat !important;
+		background: url(./images/Doji-mobile-v2.jpg) top center/cover no-repeat !important;
 	}
 }
 @media screen and (max-device-width: 375px){
@@ -372,7 +372,7 @@
 }
 @media screen and (max-device-width: 340px){
 	#warpper-bg{
-		background: url(/images/Doji-mobile-2v2.jpg) top center/cover no-repeat !important;
+		background: url(./images/Doji-mobile-2v2.jpg) top center/cover no-repeat !important;
 	}
 	#warpper .section-content .section-inner.section-cover .text-pos {
 		top: 240px;

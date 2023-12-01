@@ -1,14 +1,14 @@
 @font-face {
     font-family: Doji;
-    src: url("/fonts/DojiGodWordR.ttf") format("truetype");
+    src: url("./fonts/DojiGodWordR.ttf") format("truetype");
     font-style: normal;
     font-display: swap;
   }
   
   @font-face {
     font-family: MyriadRegular;
-    src: url("/fonts/myriadpro-regular-webfont.eot");
-    src: url("/fonts/myriadpro-regular-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/myriadpro-regular-webfont.ttf") format("truetype");
+    src: url("./fonts/myriadpro-regular-webfont.eot");
+    src: url("./fonts/myriadpro-regular-webfont.eot?#iefix") format("embedded-opentype"), url("./fonts/myriadpro-regular-webfont.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -94,7 +94,7 @@
     position: absolute;
     width: calc(100% + 0px);
     height: calc(100% + 135px);
-    background: url("/images/gift-box.png") center/100% no-repeat;
+    background: url("./images/gift-box.png") center/100% no-repeat;
     top: -117px;
     left: 0;
     z-index: 10;
@@ -289,12 +289,12 @@
     display: inline-block;
     width: 100%;
     padding: 0 0 50px;
-    background: url("/images/clock-back.png") center/cover no-repeat;
+    background: url("./images/clock-back.png") center/cover no-repeat;
     margin-top: -2px;
   }
   
   #lp-content .tskc {
-    background: url("/images/tskc-back.jpg") center/cover no-repeat;
+    background: url("./images/tskc-back.jpg") center/cover no-repeat;
     color: #c56188;
     padding-bottom: 167px;
   }
@@ -376,7 +376,7 @@
   
   #lp-content .tskc #slider-tskc .slick-arrow.slick-prev {
     left: -25px;
-    background: url("/images/arrow-tskc.png") center/contain no-repeat;
+    background: url("./images/arrow-tskc.png") center/contain no-repeat;
     transform: rotate(180deg);
     height: 50px;
     width: 25px;
@@ -384,7 +384,7 @@
   
   #lp-content .tskc #slider-tskc .slick-arrow.slick-next {
     right: -25px;
-    background: url("/images/arrow-tskc.png") center/contain no-repeat;
+    background: url("./images/arrow-tskc.png") center/contain no-repeat;
     height: 50px;
     width: 25px;
   }
@@ -503,7 +503,7 @@
   
   #lp-content .da-mau .wrap-tsdm-fashion #slider-tsdm-fashion .slick-arrow.slick-prev {
     left: -25px;
-    background: url("/images/arrow-slide-w.png") center/contain no-repeat;
+    background: url("./images/arrow-slide-w.png") center/contain no-repeat;
     transform: rotate(180deg);
     height: 50px;
     width: 25px;
@@ -511,7 +511,7 @@
   
   #lp-content .da-mau .wrap-tsdm-fashion #slider-tsdm-fashion .slick-arrow.slick-next {
     right: -25px;
-    background: url("/images/arrow-slide-w.png") center/contain no-repeat;
+    background: url("./images/arrow-slide-w.png") center/contain no-repeat;
     height: 50px;
     width: 25px;
   }
@@ -526,7 +526,7 @@
   }
   
   #lp-content .da-mau-ngoc-trai {
-    background: url("/images/nen-sapphire.jpg") center/cover no-repeat;
+    background: url("./images/nen-sapphire.jpg") center/cover no-repeat;
     position: relative;
     padding-bottom: 50px;
   }
@@ -575,7 +575,7 @@
   }
   
   #lp-content .nhan-cuoi {
-    background: url("/images/weddingland-back.jpg") center/cover no-repeat;
+    background: url("./images/weddingland-back.jpg") center/cover no-repeat;
     padding-top: 40px;
     padding-bottom: 40px;
   }
@@ -616,7 +616,7 @@
   #lp-content .nhan-cuoi .product-listing .item {
     width: calc(100% / 6 - (20px * 5 / 6));
     margin-right: 20px;
-    background: url("/images/nc-item-back.png") center/cover no-repeat;
+    background: url("./images/nc-item-back.png") center/cover no-repeat;
     padding: 30px;
     transition: 0.5s;
     -moz-transition: 0.5s;
@@ -656,7 +656,7 @@
   
   #lp-content .tsv24k {
     position: relative;
-    background: url("/images/trang-suc-vang-24k-back.jpg") center/cover no-repeat;
+    background: url("./images/trang-suc-vang-24k-back.jpg") center/cover no-repeat;
     padding: 250px 0;
   }
   
@@ -778,7 +778,7 @@
   
   #lp-content .product-dong-ho .wrap-dong-ho #slider-dong-ho .slick-arrow.slick-prev {
     left: -25px;
-    background: url("/images/arrow-slide-w.png") center/contain no-repeat;
+    background: url("./images/arrow-slide-w.png") center/contain no-repeat;
     transform: rotate(180deg);
     height: 50px;
     width: 25px;
@@ -786,7 +786,7 @@
   
   #lp-content .product-dong-ho .wrap-dong-ho #slider-dong-ho .slick-arrow.slick-next {
     right: -25px;
-    background: url("/images/arrow-slide-w.png") center/contain no-repeat;
+    background: url("./images/arrow-slide-w.png") center/contain no-repeat;
     height: 50px;
     width: 25px;
   }
@@ -802,7 +802,7 @@
   
   #lp-content .kbp {
     position: relative;
-    background: url("/images/kbp-back.jpg") center/cover no-repeat;
+    background: url("./images/kbp-back.jpg") center/cover no-repeat;
     padding: 150px 0;
   }
   
