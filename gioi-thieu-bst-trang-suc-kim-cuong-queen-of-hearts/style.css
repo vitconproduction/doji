@@ -60,8 +60,9 @@
   }
   
   #lp-content .lp-content_top .outer .lp-content_top-wrap {
-    padding-top: calc(100vh * 175 / 798);
-    padding-bottom: calc(100vh * 215 / 798);
+    /* padding-top: calc(100vh * 175 / 798);
+    padding-bottom: calc(100vh * 215 / 798); */
+    
     color: #fff;
   }
   
