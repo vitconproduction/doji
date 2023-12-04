@@ -19,7 +19,7 @@
 	#content_lp .bst-sac-hong .column-left-item a{font-size: 20px;}
 }
 @media only screen and (max-device-width: 768px) {
-	#content_lp .banner{background: url("../images/mau-banner.png") 100% 100%/55% no-repeat, url("../images/banner-layout-1.png") center/cover no-repeat,url("../images/light.jpg") 15% 67%/40% no-repeat,#fedaec}
+	#content_lp .banner{background: url("./images/mau-banner.png") 100% 100%/55% no-repeat, url("./images/banner-layout-1.png") center/cover no-repeat,url("./images/light.jpg") 15% 67%/40% no-repeat,#fedaec}
 	#content_lp .banner .text-in-banner{width: 50%;margin-left: 5%;}
 	#content_lp .banner .text-in-banner .text-in-banner-4 img{padding-top: 0;}
 	#content_lp .bst-sac-hong{padding-top: 20px;padding-bottom: 20px;}
@@ -45,7 +45,7 @@
 	#content_lp .footer .facebook::before{top: 6px;left: -30px;height: 26px;width: 26px;}
 }
 @media only screen and (max-device-width:767px) {
-	#content_lp .banner{background: url("../images/banner-layout-1.png") center/cover no-repeat,url("../images/light.jpg") 50% 70%/100% no-repeat,#fedaec;}
+	#content_lp .banner{background: url("./images/banner-layout-1.png") center/cover no-repeat,url("./images/light.jpg") 50% 70%/100% no-repeat,#fedaec;}
 	#content_lp .banner .text-in-banner{width: 80%;padding-top: 40px;padding-bottom: 40px;margin-left: 10%;}
 	#content_lp .banner .text-in-banner .text-in-banner-1{font-size: 34px;}
 	#content_lp .banner .text-in-banner .text-in-banner-2{font-size: 14px;}

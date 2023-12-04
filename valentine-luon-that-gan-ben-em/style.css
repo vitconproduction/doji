@@ -46,12 +46,12 @@
 .lp-left .lp-bst_text__content{margin-left: 5%;margin-right: auto;line-height: 1.2em;}
 .lp-right .lp-bst_text__content{margin-left: auto;margin-right: 5%;}
 .lp-bst__product{width: 80%;margin-left: auto;margin-right: auto;position: relative;text-align: center;}
-.lp-bst-nhan{background: url("../images/banner-line-bottom.png") center top/contain no-repeat,url("../images/background-hearts-01.jpg") center/cover no-repeat;padding-top:160px !important;margin-top: -160px;z-index: 1;}
+.lp-bst-nhan{background: url("./images/banner-line-bottom.png") center top/contain no-repeat,url("./images/background-hearts-01.jpg") center/cover no-repeat;padding-top:160px !important;margin-top: -160px;z-index: 1;}
 .lp-bst-lac-tay{background: #ffa1c2;}
-.lp-bst-mat-day{background: url("../images/background-hearts-02.jpg") center/cover no-repeat;}
-.lp-bst-hoa-tai{background: url("../images/round.png") center top/contain no-repeat,#ffa1c2;}
+.lp-bst-mat-day{background: url("./images/background-hearts-02.jpg") center/cover no-repeat;}
+.lp-bst-hoa-tai{background: url("./images/round.png") center top/contain no-repeat,#ffa1c2;}
 .lp-bst-hoa-tai__model{position: absolute;bottom: 0;left: 0;width: 45%;padding-left: 7%;}
-.lp-video{background: url("../images/background-hearts-03.jpg") center/cover no-repeat;padding-top: 50px !important;}
+.lp-video{background: url("./images/background-hearts-03.jpg") center/cover no-repeat;padding-top: 50px !important;}
 .lp-video .lp-left{padding-top: 40px;}
 .lp-video .lp-bst_text__content{width: 80%;}
 .lp-header_text__title{text-align: center;padding-bottom: 30px;}
