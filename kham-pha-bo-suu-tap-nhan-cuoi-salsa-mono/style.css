@@ -100,7 +100,7 @@
     border-right: 0;
 }
 
-.tb-row .cell-sp { width: calc(20% - 1px);float: left;text-align: center;position: relative; border-right:1px dashed #e594b8;border-bottom:1px dashed #e594b8;}
+.tb-row .cell-sp { width: calc(20% - 1px); max-height: 450px; float: left;text-align: center;position: relative; border-right:1px dashed #e594b8;border-bottom:1px dashed #e594b8;}
 .tb-row .cell-sp:hover .tip-sp { -moz-transition: ease 0.1s; -o-transition: ease 0.1s; -webkit-transition: ease 0.1s; transition: ease 0.1s;opacity: 1;visibility: visible;}
 .tb-row .cell-sp:hover .tip-sp img { -moz-transform: scale(1.3); -ms-transform: scale(1.3); -o-transform: scale(1.3); -webkit-transform: scale(1.3); transform: scale(1.3); -moz-transition: ease 0.1s; -o-transition: ease 0.1s; -webkit-transition: ease 0.1s; transition: ease 0.1s}
 .tb-row .cell-sp:hover .img { border-right: 0;}
