@@ -344,7 +344,7 @@ $(function () {
     var html = loadPagi(totalEle, currentPage, limit, page);
     $('.list-kcv_results__pagi').html(html);
 
-    var html = '<tr class="listing-diamond__header"><td>Image</td><td>HĂ¬nh dáº¡ng<br>(Shape)</td><td>Trá»ng lÆ°á»£ng<br>(Carat)</td><td>Cáº¥p mĂ u<br>(Color)</td><td>Äá»™ tinh khiáº¿t<br>(Clarity)</td><td>Cháº¿ tĂ¡c<br>(Cut)</td><td>Kiá»ƒm Ä‘á»‹nh<br>(Report)</td><td>GiĂ¡ trÆ°á»›c giáº£m (vnÄ‘)</td><td>GiĂ¡ sau giáº£m (vnd)</td><td>Sá»‘ tiá»n Ä‘Æ°á»£c giáº£m (vnÄ‘)</td><td>Chi tiáº¿t</td><td>Mua ngay</td></tr>';
+    var html = '<tr class="listing-diamond__header"><td>Image</td><td>Hình dạng<br>(Shape)</td><td>Trọng lượng<br>(Carat)</td><td>Cấp màu<br>(Color)</td><td>Độ tinh khiết<br>(Clarity)</td><td>Chế tác<br>(Cut)</td><td>Kiểm định<br>(Report)</td><td>Giá trước giảm (vnđ)</td><td>Giá sau giảm (vnd)</td><td>Số tiền được giảm (vnđ)</td><td>Chi tiết</td><td>Mua ngay</td></tr>';
 
     for (var key in arrTemp) {
       var report;
@@ -357,7 +357,7 @@ $(function () {
         } else if (i == 10) {
           report = arrTemp[key][6].toLowerCase();
           // console.log(report);
-          tr += '<td><a target="_blank" href="http://trangsuc.doji.vn/kim-cuong-vien-' + report + '/kim-cuong-vien-' + arrTemp[key][i] + '">Chi tiáº¿t</a></td>';
+          tr += '<td><a target="_blank" href="http://trangsuc.doji.vn/kim-cuong-vien-' + report + '/kim-cuong-vien-' + arrTemp[key][i] + '">Chi tiết</a></td>';
         } else if (i == 11) {
           tr += '<td><a href="tel:' + arrTemp[key][i] + '"><img src="./images/phone.png">' + arrTemp[key][i] + '</a></td>';
         } else if (i == 7 || i == 8 || i == 9) {
@@ -413,11 +413,4 @@ $(function () {
     return result;
   }
   // AOS.init();
-
-  function replaceText() {
-    $("#listing-diamond tbody").html().replace("Chi tiáº¿t","Chi tiết");
-    $("#listing-diamond tbody .listing-diamond__header").html(`<td>Image</td><td>Hình dạng<br>(Shape)</td><td>Trọng lượng<br>(Carat)</td><td>Cấp màu<br>(Color)</td><td>Độ tinh khiết<br>(Clarity)</td><td>Chế tác<br>(Cut)</td><td>Kiểm định<br>(Report)</td><td>Giá trước giảm (vnđ)</td><td>Giá sau giảm (vnd)</td><td>Số tiền được giảm (vnđ)</td><td>Chi tiết</td><td>Mua ngay</td>`);
-    console.log("replace text")
-  }
-  setTimeout(replaceText,2000);
 });
