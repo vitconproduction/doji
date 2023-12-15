@@ -16,18 +16,21 @@
     font-weight: normal;
     font-style: normal;
 }
+/* notfound */
 @font-face {
     font-family: UvnNhatky;
     src: url('https://trangsuc.doji.vn/uploads-landing-page/hvd2/font/UVNNhatKy_R.TTF') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
+/* notfound */
 @font-face {
     font-family: UvnAurora;
     src: url('https://trangsuc.doji.vn/uploads-landing-page/hvd2/font/UTM_Aurora.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
+/* notfound */
 @font-face {
     font-family: Swiss;
     src: url('https://trangsuc.doji.vn/uploads-landing-page/hvd2/font/UTMSwissCondensed.ttf') format('truetype');
@@ -188,6 +191,9 @@ legend {
 	background: #fff;
     border-radius: 3px;
 	padding-top: 3px;
+}
+.sp_detail .sp_detail_img img{
+    width: 100%;
 }
 .sp_detail:hover{
 	margin: 0;
