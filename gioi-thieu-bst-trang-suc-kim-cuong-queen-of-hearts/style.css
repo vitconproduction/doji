@@ -351,6 +351,7 @@
   
   #lp-content .lp-content_bottom-sp .outer .list-sp .list-sp-item {
     width: calc(100% / 4 - 22.5px);
+    aspect-ratio: 3/4;
     margin-right: 30px;
     margin-bottom: 20px;
     line-height: 0;
