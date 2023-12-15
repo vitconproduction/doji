@@ -1,7 +1,7 @@
 @font-face {
     font-family: MyriadRegular;
-    src: url("https://trangsuc.doji.vn/Upload/landing-page/20210112/fonts/myriadproregularwebfont.eot");
-    src: url("https://trangsuc.doji.vn/Upload/landing-page/20210112/fonts/myriadproregularwebfont.eot?#iefix") format("embedded-opentype"), url("https://trangsuc.doji.vn/Upload/landing-page/20210112/fonts/myriadproregularwebfont.ttf") format("truetype");
+    src: url("./fonts/myriadproregularwebfont.eot");
+    src: url("./fonts/myriadproregularwebfont.eot?#iefix") format("embedded-opentype"), url("./fonts/myriadproregularwebfont.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -9,7 +9,7 @@
   
   @font-face {
     font-family: UTMTimes;
-    src: url("https://trangsuc.doji.vn/Upload/landing-page/20210112/fonts/UTMTimes.ttf") format("truetype");
+    src: url("./fonts/UTMTimes.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -17,7 +17,7 @@
   
   @font-face {
     font-family: UTMTimesB;
-    src: url("https://trangsuc.doji.vn/Upload/landing-page/20210112/fonts/UTMTimesBold.ttf") format("truetype");
+    src: url("./fonts/UTMTimesBold.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -25,7 +25,7 @@
   
   @font-face {
     font-family: UTMTimesBI;
-    src: url("https://trangsuc.doji.vn/Upload/landing-page/20210112/fonts/UTMTimesBoldItalic.ttf") format("truetype");
+    src: url("./fonts/UTMTimesBoldItalic.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -33,7 +33,7 @@
   
   @font-face {
     font-family: UTMTimesI;
-    src: url("https://trangsuc.doji.vn/Upload/landing-page/20210112/fonts/UTMTimesItalic.ttf") format("truetype");
+    src: url("./fonts/UTMTimesItalic.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -41,7 +41,7 @@
   
   @font-face {
     font-family: UTMTrajan;
-    src: url("https://trangsuc.doji.vn/Upload/landing-page/20210112/fonts/UTMTrajan.ttf") format("truetype");
+    src: url("./fonts/UTMTrajan.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -49,7 +49,7 @@
   
   @font-face {
     font-family: GiongSong;
-    src: url("https://trangsuc.doji.vn/Upload/landing-page/20210112/fonts/GiongSong.TTF") format("truetype");
+    src: url("./fonts/GiongSong.TTF") format("truetype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -57,7 +57,7 @@
   
   @font-face {
     font-family: YenTu;
-    src: url("https://trangsuc.doji.vn/Upload/landing-page/20210112/fonts/UTMYenTu.ttf") format("truetype");
+    src: url("./fonts/UTMYenTu.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -65,7 +65,7 @@
   
   @font-face {
     font-family: HelveB;
-    src: url("https://trangsuc.doji.vn/Upload/landing-page/20210112/fonts/UTMHelveBold.ttf") format("truetype");
+    src: url("./fonts/UTMHelveBold.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
