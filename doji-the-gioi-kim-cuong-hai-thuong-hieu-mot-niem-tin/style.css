@@ -1189,9 +1189,9 @@
   }
   
   .listing .item a .sale.red {
-    background: url("./sale-red.png") center/cover no-repeat;
+    background: url("./images/sale-red.png") center/cover no-repeat;
   }
   
   .listing .item a .sale.purple {
-    background: url("./sale-pur.png") center/cover no-repeat;
+    background: url("./images/sale-pur.png") center/cover no-repeat;
   }
