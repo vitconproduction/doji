@@ -416,7 +416,7 @@ $(function () {
 
   function replaceText() {
     $("#listing-diamond tbody").html().replace("Chi tiáº¿t","Chi tiết");
-    $("#listing-diamond tbody .listing-diamond__header").html(`<tr class="listing-diamond__header"><td>Image</td><td>Hình dạng<br>(Shape)</td><td>Trọng lượng<br>(Carat)</td><td>Cấp màu<br>(Color)</td><td>Độ tinh khiết<br>(Clarity)</td><td>Chế tác<br>(Cut)</td><td>Kiểm định<br>(Report)</td><td>Giá trước giảm (vnđ)</td><td>Giá sau giảm (vnd)</td><td>Số tiền được giảm (vnđ)</td><td>Chi tiết</td><td>Mua ngay</td></tr>`);
+    $("#listing-diamond tbody .listing-diamond__header").html(`<td>Image</td><td>Hình dạng<br>(Shape)</td><td>Trọng lượng<br>(Carat)</td><td>Cấp màu<br>(Color)</td><td>Độ tinh khiết<br>(Clarity)</td><td>Chế tác<br>(Cut)</td><td>Kiểm định<br>(Report)</td><td>Giá trước giảm (vnđ)</td><td>Giá sau giảm (vnd)</td><td>Số tiền được giảm (vnđ)</td><td>Chi tiết</td><td>Mua ngay</td>`);
     console.log("replace text")
   }
   setTimeout(replaceText,2000);
