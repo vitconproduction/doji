@@ -1,6 +1,4 @@
 jQuery(function($){
-	
-	console.log("tĂªst");
 	/* voucher */
 $('#name').on('input', function () {
     var input = $(this);
@@ -26,10 +24,10 @@ $('#gioitinh1 input').each(function () {
     $input.removeClass("valid").addClass("invalid");
     $("#gioitinh1 img").on("click", function () {
         $("#gioitinh1 img").each(function () {
-            $(this).attr("src", "./images/radio-img-1.png");
+            $(this).attr("src", "https://vitconproduction.github.io/doji/dang-ky-nhan-voucher-mua-trang-suc//images/radio-img-1.png");
             $(this).prev().attr("checked", false);
         });
-        $(this).attr("src", "./images/radio-img-2.png");
+        $(this).attr("src", "https://vitconproduction.github.io/doji/dang-ky-nhan-voucher-mua-trang-suc//images/radio-img-2.png");
         $(this).prev().attr("checked", true);
         $('#gioitinh1 input').removeClass("invalid").addClass("valid");
     });
