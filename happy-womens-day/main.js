@@ -117,6 +117,7 @@ $(function(){
       createStar2();
     }
   
+    // gioi-thieu-bst-trang-suc-kim-cuong-the-leading-star
     // wow = new WOW({
     //   boxClass:     'wow',      // default
     //   animateClass: 'animated', // default
