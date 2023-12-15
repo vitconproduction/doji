@@ -8,13 +8,13 @@ $(function(){
       if( Date.now() < Date.parse(datetimeStart) ){
         day = '2020/07/10 08:30:00';
       }else if( Date.now() > Date.parse(datetimeEnd) ){
-        $('.main-example').html('<div style="text-align: center;" class="text-clock">Sá»° kiá»‡n Ä‘Ă£ káº¿t thĂºc!</div>');
+        $('.main-example').html('<div style="text-align: center;" class="text-clock">Sự kiện đã kết thúc!</div>');
         return false;
       }else{
         day = '2020/07/31 20:00:00';
         $('.main-example').find('.text-clock').each(function(index){
           if( index == 0 ){
-            $(this).html('ChÆ°Æ¡ng trĂ¬nh cĂ²n');
+            $(this).html('Chương trình cĂ²n');
           }
           if( index == 1 ){
             $(this).html('');
@@ -22,7 +22,7 @@ $(function(){
         });
       }
   
-      var labels = ['NgĂ y', 'Giá»', 'PhĂºt', 'GiĂ¢y'],
+      var labels = ['Ngày', 'Giờ', 'Phút', 'Giây'],
         // nextYear = (new Date().getFullYear() + 1) + '/01/01',
         nextYear = day,
         template = _.template($('#main-example-template').html()),

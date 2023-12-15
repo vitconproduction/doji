@@ -11994,7 +11994,7 @@ section[id*="section-featured-"] .section-content .trending .article-item header
 }
 
 .article-news-background .section-title h3 a::before {
-    content: "Cáº­p nháº­t ngĂ y " attr(data-update);
+    content: "Cáº­p nháº­t Ngày " attr(data-update);
     font-size: 14px;
     color: #aaaaaa;
     display: block;

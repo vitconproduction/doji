@@ -561,7 +561,6 @@
   #lp-tsc .lp-tsc-wrap .listing {
     display: flex;
     flex-wrap: wrap;
-    height: 100%;
   }
   
   #lp-tsc .lp-tsc-wrap .listing .item {
@@ -699,7 +698,6 @@
   #lp-dongho .lp-dongho-wrap .listing {
     display: flex;
     flex-wrap: wrap;
-    height: 100%;
   }
   
   #lp-dongho .lp-dongho-wrap .listing .item {
@@ -977,7 +975,6 @@
   #lp-kbp .lp-kbp-wrap .listing {
     display: flex;
     flex-wrap: wrap;
-    height: 100%;
   }
   
   #lp-kbp .lp-kbp-wrap .listing .item {

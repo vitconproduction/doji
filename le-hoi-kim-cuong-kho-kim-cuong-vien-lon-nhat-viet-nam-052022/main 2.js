@@ -158,7 +158,7 @@ $(function() {
         });
       }
   
-      var labels = ['NgĂ y', 'Giá»', 'PhĂºt', 'GiĂ¢y'],
+      var labels = ['Ngày', 'Giờ', 'Phút', 'Giây'],
         // nextYear = (new Date().getFullYear() + 1) + '/01/01',
         nextYear = day,
         template = _.template($('#main-example-template').html()),

@@ -8,13 +8,13 @@ $(function() {
       if (Date.now() < Date.parse(datetimeStart)) {
         day = '2021/07/15 08:30:00';
       } else if (Date.now() > Date.parse(datetimeEnd)) {
-        $('.main-example').html('<div style="text-align: center;" class="text-clock">ChÆ°Æ¡ng trĂ¬nh Ä‘Ă£ káº¿t thĂºc!</div>');
+        $('.main-example').html('<div style="text-align: center;" class="text-clock">Chương trình Ä‘Ă£ káº¿t thĂºc!</div>');
         return false;
       } else {
         day = '2021/07/31 19:30:00';
         $('.main-example').find('.text-clock').each(function(index){
           if( index == 0 ){
-            $(this).html('ChÆ°Æ¡ng trĂ¬nh cĂ²n:');
+            $(this).html('Chương trình cĂ²n:');
             // $(this).html('');
           }
           if( index == 1 ){
@@ -23,7 +23,7 @@ $(function() {
         });
       }
   
-      var labels = ['NgĂ y', 'Giá»', 'PhĂºt', 'GiĂ¢y'],
+      var labels = ['Ngày', 'Giờ', 'Phút', 'Giây'],
         // nextYear = (new Date().getFullYear() + 1) + '/01/01',
         nextYear = day,
         template = _.template($('#main-example-template').html()),

@@ -10,13 +10,13 @@ $(function() {
       if (Date.now() < Date.parse(datetimeStart)) {
         day = '2022/07/18 08:30:00';
       } else if (Date.now() > Date.parse(datetimeEnd)) {
-        $('.main-example').html('<div style="text-align: center;" class="text-clock">ChÆ°Æ¡ng trĂ¬nh Ä‘Ă£ káº¿t thĂºc!</div>');
+        $('.main-example').html('<div style="text-align: center;" class="text-clock">Chương trình Ä‘Ă£ káº¿t thĂºc!</div>');
         return false;
       } else {
         day = '2022/07/31 20:00:00';
         $('.main-example').find('.text-clock').each(function(index) {
           if (index == 0) {
-            $(this).html('ChÆ°Æ¡ng trĂ¬nh cĂ²n');
+            $(this).html('Chương trình cĂ²n');
           }
           if (index == 1) {
             $(this).html('');

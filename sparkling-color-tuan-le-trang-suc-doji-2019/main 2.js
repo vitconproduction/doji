@@ -47,10 +47,10 @@ $(function(){
     $('#clock').countdown(time)
     .on('update.countdown', function(event) {
         $(this).html(''
-            +'<div class="days clock-part"><span>'    + event.strftime('%D') + '</span><span>NgĂ y</span></div>'
-            +'<div class="hours clock-part"><span>'   + event.strftime('%H') + '</span><span>Giá»</span></div>'
-            +'<div class="mins clock-part"><span>'    + event.strftime('%M') + '</span><span>PhĂºt</span></div>'
-            +'<div class="seconds clock-part"><span>' + event.strftime('%S') + '</span><span>GiĂ¢y</span></div>'
+            +'<div class="days clock-part"><span>'    + event.strftime('%D') + '</span><span>Ngày</span></div>'
+            +'<div class="hours clock-part"><span>'   + event.strftime('%H') + '</span><span>Giờ</span></div>'
+            +'<div class="mins clock-part"><span>'    + event.strftime('%M') + '</span><span>Phút</span></div>'
+            +'<div class="seconds clock-part"><span>' + event.strftime('%S') + '</span><span>Giây</span></div>'
         );
       // debugger;
     })
@@ -69,10 +69,10 @@ $(function(){
       $('.col-rig-01').html('<span>Sá»± kiá»‡n káº¿t thĂºc sau</span>');
       $(this).removeAttr('style');
         $(this).html(''
-        +'<div class="days clock-part"><span>'    + event.strftime('%D') + '</span><span>NgĂ y</span></div>'
-        +'<div class="hours clock-part"><span>'   + event.strftime('%H') + '</span><span>Giá»</span></div>'
-        +'<div class="mins clock-part"><span>'    + event.strftime('%M') + '</span><span>PhĂºt</span></div>'
-        +'<div class="seconds clock-part"><span>' + event.strftime('%S') + '</span><span>GiĂ¢y</span></div>'
+        +'<div class="days clock-part"><span>'    + event.strftime('%D') + '</span><span>Ngày</span></div>'
+        +'<div class="hours clock-part"><span>'   + event.strftime('%H') + '</span><span>Giờ</span></div>'
+        +'<div class="mins clock-part"><span>'    + event.strftime('%M') + '</span><span>Phút</span></div>'
+        +'<div class="seconds clock-part"><span>' + event.strftime('%S') + '</span><span>Giây</span></div>'
         );
         })
         .on('finish.countdown', function(event) {
