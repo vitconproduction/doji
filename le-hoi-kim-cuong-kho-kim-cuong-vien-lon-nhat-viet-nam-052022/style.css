@@ -731,6 +731,7 @@
     padding: 15px;
     background: #fff;
     text-align: center;
+    aspect-ratio: 3/4;
   }
   
   #lp-content .lp-sale #lp-listing .slick-slide > div .item > a {
