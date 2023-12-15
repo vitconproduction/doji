@@ -34,7 +34,7 @@
 #warpper  .section-content .section-inner.full-screen{
     background-image: none!important;
     margin-bottom: 0!important;
-    height: 75vh;
+    /* height: 75vh; */
  }
 #warpper .section-content .section-inner.section-cover .text-pos{width:900px;    top: 500px;}
 #warpper .section-content .section-inner.section-cover .text-pos p{
