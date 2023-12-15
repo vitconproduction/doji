@@ -55,13 +55,13 @@ $(function(){
       // debugger;
     })
     .on('finish.countdown', function(event) {
-      $('.col-rig-01').html('<span>Sá»± kiá»‡n káº¿t thĂºc sau</span>');
+      $('.col-rig-01').html('<span>Sự kiện kết thúc sau</span>');
         clock2();
     });
   
     function clock2(){
         if( $('#clock').val() === '' ){
-            $('#clock').html('Sá»± kiá»‡n Ä‘Ă£ káº¿t thĂºc!').css({'font-size':'18px','color':'#af0025'});
+            $('#clock').html('Sự kiện đã kết thúc!').css({'font-size':'18px','color':'#af0025'});
         $('.col-rig-01').html('');
         }
         $('#clock').countdown(time2)
