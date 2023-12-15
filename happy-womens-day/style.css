@@ -232,7 +232,7 @@
     right: 0;
     width: 158px;
     height: 12px;
-    background: url("/line-2.png") right top/100% no-repeat;
+    background: url("./images/line-2.png") right top/100% no-repeat;
   }
   
   #lp-content .lp-content_bottom .lp-content_bottom-content-1 .outer .content-1-wrap .right .excerpt::after {
@@ -242,7 +242,7 @@
     right: -35px;
     width: 70px;
     height: 288px;
-    background: url("/line-3.png") right top/70% no-repeat;
+    background: url("./images/line-3.png") right top/70% no-repeat;
     z-index: -1;
   }
   
@@ -256,7 +256,7 @@
     width: calc(100% / 3 - 10px);
     margin-right: 10px;
     display: inline-block;
-    background: url("/sp-nen-01.jpg") center/cover no-repeat;
+    background: url("./images/sp-nen-01.jpg") center/cover no-repeat;
     cursor: pointer;
   }
   
@@ -301,7 +301,7 @@
     left: 40%;
     width: 348px;
     height: 70px;
-    background: url("/line-4.png") right top/100% no-repeat;
+    background: url("./images/line-4.png") right top/100% no-repeat;
     z-index: 0;
   }
   
@@ -329,7 +329,7 @@
     left: -55px;
     width: 70px;
     height: 288px;
-    background: url("/line-3.png") right top/70% no-repeat;
+    background: url("./images/line-3.png") right top/70% no-repeat;
     z-index: -1;
   }
   
@@ -364,7 +364,7 @@
     left: 0;
     width: 158px;
     height: 12px;
-    background: url("/line-2.png") right top/100% no-repeat;
+    background: url("./images/line-2.png") right top/100% no-repeat;
   }
   
   #lp-content .lp-content_bottom .lp-content_bottom-content-2 .outer .content-2-wrap .left .image-sp {
@@ -415,7 +415,7 @@
     left: calc(40% + 30px);
     width: 348px;
     height: 70px;
-    background: url("/line-4.png") right top/100% no-repeat;
+    background: url("./images/line-4.png") right top/100% no-repeat;
     z-index: 0;
     display: none;
   }
@@ -447,7 +447,7 @@
     left: -55px;
     width: 70px;
     height: 288px;
-    background: url("/line-3.png") right top/70% no-repeat;
+    background: url("./images/line-3.png") right top/70% no-repeat;
     z-index: -1;
     display: none;
   }
@@ -484,7 +484,7 @@
     left: 0;
     width: 158px;
     height: 12px;
-    background: url("/line-2.png") right top/100% no-repeat;
+    background: url("./images/line-2.png") right top/100% no-repeat;
   }
   
   #lp-content .lp-content_bottom .lp-content_bottom-content-3 .outer .content-3-wrap .left .image-sp {
@@ -631,7 +631,7 @@
     right: 0;
     width: 158px;
     height: 12px;
-    background: url("/line-2.png") right top/100% no-repeat;
+    background: url("./images/line-2.png") right top/100% no-repeat;
   }
   
   #lp-content .vang24k .outer .content-4-wrap .right .image-sp {
@@ -647,7 +647,7 @@
     margin-top: 10px;
     margin-right: 10px;
     display: inline-block;
-    background: url("/sp-nen-02.jpg") center/cover no-repeat;
+    background: url("./images/sp-nen-02.jpg") center/cover no-repeat;
     cursor: pointer;
   }
   
@@ -674,7 +674,7 @@
   }
   
   #lp-content .uu-dai-83 {
-    background: url("/back-uu-dai.jpg") center/cover no-repeat;
+    background: url("./images/back-uu-dai.jpg") center/cover no-repeat;
     padding-top: 70px;
     width: 100%;
     display: inline-block;
@@ -879,7 +879,7 @@
   
   @media only screen and (max-width: 1024px) {
     #lp-content .lp-content_top {
-      background: url("/banner.jpg") 68% 50%/cover no-repeat;
+      background: url("./images/banner.jpg") 68% 50%/cover no-repeat;
     }
     #lp-content .lp-content_bottom .lp-content_bottom-content-1 .outer .content-1-wrap .left::after {
       display: none;
@@ -902,7 +902,7 @@
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: url("/line-5.png") 100% 90%/220px no-repeat;
+      background: url("./images/line-5.png") 100% 90%/220px no-repeat;
     }
     #lp-content .vang24k .outer .content-4-wrap .right .text {
       padding-top: 20px;
@@ -912,7 +912,7 @@
       font-size: 2.2rem;
     }
     #lp-content .uu-dai-83 {
-      background: url("/back-uu-dai.jpg") center/cover no-repeat;
+      background: url("./images/back-uu-dai.jpg") center/cover no-repeat;
       padding-top: 80px;
     }
     #lp-content .uu-dai-83 > img {
@@ -952,7 +952,7 @@
       width: 90%;
       margin-left: auto;
       margin-right: auto;
-      background: url("/back-mb-lds-text.png") center/cover no-repeat;
+      background: url("./images/back-mb-lds-text.png") center/cover no-repeat;
       border-radius: 20px 0 20px 0;
       -ms-border-radius: 20px 0 20px 0;
       -webkit-border-radius: 20px 0 20px 0;
@@ -966,7 +966,7 @@
       color: #fff;
     }
     #lp-content .lp-content_top .outer .lp-content_top-wrap .excerpt::before {
-      background: url("/line-2.png") left top/100% no-repeat;
+      background: url("./images/line-2.png") left top/100% no-repeat;
     }
     #lp-content .lp-content_bottom .lp-content_bottom-content-1::before {
       height: 80%;
@@ -985,10 +985,10 @@
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: url("/line-5.png") 100% 90%/160px no-repeat;
+      background: url("./images/line-5.png") 100% 90%/160px no-repeat;
     }
     #lp-content .uu-dai-83 {
-      background: url("/back-uu-dai.jpg") 75% 50%/cover no-repeat;
+      background: url("./images/back-uu-dai.jpg") 75% 50%/cover no-repeat;
     }
     #lp-content .uu-dai-83 > img {
       display: none;
@@ -1081,7 +1081,7 @@
     #lp-content .lp-content_bottom .lp-content_bottom-content-2 .outer .content-2-wrap .left::after {
       top: 50%;
       left: 0;
-      background: url("/line-3.png") left top/70% no-repeat;
+      background: url("./images/line-3.png") left top/70% no-repeat;
     }
     #lp-content .lp-content_bottom .lp-content_bottom-content-2 .outer .content-2-wrap .left .excerpt {
       padding-top: 20px;
@@ -1143,7 +1143,7 @@
       width: 100%;
     }
     #lp-content .uu-dai-83 {
-      background: url("/back-uu-dai.jpg") 65% 50%/cover no-repeat;
+      background: url("./images/back-uu-dai.jpg") 65% 50%/cover no-repeat;
     }
     #lp-content .lp-content_bottom-sp .outer .list-sp-title {
       line-height: 1.5;
@@ -1206,7 +1206,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    background-image: url("/flare.png");
+    background-image: url("./images/flare.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
