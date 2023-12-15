@@ -1,18 +1,18 @@
 /*Font face*/
 @font-face {
     font-family: MyriadLight;
-    src: url('https://trangsuc.doji.vn/uploads-landing-page/hvd2/font/myriadpro-light-webfont.eot');
-    src: url('https://trangsuc.doji.vn/uploads-landing-page/hvd2/font/myriadpro-light-webfont.eot?#iefix') format('embedded-opentype'), 
-        url('https://trangsuc.doji.vn/uploads-landing-page/hvd2/font/myriadpro-light-webfont.ttf') format('truetype'), 
-        url('https://trangsuc.doji.vn/uploads-landing-page/hvd2/font/myriadpro-light-webfont.svg#MyriadLight') format('svg');
+    src: url('./font/myriadpro-light-webfont.eot');
+    src: url('./font/myriadpro-light-webfont.eot?#iefix') format('embedded-opentype'), 
+        url('./font/myriadpro-light-webfont.ttf') format('truetype'), 
+        url('./font/myriadpro-light-webfont.svg#MyriadLight') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: MyriadRegular;
-    src: url('https://trangsuc.doji.vn/uploads-landing-page/hvd2/font/myriadpro-regular-webfont.eot');
-    src: url('https://trangsuc.doji.vn/uploads-landing-page/hvd2/font/myriadpro-regular-webfont.eot?#iefix') format('embedded-opentype'), 
-        url('https://trangsuc.doji.vn/uploads-landing-page/hvd2/font/myriadpro-regular-webfont.ttf') format('truetype');
+    src: url('./font/myriadpro-regular-webfont.eot');
+    src: url('./font/myriadpro-regular-webfont.eot?#iefix') format('embedded-opentype'), 
+        url('./font/myriadpro-regular-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -36,19 +36,19 @@
 }
 @font-face {
     font-family: Isadora;
-    src: url('../font/UTMIsadoraR.ttf') format('truetype');
+    src: url('./font/UTMIsadoraR.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: Bustamalaka;
-    src: url('../font/UTMBustamalaka.ttf') format('truetype');
+    src: url('./font/UTMBustamalaka.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: BryantLG;
-    src: url('../font/UTMBryantLG.ttf') format('truetype');
+    src: url('./font/UTMBryantLG.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -59,13 +59,13 @@
     width: 100%;
 }
 .banner_hvd2{
-	background: url("https://trangsuc.doji.vn/uploads-landing-page/hvd2/images/banner-hvd.jpg") center/contain no-repeat, #faf6fc;
+	background: url("./images/banner-hvd.jpg") center/contain no-repeat, #faf6fc;
 	min-height: 576px;
 	float: left;
 	width: 100%;
 }
 .mby_text_round{
-	background: url("https://trangsuc.doji.vn/uploads-landing-page/hvd2/images/nhan-back-01.png") 57% bottom/20% no-repeat, url("https://trangsuc.doji.vn/uploads-landing-page/hvd2/images/day-chuyen-back-01.png") right bottom/contain no-repeat, #FAF6FC;
+	background: url("./images/nhan-back-01.png") 57% bottom/20% no-repeat, url("./images/day-chuyen-back-01.png") right bottom/contain no-repeat, #FAF6FC;
 	float: left;
 	width: 100%;
 	min-height: 930px;
@@ -80,7 +80,7 @@
     text-align-last: center;
 	color: #FF4A71;
 	line-height: 1.8em;
-	background: url("https://trangsuc.doji.vn/uploads-landing-page/hvd2/images/line-hearts.png") center bottom/50% no-repeat;
+	background: url("./images/line-hearts.png") center bottom/50% no-repeat;
     padding-bottom: 46px;
 }
 .mby_text_2{
@@ -238,7 +238,7 @@ legend {
 	font-size: 20px;
 }
 .htpp_lp{
-	background: url(https://trangsuc.doji.vn/uploads-landing-page/hvd2/images/line-hearts.png) center 2%/24% no-repeat, #FAF6FC;
+	background: url(./images/line-hearts.png) center 2%/24% no-repeat, #FAF6FC;
     text-align: center;
     float: left;
     width: 100%;
