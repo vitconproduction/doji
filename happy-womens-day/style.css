@@ -1,31 +1,35 @@
 @font-face {
     font-family: UTMAvo;
-    src: url("/uploads-landing-page/lp/hwd2019/fonts/UTM Avo.ttf") format("truetype");
+    src: url("./fonts/UTM Avo.ttf") format("truetype");
   }
   
+  /* notfound */
   @font-face {
     font-family: UTMAvoB;
-    src: url("/uploads-landing-page/lp/hwd2019/fonts/UTM AvoBold.ttf") format("truetype");
+    src: url("./fonts/UTM AvoBold.ttf") format("truetype");
   }
   
+  /* notfound */
   @font-face {
     font-family: UTMAvoBI;
-    src: url("/uploads-landing-page/lp/hwd2019/fonts/UTM AvoItalic.ttf") format("truetype");
+    src: url("./fonts/UTM AvoItalic.ttf") format("truetype");
   }
   
+  /* notfound */
   @font-face {
     font-family: UTMAvoI;
-    src: url("/uploads-landing-page/lp/hwd2019/fonts/UTM AvoBold_Italic.ttf") format("truetype");
+    src: url("./fonts/UTM AvoBold_Italic.ttf") format("truetype");
   }
   
+  /* notfound */
   @font-face {
     font-family: UTMTimes;
-    src: url("/uploads-landing-page/lp/hwd2019/fonts/UTM Times.ttf") format("truetype");
+    src: url("./fonts/UTM Times.ttf") format("truetype");
   }
   
   @font-face {
     font-family: MyriadRegular;
-    src: url("/uploads-landing-page/lp/hwd2019/fonts/myriadpro-regular-webfont.ttf") format("truetype");
+    src: url("./fonts/myriadpro-regular-webfont.ttf") format("truetype");
   }
   
   #lp-content {
@@ -66,7 +70,7 @@
   }
   
   #lp-content .lp-content_top {
-    background: url("/banner.jpg") center/cover no-repeat;
+    background: url("./images/banner.jpg") center/cover no-repeat;
     line-height: 1.5;
   }
   
@@ -118,7 +122,7 @@
     left: 0;
     width: 158px;
     height: 12px;
-    background: url("/line-1.png") left top/100% no-repeat;
+    background: url("./images/line-1.png") left top/100% no-repeat;
   }
   
   #lp-content .lp-content_bottom {
