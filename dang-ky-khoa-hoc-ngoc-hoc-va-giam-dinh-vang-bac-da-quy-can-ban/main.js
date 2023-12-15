@@ -199,7 +199,7 @@ $(function(){
               $("#er_email_da_dung").removeClass("em_da_dung_show").addClass("em_da_dung");
               $("#er_phone_da_dung").removeClass("phone_da_dung_show").addClass("phone_da_dung");
               $('.textcongrat').append(
-                          '<div class="text_chuc_mung">ChĂºc má»«ng báº¡n Ä‘Ă£ Ä‘Äƒng kĂ½ khĂ³a há»c thĂ nh cĂ´ng!<div class="close"><img src="/uploads-landing-page/lp/ngochoc/images/close.png?v=1.01" /></div></div>'
+                          '<div class="text_chuc_mung">Chúc mừng bạn đã đăng ký khóa học thành công!<div class="close"><img src="https://vitconproduction.github.io/doji/dang-ky-khoa-hoc-ngoc-hoc-va-giam-dinh-vang-bac-da-quy-can-ban/images/close.png?v=1.01" /></div></div>'
                         );
               $('.textcongrat').addClass('pop');
               $('body').css({"cursor": "default"});
@@ -248,9 +248,9 @@ $(function(){
   
     $('.thong-tin-khoa-hoc').on('click','.top',function(){
       if($(this).parent().find('.bottom').is(':visible')) {
-        $(this).find('span').last().html('Xem thĂªm <img src="./images/left-arr.png" />');
+        $(this).find('span').last().html('Xem thêm <img src="https://vitconproduction.github.io/doji/dang-ky-khoa-hoc-ngoc-hoc-va-giam-dinh-vang-bac-da-quy-can-ban/images/left-arr.png" />');
       }else{
-        $(this).find('span').last().html('Thu gá»n <img src="./images/down-arr.png" />');
+        $(this).find('span').last().html('Thu gọn <img src="https://vitconproduction.github.io/doji/dang-ky-khoa-hoc-ngoc-hoc-va-giam-dinh-vang-bac-da-quy-can-ban/images/down-arr.png" />');
         // var pos = $(this).offset();
         // var distantTop = pos.top;
         // var h_main = $("#h-main").height();
