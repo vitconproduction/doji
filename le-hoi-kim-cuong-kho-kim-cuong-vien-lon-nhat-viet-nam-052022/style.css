@@ -1,49 +1,49 @@
 @font-face {
     font-family: Doji;
-    src: url("https://trangsuc.doji.vn/Upload/landing-page/le-hoi-kim-cuong-05-2022/fonts/DojiGodWordR.ttf") format("truetype");
+    src: url("./fonts/DojiGodWordR.ttf") format("truetype");
     font-style: normal;
     font-display: swap;
   }
   
   @font-face {
     font-family: UTMTime;
-    src: url("https://trangsuc.doji.vn/Upload/landing-page/le-hoi-kim-cuong-05-2022/fonts/UTM Times.ttf") format("truetype");
+    src: url("./fonts/UTM Times.ttf") format("truetype");
     font-style: normal;
     font-display: swap;
   }
   
   @font-face {
     font-family: Belle;
-    src: url("https://trangsuc.doji.vn/Upload/landing-page/le-hoi-kim-cuong-05-2022/fonts/SFUBELLEREGULAR_0.TTF") format("truetype");
+    src: url("./fonts/SFUBELLEREGULAR_0.TTF") format("truetype");
     font-style: normal;
     font-display: swap;
   }
   
   @font-face {
     font-family: UTMAvo;
-    src: url("https://trangsuc.doji.vn/Upload/landing-page/le-hoi-kim-cuong-05-2022/fonts/UTM Avo.ttf") format("truetype");
+    src: url("./fonts/UTM Avo.ttf") format("truetype");
     font-style: normal;
     font-display: swap;
   }
   
   @font-face {
     font-family: Trajan;
-    src: url("https://trangsuc.doji.vn/Upload/landing-page/le-hoi-kim-cuong-05-2022/fonts/UTMTrajanProBold.ttf") format("truetype");
+    src: url("./fonts/UTMTrajanProBold.ttf") format("truetype");
     font-style: normal;
     font-display: swap;
   }
   
   @font-face {
     font-family: ChinhLuan;
-    src: url("https://trangsuc.doji.vn/Upload/landing-page/le-hoi-kim-cuong-05-2022/fonts/UVNChinhLuan_R.ttf") format("truetype");
+    src: url("./fonts/UVNChinhLuan_R.ttf") format("truetype");
     font-style: normal;
     font-display: swap;
   }
   
   @font-face {
     font-family: MyriadRegular;
-    src: url("https://trangsuc.doji.vn/Upload/landing-page/le-hoi-kim-cuong-05-2022/fonts/myriadpro-regular-webfont.eot");
-    src: url("https://trangsuc.doji.vn/Upload/landing-page/le-hoi-kim-cuong-05-2022/fonts/myriadpro-regular-webfont.eot?#iefix") format("embedded-opentype"), url("https://trangsuc.doji.vn/Upload/landing-page/le-hoi-kim-cuong-05-2022/fonts/myriadpro-regular-webfont.ttf") format("truetype");
+    src: url("./fonts/myriadpro-regular-webfont.eot");
+    src: url("./fonts/myriadpro-regular-webfont.eot?#iefix") format("embedded-opentype"), url("./fonts/myriadpro-regular-webfont.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -127,7 +127,7 @@
     position: absolute;
     width: calc(100% + 60px);
     height: calc(100% + 60px);
-    background: url("https://trangsuc.doji.vn/Upload/landing-page/20210708/images/clock-back.png") center/100% no-repeat;
+    background: url("./images/clock-back.png") center/100% no-repeat;
     top: -30px;
     left: -30px;
     z-index: 10;
@@ -454,7 +454,7 @@
   }
   
   #lp-content .lp-le-hoi .uu-dai-kcv {
-    background: url("https://trangsuc.doji.vn/Upload/landing-page/le-hoi-kim-cuong-05-2022/images/background-dubai.png") right bottom/50% no-repeat;
+    background: url("./images/background-dubai.png") right bottom/50% no-repeat;
     padding-top: 150px;
   }
   
@@ -481,7 +481,7 @@
   }
   
   #lp-content .tskc {
-    background: url("https://trangsuc.doji.vn/Upload/landing-page/le-hoi-kim-cuong-05-2022/images/background-tskc.jpg") center/cover no-repeat;
+    background: url("./images/background-tskc.jpg") center/cover no-repeat;
     padding-top: 150px;
     padding-bottom: 150px;
   }
@@ -527,7 +527,7 @@
   }
   
   #lp-content .tskc-fashion {
-    background: url("https://trangsuc.doji.vn/Upload/landing-page/le-hoi-kim-cuong-05-2022/images/background-tskc-fashion.jpg") center/cover no-repeat;
+    background: url("./images/background-tskc-fashion.jpg") center/cover no-repeat;
     padding-top: 150px;
     padding-bottom: 150px;
   }
@@ -565,7 +565,7 @@
   }
   
   #lp-content .tsc {
-    background: url("https://trangsuc.doji.vn/Upload/landing-page/le-hoi-kim-cuong-05-2022/images/background-nhan-cuoi.jpg") center/cover no-repeat;
+    background: url("./images/background-nhan-cuoi.jpg") center/cover no-repeat;
     padding-top: 150px;
     padding-bottom: 150px;
   }
@@ -603,7 +603,7 @@
   }
   
   #lp-content .tsdm {
-    background: url("https://trangsuc.doji.vn/Upload/landing-page/le-hoi-kim-cuong-05-2022/images/background-ngoc-trai.jpg") center/cover no-repeat;
+    background: url("./images/background-ngoc-trai.jpg") center/cover no-repeat;
     padding-top: 150px;
     padding-bottom: 350px;
   }
@@ -637,7 +637,7 @@
   }
   
   #lp-content .tst {
-    background: url("https://trangsuc.doji.vn/Upload/landing-page/le-hoi-kim-cuong-05-2022/images/background-ts-tre.jpg") center/cover no-repeat;
+    background: url("./images/background-ts-tre.jpg") center/cover no-repeat;
     position: relative;
     display: flex;
     justify-content: center;
@@ -697,7 +697,7 @@
   }
   
   #lp-content .lp-sale {
-    background: url("https://trangsuc.doji.vn/Upload/landing-page/le-hoi-kim-cuong-05-2022/images/background-sale.jpg") center/cover no-repeat;
+    background: url("./images/background-sale.jpg") center/cover no-repeat;
     padding-top: 150px;
     padding-bottom: 50px;
   }
@@ -953,7 +953,7 @@
       padding-top: 20px;
     }
     #lp-content .lp-le-hoi .uu-dai-kcv {
-      background: url("https://trangsuc.doji.vn/Upload/landing-page/le-hoi-kim-cuong-05-2022/images/background-dubai.png") right bottom/100% no-repeat;
+      background: url("./images/background-dubai.png") right bottom/100% no-repeat;
       padding-bottom: 150px;
       padding-top: 30px;
     }
